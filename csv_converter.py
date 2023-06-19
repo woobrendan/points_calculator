@@ -31,9 +31,6 @@ def clean_results(arr, key_arr):
     return results
 
 
-cleaned = clean_results(csv_to_dict_arr(file_path), key_list)
-
-
 def change_key_name(dict_arr):
     for result in dict_arr:
         if 'Name' in result:
@@ -54,8 +51,3 @@ def csv_to_clean_keys(file_path):
 
 for row in csv_to_clean_keys(file_path):
     print(row)
-
-
-# print(clean_results(csv_to_dict_arr(file_path), key_list))
-# for row in change_key_name(cleaned):
-#     print(row)
