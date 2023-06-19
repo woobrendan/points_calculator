@@ -1,0 +1,1967 @@
+[
+  {
+    "series": "GT America",
+    "date": "02-25-2022",
+    "event": "St. Petersburg Grand Prix",
+    "fastLap": {
+      "driver": "George Kurtz",
+      "vehicle": "Mercedes-AMG GT3",
+      "laptime": "1:13.964"
+    },
+    "result1": {
+      "class": "SRO3",
+      "firstPlace": {
+        "driver1": "Jason Daskalos",
+        "number": "27",
+        "vehicle": "Audi R8 LMS",
+        "team": "Daskalos Motorsports"
+      },
+      "secondPlace": {
+        "driver1": "Scott Smithson",
+        "number": "08",
+        "vehicle": "Mercedes-AMG GT3",
+        "team": "DXDT Racing"
+      },
+      "thirdPlace": {
+        "driver1": "George Kurtz",
+        "number": "04",
+        "vehicle": "Mercedes-AMG GT3",
+        "team": "Riley Motorsports w/ CrowdStrike Racing"
+      }
+    },
+    "result2": {
+      "class": "GT4",
+      "firstPlace": {
+        "driver1": "Marko Radisic",
+        "number": "22",
+        "vehicle": "BMW M4 GT4",
+        "team": "SRQ Motorsports"
+      },
+      "secondPlace": {
+        "driver1": "Derek DeBoer",
+        "number": "66",
+        "vehicle": "Porsche 718 Cayman GT4 CS MR",
+        "team": "The Racers Group"
+      },
+      "thirdPlace": {
+        "driver1": "Moisey Uretsky",
+        "number": "55",
+        "vehicle": "Aston Martin Vantage GT4",
+        "team": "Accelerating Peformance"
+      }
+    },
+    "result3": {
+      "class": "GT2",
+      "firstPlace": {
+        "driver1": "CJ Moses",
+        "number": "58",
+        "vehicle": "Audi R8 LMS GT2",
+        "team": "GMG Racing"
+      }
+    },
+    "result4": {
+      "class": "Masters",
+      "firstPlace": {
+        "driver1": "David Askew",
+        "number": "63",
+        "vehicle": "Mercedes-AMG GT3",
+        "team": "DXDT Racing"
+      }
+    }
+  },
+  {
+    "series": "GT America",
+    "date": "02-26-2022",
+    "event": "St. Petersburg Grand Prix",
+    "fastLap": {
+      "driver": "Justin Wetherill",
+      "vehicle": "Ferrari 488 GT3",
+      "laptime": "1:13.642"
+    },
+    "result1": {
+      "class": "SRO3",
+      "firstPlace": {
+        "driver1": "George Kurtz",
+        "number": "04",
+        "vehicle": "Mercedes-AMG GT3",
+        "team": "Riley Motorsports w/ CrowdStrike Racing"
+      },
+      "secondPlace": {
+        "driver1": "Scott Smithson",
+        "number": "08",
+        "vehicle": "Mercedes-AMG GT3",
+        "team": "DXDT Racing"
+      },
+      "thirdPlace": {
+        "driver1": "Justin Wetherill",
+        "number": "37",
+        "vehicle": "Ferrari 488 GT3",
+        "team": "Triarsi Competizione"
+      }
+    },
+    "result2": {
+      "class": "GT4",
+      "firstPlace": {
+        "driver1": "Jason Bell",
+        "number": "2",
+        "vehicle": "Aston Martin Vantage GT4",
+        "team": "GMG Racing"
+      },
+      "secondPlace": {
+        "driver1": "Chris Gumprecht",
+        "number": "79",
+        "vehicle": "Mercedes-AMG GT4",
+        "team": "RENNtech Motorsports"
+      },
+      "thirdPlace": {
+        "driver1": "Moisey Uretsky",
+        "number": "55",
+        "vehicle": "Aston Martin Vantage GT4",
+        "team": "Accelerating Peformance"
+      }
+    },
+    "result3": {
+      "class": "GT2",
+      "firstPlace": {
+        "driver1": "CJ Moses",
+        "number": "58",
+        "vehicle": "Audi R8 LMS GT2",
+        "team": "GMG Racing"
+      }
+    },
+    "result4": {
+      "class": "Masters",
+      "firstPlace": {
+        "driver1": "Ziad Ghandour",
+        "number": "9",
+        "vehicle": "Lamborghini Huracan GT3",
+        "team": "TR3 Racing"
+      }
+    }
+  },
+  {
+    "series": "GT World Challenge America",
+    "date": "04-16-2022",
+    "event": "Sonoma Raceway",
+    "fastLap": {
+      "driver": "Jordan Pepper",
+      "vehicle": "Lamborghini Huracan GT3",
+      "laptime": "1:37.310"
+    },
+    "result1": {
+      "class": "Pro",
+      "firstPlace": {
+        "driver1": "Jordan Pepper",
+        "driver2": "Andrea Caldarelli",
+        "number": "1",
+        "vehicle": "Lamborghini Huracan GT3",
+        "team": "K-PAX Racing"
+      },
+      "secondPlace": {
+        "driver1": "Steven Aghakhani",
+        "driver2": "Loris Spinelli",
+        "number": "6",
+        "vehicle": "Mercedes-AMG GT3",
+        "team": "US Racetronics"
+      },
+      "thirdPlace": {
+        "driver1": "Misha Goikhberg",
+        "driver2": "Giacomo Altoe",
+        "number": "3",
+        "vehicle": "Lamborghini Huracan GT3",
+        "team": "K-PAX Racing"
+      }
+    },
+    "result2": {
+      "class": "Pro/Am",
+      "firstPlace": {
+        "driver1": "Charlie Luck",
+        "driver2": "Jan Heylen",
+        "number": "45",
+        "vehicle": "Porsche 911 GT3-R (991.ii)",
+        "team": "Wright Motorsports"
+      },
+      "secondPlace": {
+        "driver1": "George Kurtz",
+        "driver2": "Colin Braun",
+        "number": "04",
+        "vehicle": "Mercedes-AMG GT3",
+        "team": "CrowdStrike Racing by Riley Motorsports"
+      },
+      "thirdPlace": {
+        "driver1": "Chandler Hull",
+        "driver2": "Bill Auberlen",
+        "number": "94",
+        "vehicle": "BMW M4 GT3",
+        "team": "BimmerWorld"
+      }
+    },
+    "result3": {
+      "class": "Am",
+      "firstPlace": {
+        "driver1": "Jean-Claude Saada",
+        "driver2": "Conrad Grunewald",
+        "number": "61",
+        "vehicle": "Ferrari 488 GT3",
+        "team": "AF Corse"
+      },
+      "secondPlace": {
+        "driver1": "Charlie Scardina",
+        "driver2": "Onofrio Triarsi",
+        "number": "23",
+        "vehicle": "Ferrari 488 GT3",
+        "team": "Triarsi Competizione"
+      }
+    }
+  },
+  {
+    "series": "GT World Challenge America",
+    "date": "04-17-2022",
+    "event": "Sonoma Raceway",
+    "fastLap": {
+      "driver": "Jordan Pepper",
+      "vehicle": "Lamborghini Huracan GT3",
+      "laptime": "1:37.208"
+    },
+    "result1": {
+      "class": "Pro",
+      "firstPlace": {
+        "driver1": "Jordan Pepper",
+        "driver2": "Andrea Caldarelli",
+        "number": "1",
+        "vehicle": "Lamborghini Huracan GT3",
+        "team": "K-PAX Racing"
+      },
+      "secondPlace": {
+        "driver1": "Russell Ward",
+        "driver2": "Philip Ellis",
+        "number": "33",
+        "vehicle": "Mercedes-AMG GT3",
+        "team": "Winward Racing"
+      },
+      "thirdPlace": {
+        "driver1": "Misha Goikhberg",
+        "driver2": "Giacomo Altoe",
+        "number": "3",
+        "vehicle": "Lamborghini Huracan GT3",
+        "team": "K-PAX Racing"
+      }
+    },
+    "result2": {
+      "class": "Pro/Am",
+      "firstPlace": {
+        "driver1": "Charlie Luck",
+        "driver2": "Jan Heylen",
+        "number": "45",
+        "vehicle": "Porsche 911 GT3-R (991.ii)",
+        "team": "Wright Motorsports"
+      },
+      "secondPlace": {
+        "driver1": "Ashton Harrison",
+        "driver2": "Mario Farnbacher",
+        "number": "93",
+        "vehicle": "Acura NSX GT3",
+        "team": "Racers Edge Motorsports"
+      },
+      "thirdPlace": {
+        "driver1": "George Kurtz",
+        "driver2": "Colin Braun",
+        "number": "04",
+        "vehicle": "Mercedes-AMG GT3",
+        "team": "CrowdStrike Racing by Riley Motorsports"
+      }
+    },
+    "result3": {
+      "class": "Am",
+      "firstPlace": {
+        "driver1": "Jean-Claude Saada",
+        "driver2": "Conrad Grunewald",
+        "number": "61",
+        "vehicle": "Ferrari 488 GT3",
+        "team": "AF Corse"
+      },
+      "secondPlace": {
+        "driver1": "Charlie Scardina",
+        "driver2": "Onofrio Triarsi",
+        "number": "23",
+        "vehicle": "Ferrari 488 GT3",
+        "team": "Triarsi Competizione"
+      }
+    }
+  },
+  {
+    "series": "GT America",
+    "date": "04-16-2022",
+    "event": "Sonoma Raceway",
+    "fastLap": {
+      "driver": "Jason Harward",
+      "vehicle": "Lamborghini Huracan GT3",
+      "laptime": "1:41.653"
+    },
+    "result1": {
+      "class": "SRO3",
+      "firstPlace": {
+        "driver1": "Jason Daskalos",
+        "number": "27",
+        "vehicle": "Audi R8 LMS",
+        "team": "Daskalos Motorsports"
+      },
+      "secondPlace": {
+        "driver1": "George Kurtz",
+        "number": "04",
+        "vehicle": "Mercedes-AMG GT3",
+        "team": "CrowdStrike Racing by Riley Motorsports"
+      },
+      "thirdPlace": {
+        "driver1": "Jason Harward",
+        "number": "88",
+        "vehicle": "Lamborghini Huracan GT3",
+        "team": "Zelus Motorsports"
+      }
+    },
+    "result2": {
+      "class": "GT4",
+      "firstPlace": {
+        "driver1": "Steve Dinan",
+        "number": "930",
+        "vehicle": "Audi R8 LMS GT4",
+        "team": "CarBahn w/ Peregrine Racing"
+      },
+      "secondPlace": {
+        "driver1": "Todd Coleman",
+        "number": "69",
+        "vehicle": "Toyota GR Supra GT4",
+        "team": "Smooge Racing"
+      },
+      "thirdPlace": {
+        "driver1": "Jose DaSilva",
+        "number": "67",
+        "vehicle": "Toyota GR Supra GT4",
+        "team": "Smooge Racing"
+      }
+    },
+    "result3": {
+      "class": "Masters",
+      "firstPlace": {
+        "driver1": "Mirco Shultis",
+        "number": "70",
+        "vehicle": "Callaway Corvette C7 GT3",
+        "team": "Mishumotors"
+      }
+    }
+  },
+  {
+    "series": "GT America",
+    "date": "04-17-2022",
+    "event": "Sonoma Raceway",
+    "fastLap": {
+      "driver": "Jason Harward",
+      "vehicle": "Lamborghini Huracan GT3",
+      "laptime": "1:39.433"
+    },
+    "result1": {
+      "class": "SRO3",
+      "firstPlace": {
+        "driver1": "Jason Harward",
+        "number": "88",
+        "vehicle": "Lamborghini Huracan GT3",
+        "team": "Zelus Motorsports"
+      },
+      "secondPlace": {
+        "driver1": "Jason Daskalos",
+        "number": "27",
+        "vehicle": "Audi R8 LMS",
+        "team": "Daskalos Motorsports"
+      },
+      "thirdPlace": {
+        "driver1": "Jeff Burton",
+        "number": "191",
+        "vehicle": "Lamborghini Huracan GT3",
+        "team": "Zelus Motorsports"
+      }
+    },
+    "result2": {
+      "class": "GT4",
+      "firstPlace": {
+        "driver1": "Hutton McKenna",
+        "number": "30",
+        "vehicle": "Porsche 718 Cayman GT4 RS CS",
+        "team": "Wright Motorsports"
+      },
+      "secondPlace": {
+        "driver1": "Chris Cagnazzi",
+        "number": "39",
+        "vehicle": "Mercedes-AMG GT4",
+        "team": "Cameron Racing"
+      },
+      "thirdPlace": {
+        "driver1": "Jason Bell",
+        "number": "2",
+        "vehicle": "Aston Martin Vantage GT4",
+        "team": "GMG Racing"
+      }
+    },
+    "result3": {
+      "class": "Masters",
+      "firstPlace": {
+        "driver1": "Jeff Burton",
+        "number": "191",
+        "vehicle": "Lamborghini Huracan GT3",
+        "team": "Zelus Motorsports"
+      }
+    }
+  },
+  {
+    "series": "Pirelli GT4 America",
+    "date": "04-16-2022",
+    "event": "Sonoma Raceway",
+    "fastLap": {
+      "driver": "Eric Filgueiras",
+      "vehicle": "Porsche 718 Cayman GT4 RS CS",
+      "laptime": "1:46.124"
+    },
+    "result1": {
+      "class": "Silver",
+      "firstPlace": {
+        "driver1": "Eric Filgueiras",
+        "driver2": "Stevan McAleer",
+        "number": "18",
+        "vehicle": "Porsche 718 Cayman GT4 RS CS",
+        "team": "RS1"
+      },
+      "secondPlace": {
+        "driver1": "Gavin Sanders",
+        "driver2": "Michai Stephens",
+        "number": "34",
+        "vehicle": "Mercedes-AMG GT4",
+        "team": "Conquest Racing"
+      },
+      "thirdPlace": {
+        "driver1": "Austen Smith",
+        "driver2": "Zac Anderson",
+        "number": "51",
+        "vehicle": "BMW M4 GT4",
+        "team": "AutoTechnic Racing"
+      }
+    },
+    "result2": {
+      "class": "Pro/Am",
+      "firstPlace": {
+        "driver1": "Bryan Putt",
+        "driver2": "Kenton Koch",
+        "number": "15",
+        "vehicle": "Aston Martin Vantage GT4",
+        "team": "BSport Racing"
+      },
+      "secondPlace": {
+        "driver1": "Scott Noble",
+        "driver2": "Jason Hart",
+        "number": "47",
+        "vehicle": "Porsche 718 Cayman GT4 RS CS",
+        "team": "NOLAsport"
+      },
+      "thirdPlace": {
+        "driver1": "Elias Sabo",
+        "driver2": "Andy Lee",
+        "number": "8",
+        "vehicle": "Aston Martin Vantage GT4",
+        "team": "Flying Lizard Motorsports"
+      }
+    },
+    "result3": {
+      "class": "Am",
+      "firstPlace": {
+        "driver1": "James Clay",
+        "driver2": "Charlie Postins",
+        "number": "36",
+        "vehicle": "BMW M4 GT4",
+        "team": "BimmerWorld"
+      },
+      "secondPlace": {
+        "driver1": "Alain Stad",
+        "driver2": "Thomas Merrill",
+        "number": "19",
+        "vehicle": "Porsche 718 Cayman GT4 RS CS",
+        "team": "NOLAsport"
+      },
+      "thirdPlace": {
+        "driver1": "Jason Alexandridis",
+        "driver2": "Derek DeBoer",
+        "number": "66",
+        "vehicle": "Porsche 718 Cayman GT4 RS CS",
+        "team": "The Racers Group"
+      }
+    }
+  },
+  {
+    "series": "Pirelli GT4 America",
+    "date": "04-17-2022",
+    "event": "Sonoma Raceway",
+    "fastLap": {
+      "driver": "Eric Filgueiras",
+      "vehicle": "Porsche 718 Cayman GT4 RS CS",
+      "laptime": "1:47.022"
+    },
+    "result1": {
+      "class": "Silver",
+      "firstPlace": {
+        "driver1": "Eric Filgueiras",
+        "driver2": "Stevan McAleer",
+        "number": "18",
+        "vehicle": "Porsche 718 Cayman GT4 RS CS",
+        "team": "RS1"
+      },
+      "secondPlace": {
+        "driver1": "Gavin Sanders",
+        "driver2": "Michai Stephens",
+        "number": "34",
+        "vehicle": "Mercedes-AMG GT4",
+        "team": "Conquest Racing"
+      },
+      "thirdPlace": {
+        "driver1": "Austen Smith",
+        "driver2": "Zac Anderson",
+        "number": "51",
+        "vehicle": "BMW M4 GT4",
+        "team": "AutoTechnic Racing"
+      }
+    },
+    "result2": {
+      "class": "Pro/Am",
+      "firstPlace": {
+        "driver1": "Bryan Putt",
+        "driver2": "Kenton Koch",
+        "number": "15",
+        "vehicle": "Aston Martin Vantage GT4",
+        "team": "BSport Racing"
+      },
+      "secondPlace": {
+        "driver1": "Ross Chouest",
+        "driver2": "Aaron Povoledo",
+        "number": "50",
+        "vehicle": "Aston Martin Vantage GT4",
+        "team": "Chouest Povoledo Racing"
+      },
+      "thirdPlace": {
+        "driver1": "Scott Noble",
+        "driver2": "Jason Hart",
+        "number": "47",
+        "vehicle": "Porsche 718 Cayman GT4 RS CS",
+        "team": "NOLAsport"
+      }
+    },
+    "result3": {
+      "class": "Am",
+      "firstPlace": {
+        "driver1": "Ben Anderson",
+        "driver2": "Matt Rivard",
+        "number": "36",
+        "vehicle": "Ginetta G56 GT4",
+        "team": "Dexter Racing"
+      },
+      "secondPlace": {
+        "driver1": "James Clay",
+        "driver2": "Charlie Postins",
+        "number": "36",
+        "vehicle": "BMW M4 GT4",
+        "team": "BimmerWorld"
+      },
+      "thirdPlace": {
+        "driver1": "Kyle Washington",
+        "driver2": "James Sofronas",
+        "number": "032",
+        "vehicle": "Porsche 718 Cayman GT4 RS CS",
+        "team": "GMG Racing"
+      }
+    }
+  },
+  {
+    "series": "TC America",
+    "date": "04-16-2022",
+    "event": "Sonoma Raceway",
+    "fastLap": {
+      "driver": "Jacob Ruud",
+      "vehicle": "BMW M2 CS",
+      "laptime": "1:52.331"
+    },
+    "result1": {
+      "class": "TCX",
+      "firstPlace": {
+        "driver1": "Jacob Ruud",
+        "number": "1",
+        "vehicle": "BMW M2 CS",
+        "team": "Fast Track Racing"
+      },
+      "secondPlace": {
+        "driver1": "Stephen Cugliari",
+        "number": "57",
+        "vehicle": "BMW M2 CS",
+        "team": "Accerlating Performance"
+      },
+      "thirdPlace": {
+        "driver1": "Lucas Catania",
+        "number": "26",
+        "vehicle": "BMW M2 CS",
+        "team": "Rigid Speed"
+      }
+    },
+    "result2": {
+      "class": "TC",
+      "firstPlace": {
+        "driver1": "Kevin Boehm",
+        "number": "9",
+        "vehicle": "Honda Civic Type-R",
+        "team": "Skip Barber Racing"
+      },
+      "secondPlace": {
+        "driver1": "Mat Pombo",
+        "number": "37",
+        "vehicle": "Honda Civic Type-R",
+        "team": "LA Honda World"
+      },
+      "thirdPlace": {
+        "driver1": "Clay Williams",
+        "number": "60",
+        "vehicle": "MINI Cooper JCW Pro TC",
+        "team": "MINI JCW Team"
+      }
+    },
+    "result3": {
+      "class": "TCA",
+      "firstPlace": {
+        "driver1": "Carter Fartuch",
+        "number": "16",
+        "vehicle": "Honda Civic Si",
+        "team": "Skip Barber Racing"
+      },
+      "secondPlace": {
+        "driver1": "Gresham Wagner",
+        "number": "21",
+        "vehicle": "Subaru BRZ",
+        "team": "TechSport Racing"
+      },
+      "thirdPlace": {
+        "driver1": "Spencer Bucknum",
+        "number": "5",
+        "vehicle": "Honda Civic Si",
+        "team": "LA Honda World"
+      }
+    }
+  },
+  {
+    "series": "TC America",
+    "date": "04-17-2022",
+    "event": "Sonoma Raceway",
+    "fastLap": {
+      "driver": "Lucas Catania",
+      "vehicle": "BMW M2 CS",
+      "laptime": "1:52.246"
+    },
+    "result1": {
+      "class": "TCX",
+      "firstPlace": {
+        "driver1": "Jacob Ruud",
+        "number": "1",
+        "vehicle": "BMW M2 CS",
+        "team": "Fast Track Racing"
+      },
+      "secondPlace": {
+        "driver1": "Lucas Catania",
+        "number": "26",
+        "vehicle": "BMW M2 CS",
+        "team": "Rigid Speed"
+      },
+      "thirdPlace": {
+        "driver1": "Stephen Cugliari",
+        "number": "57",
+        "vehicle": "BMW M2 CS",
+        "team": "Accerlating Performance"
+      }
+    },
+    "result2": {
+      "class": "TC",
+      "firstPlace": {
+        "driver1": "Kevin Boehm",
+        "number": "9",
+        "vehicle": "Honda Civic Type-R",
+        "team": "Skip Barber Racing"
+      },
+      "secondPlace": {
+        "driver1": "Clay Williams",
+        "number": "60",
+        "vehicle": "MINI Cooper JCW Pro TC",
+        "team": "MINI JCW Team"
+      },
+      "thirdPlace": {
+        "driver1": "Mat Pombo",
+        "number": "37",
+        "vehicle": "Honda Civic Type-R",
+        "team": "LA Honda World"
+      }
+    },
+    "result3": {
+      "class": "TCA",
+      "firstPlace": {
+        "driver1": "Gresham Wagner",
+        "number": "21",
+        "vehicle": "Subaru BRZ",
+        "team": "TechSport Racing"
+      },
+      "secondPlace": {
+        "driver1": "Carter Fartuch",
+        "number": "16",
+        "vehicle": "Honda Civic Si",
+        "team": "Skip Barber Racing"
+      },
+      "thirdPlace": {
+        "driver1": "Spencer Bucknum",
+        "number": "5",
+        "vehicle": "Honda Civic Si",
+        "team": "LA Honda World"
+      }
+    }
+  },
+  {
+    "series": "GT World Challenge America",
+    "date": "05-21-2022",
+    "event": "NOLA Motorsports Park",
+    "fastLap": {
+      "driver": "Giacomo Altoe",
+      "vehicle": "Lamborghini Huracan GT3",
+      "laptime": "1:34.800"
+    },
+    "result1": {
+      "class": "Pro",
+      "firstPlace": {
+        "driver1": "Michele Beretta",
+        "driver2": "Andrea Caldarelli",
+        "number": "1",
+        "vehicle": "Lamborghini Huracan GT3",
+        "team": "K-PAX Racing"
+      },
+      "secondPlace": {
+        "driver1": "Misha Goikhberg",
+        "driver2": "Jordan Pepper",
+        "number": "3",
+        "vehicle": "Lamborghini Huracan GT3",
+        "team": "K-PAX Racing"
+      },
+      "thirdPlace": {
+        "driver1": "Steven Aghakhani",
+        "driver2": "Loris Spinelli",
+        "number": "3",
+        "vehicle": "Mercedes-AMG GT3",
+        "team": "US Racetronics"
+      }
+    },
+    "result2": {
+      "class": "Pro/Am",
+      "firstPlace": {
+        "driver1": "George Kurtz",
+        "driver2": "Colin Braun",
+        "number": "04",
+        "vehicle": "Mercedes-AMG GT3",
+        "team": "CrowdStrike Racing by Riley Motorsports"
+      },
+      "secondPlace": {
+        "driver1": "Ashton Harrison",
+        "driver2": "Mario Farnbacher",
+        "number": "93",
+        "vehicle": "Acura NSX GT3",
+        "team": "Racers Edge Motorsports"
+      },
+      "thirdPlace": {
+        "driver1": "Chandler Hull",
+        "driver2": "Bill Auberlen",
+        "number": "94",
+        "vehicle": "BMW M4 GT3",
+        "team": "BimmerWorld"
+      }
+    },
+    "result3": {
+      "class": "Am",
+      "firstPlace": {
+        "driver1": "Charlie Scardina",
+        "driver2": "Onofrio Triarsi",
+        "number": "23",
+        "vehicle": "Ferrari 488 GT3",
+        "team": "Triarsi Competizione"
+      },
+      "secondPlace": {
+        "driver1": "Jean-Claude Saada",
+        "driver2": "Conrad Grunewald",
+        "number": "61",
+        "vehicle": "Ferrari 488 GT3",
+        "team": "AF Corse"
+      }
+    }
+  },
+  {
+    "series": "GT World Challenge America",
+    "date": "05-22-2022",
+    "event": "NOLA Motorsports Park",
+    "fastLap": {
+      "driver": "Loris Spinelli",
+      "vehicle": "Mercedes-AMG GT3",
+      "laptime": "1:35.183"
+    },
+    "result1": {
+      "class": "Pro",
+      "firstPlace": {
+        "driver1": "Michele Beretta",
+        "driver2": "Andrea Caldarelli",
+        "number": "1",
+        "vehicle": "Lamborghini Huracan GT3",
+        "team": "K-PAX Racing"
+      },
+      "secondPlace": {
+        "driver1": "Steven Aghakhani",
+        "driver2": "Loris Spinelli",
+        "number": "3",
+        "vehicle": "Mercedes-AMG GT3",
+        "team": "US Racetronics"
+      },
+      "thirdPlace": {
+        "driver1": "Misha Goikhberg",
+        "driver2": "Jordan Pepper",
+        "number": "3",
+        "vehicle": "Lamborghini Huracan GT3",
+        "team": "K-PAX Racing"
+      }
+    },
+    "result2": {
+      "class": "Pro/Am",
+      "firstPlace": {
+        "driver1": "Ashton Harrison",
+        "driver2": "Mario Farnbacher",
+        "number": "93",
+        "vehicle": "Acura NSX GT3",
+        "team": "Racers Edge Motorsports"
+      },
+      "secondPlace": {
+        "driver1": "Chandler Hull",
+        "driver2": "Bill Auberlen",
+        "number": "94",
+        "vehicle": "BMW M4 GT3",
+        "team": "BimmerWorld"
+      },
+      "thirdPlace": {
+        "driver1": "George Kurtz",
+        "driver2": "Colin Braun",
+        "number": "04",
+        "vehicle": "Mercedes-AMG GT3",
+        "team": "CrowdStrike Racing by Riley Motorsports"
+      }
+    },
+    "result3": {
+      "class": "Am",
+      "firstPlace": {
+        "driver1": "Charlie Scardina",
+        "driver2": "Onofrio Triarsi",
+        "number": "23",
+        "vehicle": "Ferrari 488 GT3",
+        "team": "Triarsi Competizione"
+      },
+      "secondPlace": {
+        "driver1": "Jean-Claude Saada",
+        "driver2": "Conrad Grunewald",
+        "number": "61",
+        "vehicle": "Ferrari 488 GT3",
+        "team": "AF Corse"
+      }
+    }
+  },
+  {
+    "series": "Pirelli GT4 America",
+    "date": "05-21-2022",
+    "event": "NOLA Motorsports Park",
+    "fastLap": {
+      "driver": "Eric Filgueiras",
+      "vehicle": "Porsche 718 Cayman GT4 RS CS",
+      "laptime": "1:59.057"
+    },
+    "result1": {
+      "class": "Silver",
+      "firstPlace": {
+        "driver1": "Eric Filgueiras",
+        "driver2": "Stevan McAleer",
+        "number": "18",
+        "vehicle": "Porsche 718 Cayman GT4 RS CS",
+        "team": "RS1"
+      },
+      "secondPlace": {
+        "driver1": "Kevin Conway",
+        "driver2": "John Geesbreght",
+        "number": "68",
+        "vehicle": "Toyota GR Supra GT4",
+        "team": "Smooge Racing"
+      },
+      "thirdPlace": {
+        "driver1": "Austen Smith",
+        "driver2": "Zac Anderson",
+        "number": "51",
+        "vehicle": "BMW M4 GT4",
+        "team": "AutoTechnic Racing"
+      }
+    },
+    "result2": {
+      "class": "Pro/Am",
+      "firstPlace": {
+        "driver1": "Adam Adelson",
+        "driver2": "Elliot Skeer",
+        "number": "120",
+        "vehicle": "Porsche 718 Cayman RS CS",
+        "team": "Premier Racing"
+      },
+      "secondPlace": {
+        "driver1": "Tom Capizzi",
+        "driver2": "John Capestro Dubets",
+        "number": "52",
+        "vehicle": "BMW M4 GT4",
+        "team": "AutoTechnic Racing"
+      },
+      "thirdPlace": {
+        "driver1": "Gray Newell",
+        "driver2": "Ian James",
+        "number": "24",
+        "vehicle": "Aston Martin Vantage GT4",
+        "team": "Heart of Racing Team"
+      }
+    },
+    "result3": {
+      "class": "Am",
+      "firstPlace": {
+        "driver1": "James Clay",
+        "driver2": "Charlie Postins",
+        "number": "36",
+        "vehicle": "BMW M4 GT4",
+        "team": "BimmerWorld"
+      },
+      "secondPlace": {
+        "driver1": "Nelson Calle",
+        "driver2": "Juan Martinez",
+        "number": "83",
+        "vehicle": "Porsche 718 Cayman GT4 RS CS",
+        "team": "RS1"
+      },
+      "thirdPlace": {
+        "driver1": "Alain Stad",
+        "driver2": "Seth Thomas",
+        "number": "19",
+        "vehicle": "Porsche 718 Cayman GT4 RS CS",
+        "team": "NOLAsport"
+      }
+    }
+  },
+  {
+    "series": "Pirelli GT4 America",
+    "date": "05-22-2022",
+    "event": "NOLA Motorsports Park",
+    "fastLap": {
+      "driver": "Stevan McAleer",
+      "vehicle": "Porsche 718 Cayman GT4 RS CS",
+      "laptime": "1:44.321"
+    },
+    "result1": {
+      "class": "Silver",
+      "firstPlace": {
+        "driver1": "Eric Filgueiras",
+        "driver2": "Stevan McAleer",
+        "number": "18",
+        "vehicle": "Porsche 718 Cayman GT4 RS CS",
+        "team": "RS1"
+      },
+      "secondPlace": {
+        "driver1": "Ryan Dexter",
+        "driver2": "Dominic Starkweather",
+        "number": "112",
+        "vehicle": "Toyota GR Supra GT4",
+        "team": "Smooge Racing"
+      },
+      "thirdPlace": {
+        "driver1": "Austen Smith",
+        "driver2": "Zac Anderson",
+        "number": "51",
+        "vehicle": "BMW M4 GT4",
+        "team": "AutoTechnic Racing"
+      }
+    },
+    "result2": {
+      "class": "Pro/Am",
+      "firstPlace": {
+        "driver1": "Adam Adelson",
+        "driver2": "Elliot Skeer",
+        "number": "120",
+        "vehicle": "Porsche 718 Cayman GT4 RS CS",
+        "team": "Premier Racing"
+      },
+      "secondPlace": {
+        "driver1": "Scott Noble",
+        "driver2": "Jason Hart",
+        "number": "47",
+        "vehicle": "Porsche 718 Cayman GT4 RS CS",
+        "team": "AutoTechnic Racing"
+      },
+      "thirdPlace": {
+        "driver1": "James Walker Jr",
+        "driver2": "Devin Jones",
+        "number": "82",
+        "vehicle": "BMW M4 GT4",
+        "team": "BimmerWorld"
+      }
+    },
+    "result3": {
+      "class": "Am",
+      "firstPlace": {
+        "driver1": "Alain Stad",
+        "driver2": "Seth Thomas",
+        "number": "19",
+        "vehicle": "Porsche 718 Cayman GT4 RS CS",
+        "team": "NOLAsport"
+      },
+      "secondPlace": {
+        "driver1": "Matt Guiver",
+        "driver2": "Sean Whalen",
+        "number": "888",
+        "vehicle": "Aston Martin Vantage GT4",
+        "team": "Zelus Motorsports"
+      },
+      "thirdPlace": {
+        "driver1": "Jason Alexandridis",
+        "driver2": "Derek DeBoer",
+        "number": "66",
+        "vehicle": "Porsche 718 Cayman GT4 RS CS",
+        "team": "The Racers Group"
+      }
+    }
+  },
+  {
+    "series": "TC America",
+    "date": "05-21-2022",
+    "event": "NOLA Motorsports Park",
+    "fastLap": {
+      "driver": "Jacob Ruud",
+      "vehicle": "BMW M2 CS",
+      "laptime": "1:50.529"
+    },
+    "result1": {
+      "class": "TCX",
+      "firstPlace": {
+        "driver1": "Colin Garrett",
+        "number": "44",
+        "vehicle": "BMW M2 CS",
+        "team": "Rooster Hall Racing"
+      },
+      "secondPlace": {
+        "driver1": "Jacob Ruud",
+        "number": "1",
+        "vehicle": "BMW M2 CS",
+        "team": "Fast Track Racing"
+      },
+      "thirdPlace": {
+        "driver1": "Lucas Catania",
+        "number": "26",
+        "vehicle": "BMW M2 CS",
+        "team": "Rigid Speed"
+      }
+    },
+    "result2": {
+      "class": "TC",
+      "firstPlace": {
+        "driver1": "Kevin Boehm",
+        "number": "9",
+        "vehicle": "Honda Civic Type-R",
+        "team": "Skip Barber Racing"
+      },
+      "secondPlace": {
+        "driver1": "Mat Pombo",
+        "number": "37",
+        "vehicle": "Honda Civic Type-R",
+        "team": "LA Honda World"
+      },
+      "thirdPlace": {
+        "driver1": "Matthew Ibrarhim",
+        "number": "06",
+        "vehicle": "BMW 240iR",
+        "team": "DRS & Garagistic"
+      }
+    },
+    "result3": {
+      "class": "TCA",
+      "firstPlace": {
+        "driver1": "Carter Fartuch",
+        "number": "16",
+        "vehicle": "Honda Civic Si",
+        "team": "Skip Barber Racing"
+      },
+      "secondPlace": {
+        "driver1": "Devon Anderson",
+        "number": "22",
+        "vehicle": "Subaru BRZ",
+        "team": "TechSport Racing"
+      },
+      "thirdPlace": {
+        "driver1": "Spencer Bucknum",
+        "number": "5",
+        "vehicle": "Honda Civic Si",
+        "team": "LA Honda World"
+      }
+    }
+  },
+  {
+    "series": "TC America",
+    "date": "05-22-2022",
+    "event": "NOLA Motorsports Park",
+    "fastLap": {
+      "driver": "Lucas Catania",
+      "vehicle": "BMW M2 CS",
+      "laptime": "1:51.072"
+    },
+    "result1": {
+      "class": "TCX",
+      "firstPlace": {
+        "driver1": "Jacob Ruud",
+        "number": "1",
+        "vehicle": "BMW M2 CS",
+        "team": "Fast Track Racing"
+      },
+      "secondPlace": {
+        "driver1": "Colin Garrett",
+        "number": "44",
+        "vehicle": "BMW M2 CS",
+        "team": "Rooster Hall Racing"
+      },
+      "thirdPlace": {
+        "driver1": "Lucas Catania",
+        "number": "26",
+        "vehicle": "BMW M2 CS",
+        "team": "Rigid Speed"
+      }
+    },
+    "result2": {
+      "class": "TC",
+      "firstPlace": {
+        "driver1": "Clay Williams",
+        "number": "60",
+        "vehicle": "MINI JCW Pro TC",
+        "team": "MINI JCW Team"
+      },
+      "secondPlace": {
+        "driver1": "Jeff Ricca",
+        "number": "78",
+        "vehicle": "Hyundai Veloster N DCT TC",
+        "team": "GenRacer / Ricca Autosport"
+      },
+      "thirdPlace": {
+        "driver1": "Kevin Boehm",
+        "number": "9",
+        "vehicle": "Honda Civic Type-R",
+        "team": "Skip Barber Racing"
+      }
+    },
+    "result3": {
+      "class": "TCA",
+      "firstPlace": {
+        "driver1": "Gresham Wagner",
+        "number": "21",
+        "vehicle": "Subaru BRZ",
+        "team": "TechSport Racing"
+      },
+      "secondPlace": {
+        "driver1": "Devon Anderson",
+        "number": "22",
+        "vehicle": "Subaru BRZ",
+        "team": "TechSport Racing"
+      },
+      "thirdPlace": {
+        "driver1": "Carter Fartuch",
+        "number": "16",
+        "vehicle": "Honda Civic Si",
+        "team": "Skip Barber Racing School"
+      }
+    }
+  },
+  {
+    "series": "GT World Challenge America",
+    "date": "06-18-2022",
+    "event": "VIRginia International Raceway",
+    "fastLap": {
+      "driver": "Loris Spinelli",
+      "vehicle": "Mercedes-AMG GT3",
+      "laptime": "1:44.150"
+    },
+    "result1": {
+      "class": "Pro",
+      "firstPlace": {
+        "driver1": "Michele Beretta",
+        "driver2": "Andrea Caldarelli",
+        "number": "1",
+        "vehicle": "Lamborghini Huracan GT3",
+        "team": "K-PAX Racing"
+      },
+      "secondPlace": {
+        "driver1": "Michael Dinan",
+        "driver2": "Robby Foley",
+        "number": "96",
+        "vehicle": "BMW M4 GT3",
+        "team": "US Racetronics"
+      },
+      "thirdPlace": {
+        "driver1": "Misha Goikhberg",
+        "driver2": "Jordan Pepper",
+        "number": "3",
+        "vehicle": "Lamborghini Huracan GT3",
+        "team": "K-PAX Racing"
+      }
+    },
+    "result2": {
+      "class": "Pro/Am",
+      "firstPlace": {
+        "driver1": "Justin Wetherill",
+        "driver2": "Ryan Dalziel",
+        "number": "13",
+        "vehicle": "Ferrari 488 GT3",
+        "team": "Triarsi Competizione"
+      },
+      "secondPlace": {
+        "driver1": "Charlie Luck",
+        "driver2": "Jan Heylen",
+        "number": "45",
+        "vehicle": "Porsche 911 GT3-R (991.ii)",
+        "team": "Wright Motorsports"
+      },
+      "thirdPlace": {
+        "driver1": "David Askew",
+        "driver2": "Dirk Mueller",
+        "number": "63",
+        "vehicle": "Mercedes-AMG GT3",
+        "team": "DXDT Racing"
+      }
+    },
+    "result3": {
+      "class": "Am",
+      "firstPlace": {
+        "driver1": "Charlie Scardina",
+        "driver2": "Onofrio Triarsi",
+        "number": "23",
+        "vehicle": "Ferrari 488 GT3",
+        "team": "Triarsi Competizione"
+      }
+    }
+  },
+  {
+    "series": "GT World Challenge America",
+    "date": "06-19-2022",
+    "event": "VIRginia International Raceway",
+    "fastLap": {
+      "driver": "Giacomo Altoe",
+      "vehicle": "Lamborghini Huracan GT3",
+      "laptime": "1:44.232"
+    },
+    "result1": {
+      "class": "Pro",
+      "firstPlace": {
+        "driver1": "Michele Beretta",
+        "driver2": "Andrea Caldarelli",
+        "number": "1",
+        "vehicle": "Lamborghini Huracan GT3",
+        "team": "K-PAX Racing"
+      },
+      "secondPlace": {
+        "driver1": "Michael Dinan",
+        "driver2": "Robby Foley",
+        "number": "96",
+        "vehicle": "BMW M4 GT3",
+        "team": "US Racetronics"
+      },
+      "thirdPlace": {
+        "driver1": "Misha Goikhberg",
+        "driver2": "Jordan Pepper",
+        "number": "3",
+        "vehicle": "Lamborghini Huracan GT3",
+        "team": "K-PAX Racing"
+      }
+    },
+    "result2": {
+      "class": "Pro/Am",
+      "firstPlace": {
+        "driver1": "George Kurtz",
+        "driver2": "Colin Braun",
+        "number": "04",
+        "vehicle": "Mercedes-AMG GT3",
+        "team": "CrowdStrike w/ Riley Motorsports"
+      },
+      "secondPlace": {
+        "driver1": "Chandler Hull",
+        "driver2": "Bill Auberlen",
+        "number": "94",
+        "vehicle": "BMW M4 GT3",
+        "team": "BimmerWorld"
+      },
+      "thirdPlace": {
+        "driver1": "David Askew",
+        "driver2": "Dirk Mueller",
+        "number": "63",
+        "vehicle": "Mercedes-AMG GT3",
+        "team": "DXDT Racing"
+      }
+    },
+    "result3": {
+      "class": "Am",
+      "firstPlace": {
+        "driver1": "Charlie Scardina",
+        "driver2": "Onofrio Triarsi",
+        "number": "23",
+        "vehicle": "Ferrari 488 GT3",
+        "team": "Triarsi Competizione"
+      }
+    }
+  },
+  {
+    "series": "GT America",
+    "date": "06-18-2022",
+    "event": "VIRginia International Raceway",
+    "fastLap": {
+      "driver": "George Kurtz",
+      "vehicle": "Mercedes-AMG GT3",
+      "laptime": "1:46.353"
+    },
+    "result1": {
+      "class": "SRO3",
+      "firstPlace": {
+        "driver1": "George Kurtz",
+        "number": "04",
+        "vehicle": "Mercedes-AMG GT3",
+        "team": "Riley Motorsports w/ CrowdStrike Racing"
+      },
+      "secondPlace": {
+        "driver1": "Jeff Burton",
+        "number": "191",
+        "vehicle": "Lamborghini Huracan GT3",
+        "team": "Zelus Motorsports"
+      },
+      "thirdPlace": {
+        "driver1": "Jason Harward",
+        "number": "88",
+        "vehicle": "Lamborghini Huracan GT3",
+        "team": "Zelus Motorsports"
+      }
+    },
+    "result2": {
+      "class": "GT4",
+      "firstPlace": {
+        "driver1": "Adam Adelson",
+        "number": "120",
+        "vehicle": "Porsche 718 Cayman GT4 CS MR",
+        "team": "Premier Racing"
+      },
+      "secondPlace": {
+        "driver1": "Moisey Uretsky",
+        "number": "55",
+        "vehicle": "Aston Martin Vantage GT4",
+        "team": "Accelerating Peformance"
+      },
+      "thirdPlace": {
+        "driver1": "Jason Bell",
+        "number": "2",
+        "vehicle": "Aston Martin Vantage GT4",
+        "team": "GMG Racing"
+      }
+    },
+    "result3": {
+      "class": "GT2",
+      "firstPlace": {
+        "driver1": "CJ Moses",
+        "number": "58",
+        "vehicle": "Audi R8 LMS GT2",
+        "team": "GMG Racing"
+      }
+    },
+    "result4": {
+      "class": "Masters",
+      "firstPlace": {
+        "driver1": "Jeff Burton",
+        "number": "191",
+        "vehicle": "Lamborghini Huracan GT3",
+        "team": "Zelus Motorsports"
+      }
+    }
+  },
+  {
+    "series": "GT America",
+    "date": "06-19-2022",
+    "event": "VIRginia International Raceway",
+    "fastLap": {
+      "driver": "Jason Harward",
+      "vehicle": "Lamborghini Huracan GT3",
+      "laptime": "1:46.414"
+    },
+    "result1": {
+      "class": "SRO3",
+      "firstPlace": {
+        "driver1": "George Kurtz",
+        "number": "04",
+        "vehicle": "Mercedes-AMG GT3",
+        "team": "Riley Motorsports w/ CrowdStrike Racing"
+      },
+      "secondPlace": {
+        "driver1": "Andy Pilgrim",
+        "number": "56",
+        "vehicle": "Ferrari 488 Italia GT3",
+        "team": "SKI Autosports"
+      },
+      "thirdPlace": {
+        "driver1": "Jason Daskalos",
+        "number": "27",
+        "vehicle": "Audi R8 LMS",
+        "team": "Daskalos Motorsports"
+      }
+    },
+    "result2": {
+      "class": "GT4",
+      "firstPlace": {
+        "driver1": "Moisey Uretsky",
+        "number": "55",
+        "vehicle": "Aston Martin Vantage GT4",
+        "team": "Accelerating Peformance"
+      },
+      "secondPlace": {
+        "driver1": "Robb Holland",
+        "number": "99",
+        "vehicle": "Porsche 718 Cayman GT4 RS CS",
+        "team": "Rotek Racing"
+      },
+      "thirdPlace": {
+        "driver1": "Jason Bell",
+        "number": "2",
+        "vehicle": "Aston Martin Vantage GT4",
+        "team": "GMG Racing"
+      }
+    },
+    "result3": {
+      "class": "GT2",
+      "firstPlace": {
+        "driver1": "CJ Moses",
+        "number": "58",
+        "vehicle": "Audi R8 LMS GT2",
+        "team": "GMG Racing"
+      }
+    },
+    "result4": {
+      "class": "Masters",
+      "firstPlace": {
+        "driver1": "Andy Pilgrim",
+        "number": "56",
+        "vehicle": "Ferrari 488 Italia GT3",
+        "team": "SKI Autosports"
+      }
+    }
+  },
+  {
+    "series": "Pirelli GT4 America",
+    "date": "06-18-2022",
+    "event": "VIRginia Raceway",
+    "fastLap": {
+      "driver": "Andy Lee",
+      "vehicle": "Aston Martin Vantage GT4",
+      "laptime": "1:54.727"
+    },
+    "result1": {
+      "class": "Silver",
+      "firstPlace": {
+        "driver1": "Eric Filgueiras",
+        "driver2": "Stevan McAleer",
+        "number": "18",
+        "vehicle": "Porsche 718 Cayman GT4 RS CS",
+        "team": "RS1"
+      },
+      "secondPlace": {
+        "driver1": "Gavin Sanders",
+        "driver2": "Michai Stephens",
+        "number": "34",
+        "vehicle": "Mercedes-AMG GT4",
+        "team": "Conquest Racing"
+      },
+      "thirdPlace": {
+        "driver1": "Kris Wilson",
+        "driver2": "Cole Ciraulo",
+        "number": "32",
+        "vehicle": "Mercedes-AMG GT4",
+        "team": "Capstone Motorsports"
+      }
+    },
+    "result2": {
+      "class": "Pro/Am",
+      "firstPlace": {
+        "driver1": "Tom Capizzi",
+        "driver2": "John Capestro Dubets",
+        "number": "52",
+        "vehicle": "BMW M4 GT4",
+        "team": "AutoTechnic Racing"
+      },
+      "secondPlace": {
+        "driver1": "Edgar Lau",
+        "driver2": "Mike Skeen",
+        "number": "124",
+        "vehicle": "Ford Mustang GT4",
+        "team": "ARG / Rotek Racing"
+      },
+      "thirdPlace": {
+        "driver1": "Adam Adelson",
+        "driver2": "Elliot Skeer",
+        "number": "120",
+        "vehicle": "Porsche 718 Cayman GT4 RS CS",
+        "team": "Premier Racing"
+      }
+    },
+    "result3": {
+      "class": "Am",
+      "firstPlace": {
+        "driver1": "James Clay",
+        "driver2": "Charlie Postins",
+        "number": "36",
+        "vehicle": "BMW M4 GT4",
+        "team": "BimmerWorld"
+      },
+      "secondPlace": {
+        "driver1": "Alain Stad",
+        "driver2": "Seth Thomas",
+        "number": "19",
+        "vehicle": "Porsche 718 Cayman GT4 RS CS",
+        "team": "NOLAsport"
+      },
+      "thirdPlace": {
+        "driver1": "Nelson Calle",
+        "driver2": "Juan Martinez",
+        "number": "83",
+        "vehicle": "Porsche 718 Cayman GT4 RS CS",
+        "team": "RS1"
+      }
+    }
+  },
+  {
+    "series": "Pirelli GT4 America",
+    "date": "06-19-2022",
+    "event": "VIRGinia International Raceway",
+    "fastLap": {
+      "driver": "Tom Dyer",
+      "vehicle": "Audi R8 LMS GT4",
+      "laptime": "1:53.632"
+    },
+    "result1": {
+      "class": "Silver",
+      "firstPlace": {
+        "driver1": "Gavin Sanders",
+        "driver2": "Michai Stephens",
+        "number": "34",
+        "vehicle": "Mercedes-AMG GT4",
+        "team": "Conquest Racing"
+      },
+      "secondPlace": {
+        "driver1": "Kevin Conway",
+        "driver2": "John Geesbreght",
+        "number": "68",
+        "vehicle": "Toyota GR Supra GT4",
+        "team": "Smooge Racing"
+      },
+      "thirdPlace": {
+        "driver1": "Austen Smith",
+        "driver2": "Zac Anderson",
+        "number": "51",
+        "vehicle": "BMW M4 GT4",
+        "team": "AutoTechnic Racing"
+      }
+    },
+    "result2": {
+      "class": "Pro/Am",
+      "firstPlace": {
+        "driver1": "Scott Noble",
+        "driver2": "Jason Hart",
+        "number": "47",
+        "vehicle": "Porsche 718 Cayman GT4 RS CS",
+        "team": "NOLAsport"
+      },
+      "secondPlace": {
+        "driver1": "Gray Newell",
+        "driver2": "Ian James",
+        "number": "24",
+        "vehicle": "Aston Martin Vantage GT4",
+        "team": "Heart of Racing Team"
+      },
+      "thirdPlace": {
+        "driver1": "Elias Sabo",
+        "driver2": "Andy Lee",
+        "number": "8",
+        "vehicle": "Aston Martin Vantage GT4",
+        "team": "Flying Lizard Motorsports"
+      }
+    },
+    "result3": {
+      "class": "Am",
+      "firstPlace": {
+        "driver1": "James Clay",
+        "driver2": "Charlie Postins",
+        "number": "36",
+        "vehicle": "BMW M4 GT4",
+        "team": "BimmerWorld"
+      },
+      "secondPlace": {
+        "driver1": "Todd Brown",
+        "driver2": "Johan Schwartz",
+        "number": "80",
+        "vehicle": "BMW M4 GT4",
+        "team": "Rooster Hall Racing"
+      },
+      "thirdPlace": {
+        "driver1": "Sam Owen",
+        "driver2": "Sean Gibbons",
+        "number": "7",
+        "vehicle": "Porsche 718 Cayman GT4 RS CS",
+        "team": "NOLAsport"
+      }
+    }
+  },
+  {
+    "series": "TC America",
+    "date": "06-18-2022",
+    "event": "VIRgina International Raceway",
+    "fastLap": {
+      "driver": "Jacob Ruud",
+      "vehicle": "BMW M2 CS",
+      "laptime": "2:08.641"
+    },
+    "result1": {
+      "class": "TCX",
+      "firstPlace": {
+        "driver1": "Colin Garrett",
+        "number": "44",
+        "vehicle": "BMW M2 CS",
+        "team": "Rooster Hall Racing"
+      },
+      "secondPlace": {
+        "driver1": "Stephen Cugliari",
+        "number": "57",
+        "vehicle": "BMW M2 CS",
+        "team": "Accerlating Performance"
+      },
+      "thirdPlace": {
+        "driver1": "Lucas Catania",
+        "number": "26",
+        "vehicle": "BMW M2 CS",
+        "team": "Rigid Speed"
+      }
+    },
+    "result2": {
+      "class": "TC",
+      "firstPlace": {
+        "driver1": "Kevin Boehm",
+        "number": "9",
+        "vehicle": "Honda Civic Type-R",
+        "team": "Skip Barber Racing"
+      },
+      "secondPlace": {
+        "driver1": "Jeff Ricca",
+        "number": "78",
+        "vehicle": "Hyundai Veloster N DCT TC",
+        "team": "Genracer / Ricca Autosport"
+      },
+      "thirdPlace": {
+        "driver1": "Clay Williams",
+        "number": "60",
+        "vehicle": "MINI Cooper JCW Pro TC",
+        "team": "MINI JCW Team"
+      }
+    },
+    "result3": {
+      "class": "TCA",
+      "firstPlace": {
+        "driver1": "Gresham Wagner",
+        "number": "21",
+        "vehicle": "Subaru BRZ",
+        "team": "TechSport Racing"
+      },
+      "thirdPlace": {
+        "driver1": "Carter Fartuch",
+        "number": "16",
+        "vehicle": "Honda Civic Si",
+        "team": "Skip Barber Racing"
+      },
+      "secondPlace": {
+        "driver1": "Devin Anderson",
+        "number": "22",
+        "vehicle": "Subaru BRZ",
+        "team": "TechSport Racing"
+      }
+    }
+  },
+  {
+    "series": "TC America",
+    "date": "06-19-2022",
+    "event": "VIRgina International Raceway",
+    "fastLap": {
+      "driver": "Lucas Catania",
+      "vehicle": "BMW M2 CS",
+      "laptime": "1:59.608"
+    },
+    "result1": {
+      "class": "TCX",
+      "thirdPlace": {
+        "driver1": "Colin Garrett",
+        "number": "44",
+        "vehicle": "BMW M2 CS",
+        "team": "Rooster Hall Racing"
+      },
+      "secondPlace": {
+        "driver1": "Stephen Cugliari",
+        "number": "57",
+        "vehicle": "BMW M2 CS",
+        "team": "Accerlating Performance"
+      },
+      "firstPlace": {
+        "driver1": "Jacob Ruud",
+        "number": "1",
+        "vehicle": "BMW M2 CS",
+        "team": "Fast Tracking Racing"
+      }
+    },
+    "result2": {
+      "class": "TC",
+      "firstPlace": {
+        "driver1": "Kevin Boehm",
+        "number": "9",
+        "vehicle": "Honda Civic Type-R",
+        "team": "Skip Barber Racing"
+      },
+      "secondPlace": {
+        "driver1": "Jeff Ricca",
+        "number": "78",
+        "vehicle": "Hyundai Veloster N DCT TC",
+        "team": "Genracer / Ricca Autosport"
+      },
+      "thirdPlace": {
+        "driver1": "Nicholas Barbato",
+        "number": "60",
+        "vehicle": "Hyundai Veloster N DCT TC",
+        "team": "Genracer / Ricca Autosport"
+      }
+    },
+    "result3": {
+      "class": "TCA",
+      "thirdPlace": {
+        "driver1": "Cristian Perocarpi",
+        "number": "61",
+        "vehicle": "Mini JCW",
+        "team": "MINI JCW Team"
+      },
+      "firstPlace": {
+        "driver1": "Carter Fartuch",
+        "number": "16",
+        "vehicle": "Honda Civic Si",
+        "team": "Skip Barber Racing"
+      },
+      "secondPlace": {
+        "driver1": "Devin Anderson",
+        "number": "22",
+        "vehicle": "Subaru BRZ",
+        "team": "TechSport Racing"
+      }
+    }
+  },
+  {
+    "series": "GT World Challenge America",
+    "date": "07-23-2022",
+    "event": "Watkins Glen",
+    "fastLap": {
+      "driver": "Philip Ellis",
+      "vehicle": "Mercedes-AMG GT3",
+      "laptime": "1:44.472"
+    },
+    "result1": {
+      "class": "Pro",
+      "firstPlace": {
+        "driver1": "Michael Dinan",
+        "driver2": "Robby Foley",
+        "number": "96",
+        "vehicle": "BMW M4 GT3",
+        "team": "Turner Motorsport"
+      },
+      "secondPlace": {
+        "driver1": "Steven Aghakhani",
+        "driver2": "Loris Spinelli",
+        "number": "6",
+        "vehicle": "Mercedes-AMG GT3",
+        "team": "US Racetronics"
+      },
+      "thirdPlace": {
+        "driver1": "Russell Ward",
+        "driver2": "Philip Ellis",
+        "number": "33",
+        "vehicle": "Mercedes-AMG GT3",
+        "team": "Winward Racing"
+      }
+    },
+    "result2": {
+      "class": "Pro/Am",
+      "firstPlace": {
+        "driver1": "Charlie Luck",
+        "driver2": "Jan Heylen",
+        "number": "45",
+        "vehicle": "Porsche 911 GT3-R (991.ii)",
+        "team": "Wright Motorsports"
+      },
+      "secondPlace": {
+        "driver1": "George Kurtz",
+        "driver2": "Colin Braun",
+        "number": "04",
+        "vehicle": "Mercedes-AMG GT3",
+        "team": "CrowdStrike Racing by Riley Motorsports"
+      },
+      "thirdPlace": {
+        "driver1": "Erin Vogel",
+        "driver2": "Michael Cooper",
+        "number": "43",
+        "vehicle": "Acura NSX GT3",
+        "team": "RealTime Racing"
+      }
+    },
+    "result3": {
+      "class": "Am",
+      "firstPlace": {
+        "driver1": "Charlie Scardina",
+        "driver2": "Onofrio Triarsi",
+        "number": "23",
+        "vehicle": "Ferrari 488 GT3",
+        "team": "Triarsi Competizione"
+      }
+    }
+  },
+  {
+    "series": "GT World Challenge America",
+    "date": "07-24-2022",
+    "event": "Watkins Glen",
+    "fastLap": {
+      "driver": "Loris Spinelli",
+      "vehicle": "Mercedes-AMG GT3",
+      "laptime": "1:45.183"
+    },
+    "result1": {
+      "class": "Pro",
+      "thirdPlace": {
+        "driver1": "Michael Dinan",
+        "driver2": "Robby Foley",
+        "number": "96",
+        "vehicle": "BMW M4 GT3",
+        "team": "Turner Motorsport"
+      },
+      "secondPlace": {
+        "driver1": "Michele Beretta",
+        "driver2": "Andrea Caldarelli",
+        "number": "1",
+        "vehicle": "Lamborghini Huracan GT3",
+        "team": "K-PAX Racing"
+      },
+      "firstPlace": {
+        "driver1": "Russell Ward",
+        "driver2": "Philip Ellis",
+        "number": "33",
+        "vehicle": "Mercedes-AMG GT3",
+        "team": "Winward Racing"
+      }
+    },
+    "result2": {
+      "class": "Pro/Am",
+      "secondPlace": {
+        "driver1": "Ashton Harrison",
+        "driver2": "Mario Farnbacher",
+        "number": "93",
+        "vehicle": "Acura NSX GT3",
+        "team": "Racers Edge Motorsports"
+      },
+      "firstPlace": {
+        "driver1": "George Kurtz",
+        "driver2": "Colin Braun",
+        "number": "04",
+        "vehicle": "Mercedes-AMG GT3",
+        "team": "CrowdStrike Racing by Riley Motorsports"
+      },
+      "thirdPlace": {
+        "driver1": "Chandler Hull",
+        "driver2": "Bill Auberlen",
+        "number": "94",
+        "vehicle": "BMW M4 GT3",
+        "team": "BimmerWorld"
+      }
+    },
+    "result3": {
+      "class": "Am",
+      "firstPlace": {
+        "driver1": "Charlie Scardina",
+        "driver2": "Onofrio Triarsi",
+        "number": "23",
+        "vehicle": "Ferrari 488 GT3",
+        "team": "Triarsi Competizione"
+      }
+    }
+  },
+  {
+    "series": "GT America",
+    "date": "07-23-2022",
+    "event": "Watkins Glen International",
+    "fastLap": {
+      "driver": "George Kurtz",
+      "vehicle": "Mercedes-AMG GT3",
+      "laptime": "1:47.514"
+    },
+    "result1": {
+      "class": "SRO3",
+      "thirdPlace": {
+        "driver1": "PJ Hyett",
+        "number": "27",
+        "vehicle": "Porsche 911 GT3-R (991.ii)",
+        "team": "Team Hardpoint"
+      },
+      "secondPlace": {
+        "driver1": "Jeff Burton",
+        "number": "191",
+        "vehicle": "Lamborghini Huracan GT3",
+        "team": "Zelus Motorsports"
+      },
+      "firstPlace": {
+        "driver1": "George Kurtz",
+        "number": "04",
+        "vehicle": "Mercedes-AMG GT3",
+        "team": "Riley Motorsports w/ CrowdStrike Racing"
+      }
+    },
+    "result2": {
+      "class": "GT4",
+      "firstPlace": {
+        "driver1": "Seth Lucas",
+        "number": "016",
+        "vehicle": "Toyota GR Supra GT4",
+        "team": "Hattori Motorsports"
+      },
+      "secondPlace": {
+        "driver1": "Ross Chouest",
+        "number": "50",
+        "vehicle": "Aston Martin Vantage GT4",
+        "team": "Chouest Povoledo Racing"
+      },
+      "thirdPlace": {
+        "driver1": "Jason Bell",
+        "number": "2",
+        "vehicle": "Aston Martin Vantage GT4",
+        "team": "GMG Racing"
+      }
+    },
+    "result3": {
+      "class": "Masters",
+      "firstPlace": {
+        "driver1": "Jeff Burton",
+        "number": "191",
+        "vehicle": "Lamborghini Huracan GT3",
+        "team": "Zelus Motorsports"
+      }
+    }
+  }
+]

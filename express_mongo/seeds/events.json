@@ -1,0 +1,92 @@
+[
+  {
+    "name": "St. Petersburg Grand Prix",
+    "date": "February 24-26",
+    "year": 2022
+  },
+  {
+    "name": "Sonoma Raceway",
+    "date": "April 14-17",
+    "year": 2022
+  },
+  {
+    "name": "NOLA Motorsports Park",
+    "date": "May 19-22",
+    "year": 2022
+  },
+  {
+    "name": "VIRginia International Raceway",
+    "date": "June 17-19",
+    "year": 2022
+  },
+  {
+    "name": "Watkins Glen",
+    "date": "July 22-24",
+    "year": 2022
+  },
+  {
+    "name": "Music City Grand Prix",
+    "date": "August 5-7",
+    "year": 2022
+  },
+  {
+    "name": "Road America",
+    "date": "August 19-21",
+    "year": 2022
+  },
+  {
+    "name": "Sebring International Raceway",
+    "date": "September 23-25",
+    "year": 2022
+  },
+  {
+    "name": "Indianapolis Motor Speedway",
+    "date": "October 7-9",
+    "year": 2022
+  },
+  {
+    "name": "St. Petersburg Grand Prix",
+    "date": "March 3-5",
+    "year": 2023
+  },
+  {
+    "name": "Sonoma Raceway",
+    "date": "April 1 - 2",
+    "year": 2023
+  },
+  {
+    "name": "NOLA Motorsports Park",
+    "date": "April 28 - 30",
+    "year": 2023
+  },
+  {
+    "name": "Circuit of the Americas",
+    "date": "May 19-21",
+    "year": 2023
+  },
+  {
+    "name": "VIRginia International Raceway",
+    "date": "June 16-18",
+    "year": 2023
+  },
+  {
+    "name": "Music City Grand Prix",
+    "date": "August 4-6",
+    "year": 2023
+  },
+  {
+    "name": "Road America",
+    "date": "August 18-20",
+    "year": 2023
+  },
+  {
+    "name": "Sebring International Raceway",
+    "date": "September 22-24",
+    "year": 2023
+  },
+  {
+    "name": "Indianapolis Motor Speedway",
+    "date": "October 5-7",
+    "year": 2023
+  }
+]
