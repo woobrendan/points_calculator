@@ -21,7 +21,10 @@ if __name__ == "__main__":
             if row['#'] == entry['number']:
                 points = int(row['Points'])
                 entry['driver1']['points'] += points
-                entry['driver1']['points'] += points
+
+                driver2 = entry.get('driver2')
+                if driver2:
+                    entry['driver2']['points'] += points
                 print(entry)
                 # Beware of double loop, printed twice
                 # hit post route to update points
