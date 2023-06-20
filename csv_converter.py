@@ -42,7 +42,7 @@ def change_key_name(dict_arr):
     return dict_arr
 
 
-# returns cleaned up data  to use to compare to entries
+# returns cleaned up csv results into list of dictionaries to use to compare to entries
 def csv_to_clean_keys(file_path):
     dict_arr = csv_to_dict_arr(file_path)
     cleaned = clean_results(dict_arr, key_list)
