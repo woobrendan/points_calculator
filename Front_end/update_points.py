@@ -20,12 +20,16 @@ if __name__ == "__main__":
         for entry in entries:
             if row['#'] == entry['number']:
                 points = int(row['Points'])
+                # update matching entry points for each driver
                 entry['driver1']['points'] += points
 
                 driver2 = entry.get('driver2')
                 if driver2:
                     entry['driver2']['points'] += points
-                print(entry)
+
+                update_url = 'http://localhost:2020/entries/' + entry['_id']
+                requests.patch(update_url, json=entry)
+
                 # Beware of double loop, printed twice
                 # hit post route to update points
 
