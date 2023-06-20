@@ -1,6 +1,6 @@
 import csv
 
-file_path = './Results/results.csv'
+file_path = '../Results/results.csv'
 
 key_list = [
     'Pos',
@@ -49,5 +49,6 @@ def csv_to_clean_keys(file_path):
     return change_key_name(cleaned)
 
 
-for row in csv_to_clean_keys(file_path):
-    print(row)
+if __name__ == "__main__":
+    for row in csv_to_clean_keys(file_path):
+        print(row)
