@@ -43,7 +43,7 @@ def change_key_name(dict_arr):
             series = result['Series']
 
             if series == 'FGTWCA':
-                result['Series'] = 'GT World Challenge'
+                result['Series'] = 'GT World Challenge America'
             elif series == 'PGT4A':
                 result['Series'] = 'Pirelli GT4 America'
             elif series == 'GTA':
