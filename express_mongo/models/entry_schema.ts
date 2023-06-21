@@ -21,13 +21,13 @@ const entrySchema: Schema = new Schema({
     name: { type: String },
     rating: { type: String },
     nationality: { type: String },
-    points: { type: Number, required: true },
+    points: { type: Number },
   },
   driver3: {
     name: { type: String },
     rating: { type: String },
     nationality: { type: String },
-    points: { type: Number, required: true },
+    points: { type: Number },
   },
 });
 
