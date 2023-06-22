@@ -3,27 +3,19 @@
 {% block title %} Welcome {% endblock %}
 
 {% block content %}
-    <div class="mt-6 px-6 py-12 bg-gray-100 rounded-xl text-center">
+    <div class="mt-6 px-6 py-12 bg-gray-100 rounded-xl text-center text-3xl">
         SRO Points
     </div>
 
-    <div class="mt-6 px-6 py-12 bg-gray-100">
+    <div class="mt-6 px-6 py-12 bg-gray-100 rounded-xl">
         <ul class="space-y-2">
-            <li class="py-2 px-2 rounded-xl bg-red-100">
+            {% for standing in standing_list %}
+            <li class="py-2 px-2 rounded-xl bg-red-200 text-lg hover:bg-red-500">
                 <a href="#">
-                    Drivers Standings
+                    {{ standing }} Standings
                 </a>
             </li>
-            <li class="py-2 px-2 rounded-xl bg-red-100">
-                <a href="#">
-                   Manufacturer Standings
-                </a>
-            </li>
-            <li class="py-2 px-2 rounded-xl bg-red-100">
-                <a href="#">
-                    Team Standings
-                </a>
-            </li>
+            {% endfor %}
         </ul>
     </div>
 {% endblock %}
