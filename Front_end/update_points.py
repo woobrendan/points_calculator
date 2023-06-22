@@ -10,15 +10,13 @@ def get_entries():
     return data['entry']
 
 
-# for row in get_entries():
-#     print(row)
 result = csv_to_clean_keys(file_path)
 entries = get_entries()
 
-if __name__ == "__main__":
+
+def update_points():
     # creates a dictionary, with the key as the number and series, and the value as the entry
-    entry_mapping = {(entry['number'], entry['series'])
-                      : entry for entry in entries}
+    entry_mapping = {(entry['number'], entry['series'])                     : entry for entry in entries}
 
     for row in result:
         key = (row['#'], row['Series'])
@@ -34,5 +32,9 @@ if __name__ == "__main__":
             update_url = 'http://localhost:2020/entries/' + entry['_id']
             requests.patch(update_url, json=entry)
 
-    # for row in result:
-    #     print(row)
+
+# for row in get_entries():
+#     print(row)
+
+if __name__ == "__main__":
+    update_points()
