@@ -5,13 +5,15 @@
         "name": "George Kurtz",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Colin Braun",
           "nationality": "USA",
           "rating": "Gold",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Mercedes-AMG GT3",
       "classification": "Pro-Am",
@@ -26,13 +28,15 @@
         "name": "Derek DeBoer",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Valentin Hasse Clot",
           "nationality": "France",
           "rating": "Gold",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Aston Martin Vantage AMR GT3",
       "classification": "Pro-Am",
@@ -47,13 +51,15 @@
         "name": "Scott Smithson",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Bryan Sellers",
           "nationality": "USA",
           "rating": "Gold",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Mercedes-AMG GT3",
       "classification": "Pro-Am",
@@ -68,13 +74,15 @@
         "name": "Kenton Koch",
         "nationality": "USA",
         "rating": "Silver",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Daniel Morad",
           "nationality": "Canada",
           "rating": "Gold",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Mercedes-AMG GT3",
       "classification": "Pro",
@@ -89,13 +97,15 @@
         "name": "James Sofronas",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Tom Dyer",
           "nationality": "USA",
           "rating": "Silver",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Audi R8 LMS ",
       "classification": "Pro-Am",
@@ -110,13 +120,15 @@
         "name": "Pedro Torres",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Spencer Pumpelly",
           "nationality": "USA",
           "rating": "Silver",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Porsche 911 GT3-R (991.ii)",
       "classification": "Pro-Am",
@@ -131,13 +143,15 @@
         "name": "Will Hardeman",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Adam Carroll",
           "nationality": "Great Britain",
           "rating": "Gold",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Mercedes-AMG GT3",
       "classification": "Pro-Am",
@@ -152,13 +166,15 @@
         "name": "Manny Franco",
         "nationality": "USA",
         "rating": "Silver",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Alessandro Balzan",
           "nationality": "Italy",
           "rating": "Gold",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Ferrari 296 GT3",
       "classification": "Pro",
@@ -173,13 +189,15 @@
         "name": "Eric Filgueiras",
         "nationality": "USA",
         "rating": "Silver",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Stevan McAleer",
           "nationality": "Great Britain",
           "rating": "Gold",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Porsche 911 GT3-R (991.ii)",
       "classification": "Pro",
@@ -194,13 +212,15 @@
         "name": "Justin Wetherill",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Ryan Dalziel",
           "nationality": "Scotland",
           "rating": "Gold",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Ferrari 296 GT3",
       "classification": "Pro-Am",
@@ -215,13 +235,15 @@
         "name": "Samantha Tan",
         "nationality": "Canada",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Neil Verhagen",
           "nationality": "USA",
           "rating": "Gold",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "BMW M4 GT3",
       "classification": "Pro-Am",
@@ -236,13 +258,15 @@
         "name": "Anthony Bartone",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Adam Christodoulou",
           "nationality": "Great Britain",
           "rating": "Gold",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Mercedes-AMG GT3",
       "classification": "Pro-Am",
@@ -257,13 +281,15 @@
         "name": "Charlie Luck",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Jan Heylen",
           "nationality": "Belgium",
           "rating": "Gold",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Porsche 911 GT3-R (991.ii)",
       "classification": "Pro-Am",
@@ -278,13 +304,15 @@
         "name": "Trenton Estep",
         "nationality": "USA",
         "rating": "Silver",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Seth Lucas",
           "nationality": "USA",
           "rating": "Silver",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Porsche 911 GT3-R (991.ii)",
       "classification": "Pro",
@@ -299,13 +327,15 @@
         "name": "Jeff Burton",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Corey Lewis",
           "nationality": "USA",
           "rating": "Silver",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Mercedes-AMG GT3",
       "classification": "Pro-Am",
@@ -320,13 +350,15 @@
         "name": "Ashton Harrison",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Mario Farnbacher",
           "nationality": "Germany",
           "rating": "Gold",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Acura NSX GT3 EVO22",
       "classification": "Pro",
@@ -341,13 +373,15 @@
         "name": "Chandler Hull",
         "nationality": "USA",
         "rating": "Silver",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Bill Auberlen",
           "nationality": "USA",
           "rating": "Gold",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "BMW M4 GT3",
       "classification": "Pro",
@@ -362,13 +396,15 @@
         "name": "Adam Adelson",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Elliott Skeer",
           "nationality": "USA",
           "rating": "Silver",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Porsche 911 GT3-R (991.ii)",
       "classification": "Pro-Am",
@@ -383,7 +419,8 @@
         "name": "George Kurtz",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Mercedes-AMG GT3",
       "classification": "SRO3",
@@ -398,7 +435,8 @@
         "name": "Scott Smithson",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Mercedes-AMG GT3",
       "classification": "SRO3",
@@ -413,7 +451,8 @@
         "name": "Ziad Ghandour",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Mercedes-AMG GT3",
       "classification": "SRO3",
@@ -428,7 +467,8 @@
         "name": "Marc Austin",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Mercedes-AMG GT3",
       "classification": "SRO3",
@@ -443,7 +483,8 @@
         "name": "Jason Daskalos",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Mercedes-AMG GT3",
       "classification": "SRO3",
@@ -458,7 +499,8 @@
         "name": "Kyle Washington",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Porsche 911 GT3-R (991.ii)",
       "classification": "SRO3",
@@ -473,7 +515,8 @@
         "name": "Todd Treffert",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Mercedes-AMG GT3",
       "classification": "SRO3",
@@ -488,7 +531,8 @@
         "name": "Alex Vogel",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Porsche 911 GT3-R (991.ii)",
       "classification": "SRO3",
@@ -503,7 +547,8 @@
         "name": "Mirco Schultis",
         "nationality": "Germany",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Corvette C7 GT3-R",
       "classification": "SRO3",
@@ -518,7 +563,8 @@
         "name": "Jeff Burton",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Mercedes-AMG GT3",
       "classification": "SRO3",
@@ -533,7 +579,8 @@
         "name": "Adam Adelson",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Porsche 911 GT3-R (991.ii)",
       "classification": "SRO3",
@@ -548,7 +595,8 @@
         "name": "Anthony Bartone",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Mercedes-AMG GT3",
       "classification": "SRO3",
@@ -563,7 +611,8 @@
         "name": "Tony Gaples",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Chevrolet Camaro GT4-R",
       "classification": "GT4",
@@ -578,7 +627,8 @@
         "name": "Rob Walker",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "BMW M4 GT4",
       "classification": "GT4",
@@ -593,7 +643,8 @@
         "name": "Nick Shanny",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Toyota Gazoo Racing GR Supra GT4",
       "classification": "GT4",
@@ -608,7 +659,8 @@
         "name": "Gray Newell",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Aston Martin Vantage AMR GT4",
       "classification": "GT4",
@@ -623,7 +675,8 @@
         "name": "Ross Chouest",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Aston Martin Vantage AMR GT4",
       "classification": "GT4",
@@ -638,7 +691,8 @@
         "name": "Todd Coleman",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Aston Martin Vantage AMR GT4",
       "classification": "GT4",
@@ -653,7 +707,8 @@
         "name": "Paul Kiebler",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Aston Martin Vantage AMR GT4",
       "classification": "GT4",
@@ -668,13 +723,15 @@
         "name": "Paul Kiebler",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Jon Branam",
           "nationality": "USA",
           "rating": "Bronze",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Aston Martin Vantage AMR GT4",
       "classification": "Am",
@@ -689,7 +746,8 @@
         "name": "Robb Holland",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Porsche 718 Cayman GT4 RS CS",
       "classification": "GT4",
@@ -704,7 +762,8 @@
         "name": "Chris Alliegro",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Porsche 718 Cayman GT4 RS CS",
       "classification": "GT4",
@@ -719,7 +778,8 @@
         "name": "Memo Gidley",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Mercedes-AMG GT3",
       "classification": "SRO3",
@@ -734,7 +794,8 @@
         "name": "David Traitel",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Bentley Continental GT3",
       "classification": "SRO3",
@@ -749,7 +810,8 @@
         "name": "Andy Wilzoch",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Porsche 911 GT3-R (991.ii)",
       "classification": "SRO3",
@@ -764,7 +826,8 @@
         "name": "Elias Sabo",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Aston Martin Vantage AMR GT4",
       "classification": "GT4",
@@ -779,7 +842,8 @@
         "name": "Jason Bell",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Aston Martin Vantage AMR GT4",
       "classification": "GT4",
@@ -794,7 +858,8 @@
         "name": "Slade Stewart",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Porsche 718 Cayman GT4 RS Clubsport",
       "classification": "GT4",
@@ -809,13 +874,15 @@
         "name": "Curt Swearingin",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Kay Van Berlo",
           "nationality": "Netherlands",
           "rating": "Silver",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Porsche 718 Cayman GT4 RS CS",
       "classification": "Pro-Am",
@@ -830,13 +897,15 @@
         "name": "Elias Sabo",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Andy Lee",
           "nationality": "USA",
           "rating": "Silver",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Aston Martin Vantage AMR GT4",
       "classification": "Pro-Am",
@@ -851,13 +920,15 @@
         "name": "Christian Ruppel",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Eric Zitza",
           "nationality": "USA",
           "rating": "Silver",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Porsche 718 Cayman GT4 RS CS",
       "classification": "Am",
@@ -872,13 +943,15 @@
         "name": "Roland Krainz",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Austin Krainz",
           "nationality": "USA",
           "rating": "Bronze",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Porsche 718 Cayman GT4 RS CS",
       "classification": "Am",
@@ -893,13 +966,15 @@
         "name": "Francis Selldorff",
         "nationality": "USA",
         "rating": "Silver",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Andrew Davis",
           "nationality": "USA",
           "rating": "Silver",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Porsche 718 Cayman GT4 RS CS",
       "classification": "Silver",
@@ -914,13 +989,15 @@
         "name": "Eric Powell",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Colin Harrison",
           "nationality": "USA",
           "rating": "Bronze*",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Nissan Z GT4",
       "classification": "Pro-Am",
@@ -935,13 +1012,15 @@
         "name": "Tyler Stone",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Bryan Heitkotter",
           "nationality": "USA",
           "rating": "Silver",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Nissan Z GT4",
       "classification": "Pro-Am",
@@ -956,13 +1035,15 @@
         "name": "Nick Shanny",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Terry Borcheller",
           "nationality": "USA",
           "rating": "Bronze",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Toyota Gazoo Racing GR Supra",
       "classification": "Am",
@@ -977,13 +1058,15 @@
         "name": "Gray Newell",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Roman De Angelis",
           "nationality": "Canada",
           "rating": "Silver",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Aston Martin Vantage AMR GT4",
       "classification": "Pro-Am",
@@ -998,13 +1081,15 @@
         "name": "Hannah Grisham",
         "nationality": "USA",
         "rating": "Bronze*",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Rianna O'Meara-Hunt",
           "nationality": "New Zealand",
           "rating": "Bronze*",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Aston Martin Vantage AMR GT4",
       "classification": "Am",
@@ -1019,13 +1104,15 @@
         "name": "Peter Atwater",
         "nationality": "USA",
         "rating": "Bronze*",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Luca Mars",
           "nationality": "USA",
           "rating": "Silver",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Mercedes-AMG GT4",
       "classification": "Pro-Am",
@@ -1040,13 +1127,15 @@
         "name": "Kyle Washington",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "James Sofronas",
           "nationality": "USA",
           "rating": "Bronze",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Porsche 718 Cayman GT4 RS CS",
       "classification": "Am",
@@ -1061,13 +1150,15 @@
         "name": "Michai Stephens",
         "nationality": "USA",
         "rating": "Silver",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Jesse Webb",
           "nationality": "Canada",
           "rating": "Silver",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Mercedes-AMG GT4",
       "classification": "Silver",
@@ -1082,13 +1173,15 @@
         "name": "Custodio Toledo",
         "nationality": "Brazil",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Paulo Carcasci",
           "nationality": "Brazil",
           "rating": "Am",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Mercedes-AMG GT4",
       "classification": "Am",
@@ -1103,13 +1196,15 @@
         "name": "Charlie Postins",
         "nationality": "Great Britain",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "James Clay",
           "nationality": "USA",
           "rating": "Bronze",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "BMW M4 GT4",
       "classification": "Am",
@@ -1124,13 +1219,15 @@
         "name": "Matt Forbush",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Carter Fartuch",
           "nationality": "USA",
           "rating": "Silver",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Toyota Gazoo Racing GR Supra GT4",
       "classification": "Pro-Am",
@@ -1145,13 +1242,15 @@
         "name": "Johan Schwartz",
         "nationality": "Denmark",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Colin Garrett",
           "nationality": "USA",
           "rating": "Silver",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "BMW M4 GT4",
       "classification": "Pro-Am",
@@ -1166,13 +1265,15 @@
         "name": "Ross Chouest",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Aaron Povoledo",
           "nationality": "Canada",
           "rating": "Silver",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Aston Martin Vantage AMR GT4",
       "classification": "Pro-Am",
@@ -1187,13 +1288,15 @@
         "name": "David Peterman",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Lee Carpentier",
           "nationality": "USA",
           "rating": "Bronze",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Porsche 718 Cayman GT4 RS Clubsport",
       "classification": "Am",
@@ -1208,13 +1311,15 @@
         "name": "Nelson Calle",
         "nationality": "Columbia",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Juan Martinez",
           "nationality": "USA",
           "rating": "Bronze",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Porsche 718 Cayman GT4 RS Clubsport",
       "classification": "Am",
@@ -1229,13 +1334,15 @@
         "name": "Tim Pappas",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Jereon Bleekemolen",
           "nationality": "Netherlands",
           "rating": "Gold",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "McLaren Artura GT4",
       "classification": "Pro-Am",
@@ -1250,13 +1357,15 @@
         "name": "Richard Edge",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Matt Halcome",
           "nationality": "USA",
           "rating": "Bronze",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Porsche 718 Cayman GT4 RT4 Clubsport",
       "classification": "Am",
@@ -1271,13 +1380,15 @@
         "name": "Joey DaSilva",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Isabella Robusto",
           "nationality": "USA",
           "rating": "Bronze",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Toyota Gazoo Racing GR Supra GT4",
       "classification": "Am",
@@ -1292,13 +1403,15 @@
         "name": "Kevin Conway",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "John Geesbreght",
           "nationality": "USA",
           "rating": "Silver",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Toyota Gazoo Racing GR Supra GT4",
       "classification": "Pro-Am",
@@ -1313,13 +1426,15 @@
         "name": "Todd Coleman",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Billy Johnson",
           "nationality": "USA",
           "rating": "Gold",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Aston Martin Vantage AMR GT4",
       "classification": "Pro-Am",
@@ -1334,13 +1449,15 @@
         "name": "Tyler Maxson",
         "nationality": "USA",
         "rating": "Silver",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Tyler Gonzalez",
           "nationality": "USA",
           "rating": "Silver",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Toyota Gazoo Racing GR Supra GT4",
       "classification": "Silver",
@@ -1355,13 +1472,15 @@
         "name": "James Walker Jr",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Tyler McQuarrie",
           "nationality": "USA",
           "rating": "Silver",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "BMW M4 GT4",
       "classification": "Pro-Am",
@@ -1376,13 +1495,15 @@
         "name": "Harry Gottsacker",
         "nationality": "USA",
         "rating": "Silver",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Chandler Hull",
           "nationality": "USA",
           "rating": "Silver",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "BMW M4 GT4",
       "classification": "Silver",
@@ -1397,13 +1518,15 @@
         "name": "Robert Mau",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Chris Allen",
           "nationality": "USA",
           "rating": "Bronze*",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "BMW M4 GT4",
       "classification": "Am",
@@ -1418,13 +1541,15 @@
         "name": "Tommy Johnson",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Michael Auriemma",
           "nationality": "USA",
           "rating": "Silver",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Mercedes-AMG GT4",
       "classification": "Am",
@@ -1439,13 +1564,15 @@
         "name": "Kevin Boehm",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Kenton Koch",
           "nationality": "USA",
           "rating": "Silver",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "BMW M4 GT4",
       "classification": "Silver   ",
@@ -1460,13 +1587,15 @@
         "name": "Paul Sparta",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Al Carter",
           "nationality": "USA",
           "rating": "Bronze",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "BMW M4 GT4",
       "classification": "Am",
@@ -1481,13 +1610,15 @@
         "name": "Rob Ferriol",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Will Owen",
           "nationality": "USA",
           "rating": "Gold",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Porsche 718 Cayman GT4 RS Clubsport",
       "classification": "Pro-Am",
@@ -1502,13 +1633,15 @@
         "name": "Chris Walsh",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Dominic Starkweather",
           "nationality": "USA",
           "rating": "Silver",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Porsche 718 Cayman GT4 RS Clubsport",
       "classification": "Silver",
@@ -1523,13 +1656,15 @@
         "name": "Sean Gibbons",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Sam Owen",
           "nationality": "USA",
           "rating": "Bronze",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Porsche 718 Cayman GT4 RS Clubsport",
       "classification": "Am",
@@ -1544,13 +1679,15 @@
         "name": "Robb Holland",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Alain Stad",
           "nationality": "USA",
           "rating": "Bronze",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Porsche 718 Cayman GT4 RS Clubsport",
       "classification": "Am",
@@ -1565,13 +1702,15 @@
         "name": "Rob Walker",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Satakal Khalsa",
           "nationality": "USA",
           "rating": "Bronze",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "BMW M4 GT4",
       "classification": "Am",
@@ -1586,13 +1725,15 @@
         "name": "John Capestro Dubets",
         "nationality": "USA",
         "rating": "Silver",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Zac Anderson",
           "nationality": "USA",
           "rating": "Silver",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "BMW M4 GT4",
       "classification": "Silver",
@@ -1607,13 +1748,15 @@
         "name": "Brady Behrman",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Coby Shield",
           "nationality": "USA",
           "rating": "Silver",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Aston Martin Vantage AMR GT4",
       "classification": "Pro-Am",
@@ -1628,13 +1771,15 @@
         "name": "Anderson Tanoto",
         "nationality": "Indonesia",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Jaden Conwright",
           "nationality": "USA",
           "rating": "Silver",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Porsche 718 Cayman GT4 RS Clubsport",
       "classification": "Am",
@@ -1649,13 +1794,15 @@
         "name": "Parker Thompson",
         "nationality": "Canada",
         "rating": "Silver",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Daniel Hanley",
           "nationality": "USA",
           "rating": "Silver",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Toyota Gazoo Racing GR Supra GT4",
       "classification": "Silver",
@@ -1670,7 +1817,8 @@
         "name": "Kenny Schmied",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "BMW M2 CS (Cup)",
       "classification": "TCX",
@@ -1685,7 +1833,8 @@
         "name": "Adam Gleason",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "BMW M2 CS (Cup)",
       "classification": "TCX",
@@ -1700,7 +1849,8 @@
         "name": "Joesph Catania",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "BMW M2 CS (Cup)",
       "classification": "TCX",
@@ -1715,7 +1865,8 @@
         "name": "Lucas Catania",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "BMW M2 CS (Cup)",
       "classification": "TCX",
@@ -1730,7 +1881,8 @@
         "name": "Colin Garrett",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "BMW M2 CS (Cup)",
       "classification": "TCX",
@@ -1745,7 +1897,8 @@
         "name": "William Tally",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Honda Civic Type-R TCX",
       "classification": "TCX",
@@ -1760,7 +1913,8 @@
         "name": "Christopher DeFreitas",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Honda Civic Type-R TCX",
       "classification": "TCX",
@@ -1775,7 +1929,8 @@
         "name": "Daijiro Yoshihara",
         "nationality": "Japan",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Honda Civic Type-R TCX",
       "classification": "TCX",
@@ -1790,7 +1945,8 @@
         "name": "Celso Neto",
         "nationality": "Brazil",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Honda Civic Type-R",
       "classification": "TC",
@@ -1805,7 +1961,8 @@
         "name": "Cristian Perocarpi",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Mini JCW Pro TC",
       "classification": "TC",
@@ -1820,7 +1977,8 @@
         "name": "Clayton Williams",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Mini JCW Pro TC",
       "classification": "TC",
@@ -1835,7 +1993,8 @@
         "name": "Jeff Ricca",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Hyundai Elantra N TC",
       "classification": "TC",
@@ -1850,7 +2009,8 @@
         "name": "Michael Hurczyn",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Honda Civic Type-R",
       "classification": "TC",
@@ -1865,7 +2025,8 @@
         "name": "Kris Valdez",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Honda Civic Type-R",
       "classification": "TC",
@@ -1880,7 +2041,8 @@
         "name": "Ken Fukuda",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Honda Civic Type-R",
       "classification": "TC",
@@ -1895,7 +2057,8 @@
         "name": "Sally McNulty",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Hyundai Veloster N DCT TC",
       "classification": "TC",
@@ -1910,7 +2073,8 @@
         "name": "Spencer Bucknum",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Honda Civic Si FE1",
       "classification": "TCA",
@@ -1925,7 +2089,8 @@
         "name": "Mario Biundo",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Honda Civic Si",
       "classification": "TCA",
@@ -1940,7 +2105,8 @@
         "name": "Cooper Broll",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Honda Civic Si FE1",
       "classification": "TCA",
@@ -1955,7 +2121,8 @@
         "name": "Devin Anderson",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Subaru BRZ",
       "classification": "TCA",
@@ -1970,7 +2137,8 @@
         "name": "Shaoyi Che",
         "nationality": "China",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Subaru BRZ",
       "classification": "TCA",
@@ -1985,7 +2153,8 @@
         "name": "PJ Groenke",
         "nationality": "Canada",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Mini JCW",
       "classification": "TCA",
@@ -2000,7 +2169,8 @@
         "name": "Alain Lauziere ",
         "nationality": "Canada",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Mini JCW",
       "classification": "TCA",
@@ -2015,7 +2185,8 @@
         "name": "Landon Lewis",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Mini JCW",
       "classification": "TCA",
@@ -2030,7 +2201,8 @@
         "name": "William Lambros",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Honda Civic Si FE1",
       "classification": "TCA",
@@ -2046,7 +2218,8 @@
         "name": "Ruben Iglesias Jr",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Honda Civic Si FE1",
       "classification": "TCA",
@@ -2061,7 +2234,8 @@
         "name": "Tim Savage",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Aston Martin Vantage AMR GT4",
       "classification": "GT4", 
@@ -2076,13 +2250,15 @@
         "name": "Matt Travis",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Jason Hart",
           "nationality": "USA",
           "rating": "Silver",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Porsche 718 Cayman GT4 RS Clubsport",
       "classification": "Pro-Am", 
@@ -2097,7 +2273,8 @@
         "name": "Jeff Burton",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Mercedes-AMG GT3",
       "classification": "Masters",
@@ -2112,7 +2289,8 @@
         "name": "Andy Wilzoch",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Porsche 911 GT3-R (991.ii)",
       "classification": "Masters",
@@ -2127,7 +2305,8 @@
         "name": "Mirco Schultis",
         "nationality": "Germany",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Corvette C7 GT3-R",
       "classification": "Masters",
@@ -2142,7 +2321,8 @@
         "name": "Gresham Wagner",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Toyota GR86",
       "classification": "Am",
@@ -2157,7 +2337,8 @@
         "name": "Will Rodgers",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Toyota GR86",
       "classification": "Am",
@@ -2172,7 +2353,8 @@
         "name": "Michael Garcia",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Toyota GR86",
       "classification": "Am",
@@ -2187,7 +2369,8 @@
         "name": "Will Robusto",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Toyota GR86",
       "classification": "Am",
@@ -2202,7 +2385,8 @@
         "name": "Cat Lauren",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Toyota GR86",
       "classification": "Am",
@@ -2217,7 +2401,8 @@
         "name": "Mark Pombo",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Toyota GR86",
       "classification": "Am",
@@ -2232,7 +2417,8 @@
         "name": "Jack Woodfin",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Toyota GR86",
       "classification": "Am",
@@ -2247,7 +2433,8 @@
         "name": "Tommy McCarthy",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Toyota GR86",
       "classification": "Am",
@@ -2262,7 +2449,8 @@
         "name": "Taylor Gray",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Toyota GR86",
       "classification": "Am",
@@ -2277,7 +2465,8 @@
         "name": "Lev Uretsky",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Toyota GR86",
       "classification": "Am", 
@@ -2292,7 +2481,8 @@
         "name": "Justin Piscitelli",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Toyota GR86",
       "classification": "Am", 
@@ -2307,7 +2497,8 @@
         "name": "Alex Garcia",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Toyota GR86",
       "classification": "Am", 
@@ -2322,7 +2513,8 @@
         "name": "Austin Dodge",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Toyota GR86",
       "classification": "Am", 
@@ -2337,7 +2529,8 @@
         "name": "Spencer Schmidt",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Toyota GR86",
       "classification": "Am", 
@@ -2352,7 +2545,8 @@
         "name": "Derek Jones",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Toyota GR86",
       "classification": "Am", 
@@ -2367,7 +2561,8 @@
         "name": "Lucas Weisenberg",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Toyota GR86",
       "classification": "Am", 
@@ -2382,7 +2577,8 @@
         "name": "Spike Kohlbecker",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Toyota GR86",
       "classification": "Am", 
@@ -2397,7 +2593,8 @@
         "name": "Tyler Gonzalez",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Toyota GR86",
       "classification": "Am", 
@@ -2412,7 +2609,8 @@
         "name": "Amadeo Quiros Martén",
         "nationality": "Costa Rica",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Toyota GR86",
       "classification": "Am", 
@@ -2427,7 +2625,8 @@
         "name": "Jaxon Bell",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Toyota GR86",
       "classification": "Am", 
@@ -2442,7 +2641,8 @@
         "name": "Joey DaSilva",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Toyota GR86",
       "classification": "Am", 
@@ -2457,7 +2657,8 @@
         "name": "Mia Lovell",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Toyota GR86",
       "classification": "Am", 
@@ -2472,7 +2673,8 @@
         "name": "Adam Isman",
         "nationality": "Canada",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Toyota GR86",
       "classification": "Am", 
@@ -2487,7 +2689,8 @@
         "name": "Tyler Wettengel",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Toyota GR86",
       "classification": "Am", 
@@ -2502,7 +2705,8 @@
         "name": "Toni Breidinger",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Toyota GR86",
       "classification": "Am", 
@@ -2517,7 +2721,8 @@
         "name": "Paul Bocuse",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Toyota GR86",
       "classification": "Am", 
@@ -2532,7 +2737,8 @@
         "name": "Aidan Yoder",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Toyota GR86",
       "classification": "Am", 
@@ -2547,7 +2753,8 @@
         "name": "Steven Clemons",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Toyota GR86",
       "classification": "Am", 
@@ -2562,7 +2769,8 @@
         "name": "Ruben Iglesias Jr.",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Toyota GR86",
       "classification": "Am", 
@@ -2577,7 +2785,8 @@
         "name": "Canaan O'Connell",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Toyota GR86",
       "classification": "Am", 
@@ -2592,7 +2801,8 @@
         "name": "Drake Kemper",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Toyota GR86",
       "classification": "Am", 
@@ -2607,7 +2817,8 @@
         "name": "Toni Breidinger",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Toyota GR86",
       "classification": "Female", 
@@ -2622,7 +2833,8 @@
         "name": "Isabella Robusto",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Toyota GR86",
       "classification": "Female",
@@ -2637,7 +2849,8 @@
         "name": "Cat Lauren",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Toyota GR86",
       "classification": "Female",
@@ -2652,7 +2865,8 @@
         "name": "Johnny O'Connell",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Audi R8 LMS",
       "classification": "SRO3",
@@ -2667,7 +2881,8 @@
         "name": "Johnny O'Connell",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Audi R8 LMS",
       "classification": "Masters",
@@ -2682,7 +2897,8 @@
         "name": "Matt Joffe",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Porsche 718 Cayman GT4 RS Clubsport",
       "classification": "GT4",
@@ -2697,13 +2913,15 @@
         "name": "Anthony Geraci",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Jaden Lander",
           "nationality": "USA",
           "rating": "Bronze*",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Toyota Gazoo Racing GR Supra GT4 EVO",
       "classification": "Am",
@@ -2718,13 +2936,15 @@
         "name": "Matt Joffe",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Grant Maiman",
           "nationality": "USA",
           "rating": "Bronze",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Porsche 718 Cayman GT4 RS Clubsport",
       "classification": "Am",
@@ -2739,7 +2959,8 @@
         "name": "Maddie Aust",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "BMW M2 CS (Cup)",
       "classification": "TCX",
@@ -2754,7 +2975,8 @@
         "name": "James Sofronas",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Audi R8 LMS GT3 EVO II",
       "classification": "SRO3",
@@ -2769,7 +2991,8 @@
         "name": "James Sofronas",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Audi R8 LMS GT3 EVO II",
       "classification": "Masters",
@@ -2784,7 +3007,8 @@
         "name": "John Roberts",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "BMW M4 GT4",
       "classification": "GT4",
@@ -2799,7 +3023,8 @@
         "name": "Jay Logan",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Porsche 718 Cayman GT4 RS Clubsport",
       "classification": "GT4",
@@ -2814,13 +3039,15 @@
         "name": "Jason Bell",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Michael Cooper",
           "nationality": "USA",
           "rating": "Silver",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Aston Martin Vantage AMR GT4",
       "classification": "Pro-Am",
@@ -2835,13 +3062,15 @@
         "name": "Jay Logan",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Alec Udell",
           "nationality": "USA",
           "rating": "Silver",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Porsche 718 Cayman GT4 RS Clubsport",
       "classification": "Pro-Am",
@@ -2856,13 +3085,15 @@
         "name": "Anderson Tanoto",
         "nationality": "Indonesia",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Jaden Conwright",
           "nationality": "USA",
           "rating": "Silver",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "Porsche 718 Cayman GT4 RS Clubsport",
       "classification": "Pro-Am",
@@ -2877,7 +3108,8 @@
         "name": "Nick Roberts",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "BMW M2 CS (Cup)",
       "classification": "TCX",
@@ -2892,7 +3124,8 @@
         "name": "Jeremiah Burton",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Honda Civic Type-R",
       "classification": "TC",
@@ -2907,7 +3140,8 @@
         "name": "Andrew Gilleland",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Toyota GR86",
       "classification": "Am", 
@@ -2922,7 +3156,8 @@
         "name": "Mia Lovell",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Toyota GR86",
       "classification": "Female", 
@@ -2937,13 +3172,15 @@
         "name": "Vincent Barletta",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Robby Foley",
           "nationality": "USA",
           "rating": "Silver",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "BMW M4 GT3",
       "classification": "Pro-Am",
@@ -2958,7 +3195,8 @@
         "name": "Vincent Barletta",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "BMW M4 GT3",
       "classification": "SRO3",
@@ -2973,7 +3211,8 @@
         "name": "CJ Moses",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Audi R8 LMS GT2",
       "classification": "GT2",
@@ -2988,7 +3227,8 @@
         "name": "Eric Rockwell",
         "nationality": "USA",
         "rating": "N/A",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "vehicle": "Hyundai Veloster Turbo TCA",
       "classification": "TC",
@@ -3003,13 +3243,15 @@
         "name": "Michael Dayton",
         "nationality": "USA",
         "rating": "Bronze",
-        "points": 0
+        "totalPoints": 0,
+        "points": []
       },
       "driver2": {
           "name": "Jason Griscavage",
           "nationality": "USA",
           "rating": "Bronze",
-          "points": 0
+          "totalPoints": 0,
+          "points": []
       },
       "vehicle": "BMW M4 GT4",
       "classification": "Am",
