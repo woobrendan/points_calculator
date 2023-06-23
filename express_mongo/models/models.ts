@@ -2,6 +2,8 @@ export interface DriverInfo {
   name: string;
   rating: string;
   nationality: string;
+  totalPoints: number;
+  points: number[];
 }
 
 export interface EntryInterface {
