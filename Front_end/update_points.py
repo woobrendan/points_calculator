@@ -4,26 +4,30 @@ from csv_converter import csv_to_clean_keys
 file_path = '../Results/results.csv'
 
 
-def get_entries():
+def get_entries(series):
     response = requests.get('http://localhost:2020/entries')
     data = response.json()
-    return data['entry']
+    filtered = [entry for entry in data['entry']
+                if entry.get('series') == series]
+    return filtered
 
 
 result = csv_to_clean_keys(file_path)
-entries = get_entries()
+series = result[0]['Series']
+entries = get_entries(series)
 
 
-def update_points(entry):
+def update_points():
     # creates a dictionary, with the key as the number and series, and the value as the entry
-    entry_mapping = {(entry['number'], entry['series']): entry for entry in entries}
+    entry_mapping = {(entry['number'], entry['series'])
+                      : entry for entry in entries}
 
     for row in result:
         key = (row['#'], row['Series'])
-        driver2 = entry.get('driver2')
 
         if key in entry_mapping:
             entry = entry_mapping[key]
+            driver2 = entry.get('driver2')
             points = int(row['Points'])
 
             entry['driver1']['totalPoints'] += points
@@ -39,13 +43,10 @@ def update_points(entry):
             if driver2:
                 entry['driver2']['points'].append(None)
 
-        update_url = 'http://localhost:2020/entries/' + entry['_id']
-        requests.patch(update_url, json=entry)
+        # update_url = 'http://localhost:2020/entries/' + entry['_id']
+        # requests.patch(update_url, json=entry)
+        print(entry)
 
-
-# for row in get_entries():
-#     print(row)
 
 if __name__ == "__main__":
-    for entry in entries:
-        update_points(entry)
+    update_points()
