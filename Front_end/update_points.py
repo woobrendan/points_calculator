@@ -12,15 +12,13 @@ def get_entries(series):
     return filtered
 
 
-result = csv_to_clean_keys(file_path)
-series = result[0]['Series']
-entries = get_entries(series)
+def update_points(file_path):
+    result = csv_to_clean_keys(file_path)
+    series = result[0]['Series']
+    entries = get_entries(series)
 
-
-def update_points():
     # creates a dictionary, with the key as the number and series, and the value as the entry
-    entry_mapping = {(entry['number'], entry['series'])
-                      : entry for entry in entries}
+    entry_mapping = {(entry['number'], entry['series']): entry for entry in entries}
 
     for row in result:
         key = (row['#'], row['Series'])
@@ -49,4 +47,4 @@ def update_points():
 
 
 if __name__ == "__main__":
-    update_points()
+    update_points(file_path)
