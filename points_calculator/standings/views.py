@@ -12,6 +12,14 @@ def drivers_standing():
         series = 'GT World Challenge America'
         filtered = [entry for entry in data
                     if entry.get('series') == series]
+        drivers = []
+        for entry in filtered:
+            driver2 = entry.get('driver2')
+            drivers.append(entry['driver1'])
+
+            if driver2:
+                drivers.append(entry['driver2'])
+        print(drivers)
 
     else:
         return HTTPResponse('Failed to fetch data from API')
