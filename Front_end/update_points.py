@@ -41,9 +41,8 @@ def update_points(file_path):
             if driver2:
                 entry['driver2']['points'].append(None)
 
-        # update_url = 'http://localhost:2020/entries/' + entry['_id']
-        # requests.patch(update_url, json=entry)
-        print(entry)
+        update_url = 'http://localhost:2020/entries/' + entry['_id']
+        requests.patch(update_url, json=entry)
 
 
 if __name__ == "__main__":
