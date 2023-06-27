@@ -1,34 +1,22 @@
-from http.client import HTTPResponse
 from django.shortcuts import render
-import requests
+from flask import jsonify
+
+from . import fetch_drivers
 
 
 def drivers_standing(request):
-    response = requests.get('http://localhost:2020/entries')
+    drivers = fetch_drivers.fetch_drivers()
 
-    if response.status_code == 201:
-        data = response.json()['entry']
-        # Refactor later for series to be query from front end
-        series = 'GT World Challenge America'
-        filtered = [entry for entry in data
-                    if entry.get('series') == series]
-        drivers = []
-        for entry in filtered:
-            driver2 = entry.get('driver2')
-            drivers.append(entry['driver1'])
-
-            if driver2:
-                drivers.append(entry['driver2'])
-
-        sorted_drivers = sorted(
-            drivers, key=lambda x: x['totalPoints'], reverse=True)
-
-        return render(request, 'standing/drivers_standing.html', {
-            'drivers': sorted_drivers
-        })
+    # if the value is a tuple, means fetch failed, and we have status code and none value
+    if isinstance(drivers, tuple):
+        status_code, data = drivers
+        error_message = f"Failed to fetch data. Status code: {status_code}"
+        return jsonify({"error": error_message}), status_code
 
     else:
-        return HTTPResponse('Failed to fetch data from API')
+        return render(request, 'standing/drivers_standing.html', {
+            'drivers': drivers
+        })
 
 
 if __name__ == "__main__":
