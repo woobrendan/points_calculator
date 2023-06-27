@@ -3,5 +3,9 @@
 {% block title %}Drivers Standing{% endblock %}
 
 {% block content %}
-    Hello Drivers
+    <div>
+        {% for classification in drivers %}
+            <p>{{classification}}</p>
+        {% endfor %}
+    </div>
 {% endblock %}
