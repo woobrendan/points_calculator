@@ -3,7 +3,7 @@ from django.shortcuts import render
 import requests
 
 
-def drivers_standing():
+def drivers_standing(request):
     response = requests.get('http://localhost:2020/entries')
 
     if response.status_code == 201:
@@ -19,7 +19,13 @@ def drivers_standing():
 
             if driver2:
                 drivers.append(entry['driver2'])
-        print(drivers)
+
+        sorted_drivers = sorted(
+            drivers, key=lambda x: x['totalPoints'], reverse=True)
+
+        return render(request, 'standing/drivers_standing.html', {
+            'drivers': sorted_drivers
+        })
 
     else:
         return HTTPResponse('Failed to fetch data from API')
