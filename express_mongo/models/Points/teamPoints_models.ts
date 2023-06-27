@@ -1,4 +1,4 @@
-interface TeamPoints {
+export interface TeamPoints {
   name: string;
   classification: string;
   series: string;
