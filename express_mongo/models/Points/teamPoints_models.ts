@@ -1,7 +1,6 @@
 export interface TeamPoints {
-  name: string;
+  teamName: string;
   classification: string;
-  series: string;
   points: PointsInterface;
 }
 
@@ -26,4 +25,7 @@ interface PointsInterface {
   R18?: number | null;
 }
 
-// interface Team
+export interface Series {
+  name: string;
+  teams: TeamPoints[];
+}
