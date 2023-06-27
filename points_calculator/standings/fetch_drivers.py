@@ -1,7 +1,5 @@
-from http.client import HTTPResponse
-from django.shortcuts import render
 import requests
-import json
+# import json
 
 
 def fetch_drivers():
@@ -41,11 +39,8 @@ def fetch_drivers():
 
             entries_by_class[classification] = sorted_drivers
 
-        print(json.dumps(entries_by_class, indent=4))
+        # print(json.dumps(entries_by_class, indent=4))
+        return entries_by_class
 
     else:
-        return HTTPResponse('Failed to fetch data from API')
-
-
-if __name__ == "__main__":
-    fetch_drivers()
+        return (response.status_code, None)
