@@ -1,7 +1,7 @@
 import mongoose, { Document, Schema } from "mongoose";
-import { TeamPoints } from "./points_models";
+import { Series } from "./points_models";
 
-export interface SeriesPointsModel extends TeamPoints, Document {}
+export interface SeriesPointsModel extends Series, Document {}
 
 const seriesPointsSchema: Schema = new Schema({
   name: { type: String, required: true },
