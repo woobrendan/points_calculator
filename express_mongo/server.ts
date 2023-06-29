@@ -3,9 +3,9 @@ import mongoose from "mongoose";
 import http from "http";
 import { config } from "./config/config";
 import entryRoute from "./routes/entriesRoutes";
-import resultRoute from "./routes/resultRoutes";
 import eventRoute from "./routes/eventRoutes";
 import seriesRoute from "./routes/seriesRoutes";
+import teamPointsRoute from "./routes/teamPointsRoutes";
 
 const morgan = require("morgan");
 const router = express();
@@ -56,7 +56,7 @@ const startServer = () => {
 
   //** Routes */
   router.use("/entries", entryRoute);
-  router.use("/results", resultRoute);
+  router.use("/teamPoints", teamPointsRoute);
 
   //** API Routes */
   router.use("/api/events", eventRoute);
