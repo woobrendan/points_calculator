@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from flask import jsonify
 
-from . import fetch_drivers
+from .functions import fetch_drivers
 
 
 def drivers_standing(request):
