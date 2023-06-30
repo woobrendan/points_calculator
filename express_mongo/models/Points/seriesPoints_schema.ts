@@ -7,8 +7,8 @@ const seriesPointsSchema: Schema = new Schema({
   name: { type: String, required: true },
   teamPoints: [
     {
-      teamName: { type: String, required: true },
-      classification: { type: String, required: true },
+      teamName: { type: String },
+      classification: { type: String },
       points: {
         R1: { type: Schema.Types.Mixed },
         R2: { type: Schema.Types.Mixed },
