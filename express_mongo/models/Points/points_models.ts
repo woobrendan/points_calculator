@@ -9,7 +9,8 @@ interface ManufacturerPoints {
   points: PointsInterface;
 }
 
-interface PointsInterface {
+export interface PointsInterface {
+  [key: string]: number | null;
   R1: number | null;
   R2: number | null;
   R3: number | null;
@@ -23,11 +24,11 @@ interface PointsInterface {
   R11: number | null;
   R12: number | null;
   R13: number | null;
-  R14?: number | null;
-  R15?: number | null;
-  R16?: number | null;
-  R17?: number | null;
-  R18?: number | null;
+  R14: number | null;
+  R15: number | null;
+  R16: number | null;
+  R17: number | null;
+  R18: number | null;
 }
 
 export interface Series {
