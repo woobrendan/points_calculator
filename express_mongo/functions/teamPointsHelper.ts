@@ -39,4 +39,18 @@ const getSeriesName = (val: string) => {
   if (val === "tgr") return "Toyota GR Cup";
 };
 
-export { setNewTeamPoints, getSeriesName };
+const updateTeamPoints = (
+  round: string,
+  points: number,
+  ptsObj: PointsInterface,
+) => {
+  for (const roundNum in ptsObj) {
+    if (roundNum === round) {
+      ptsObj[roundNum] = points;
+    }
+  }
+
+  return ptsObj;
+};
+
+export { setNewTeamPoints, getSeriesName, updateTeamPoints };
