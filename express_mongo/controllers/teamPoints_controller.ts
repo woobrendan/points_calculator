@@ -56,7 +56,8 @@ const handleTeamPoints = async (req: Request, res: Response) => {
       series.teamPoints.forEach((entry, index) => {
         if (entry.teamName === teamName) {
           series.teamPoints[index] = {
-            ...entry,
+            teamName: entry.teamName,
+            classification: entry.classification,
             points: updateTeamPoints(round, points, entry.points),
           };
           found = true;
