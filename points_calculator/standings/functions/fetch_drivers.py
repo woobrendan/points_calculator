@@ -1,19 +1,16 @@
 import requests
-from . import helpers
+import helpers
 # import json
 
 
-def fetch_drivers():
-    response = requests.get('http://localhost:2020/entries')
+def fetch_drivers(series):
+    url = f'http://localhost:2020/entries/{series}'
+    response = requests.get(url)
 
     if response.status_code == 201:
         data = response.json()['entry']
-        # Refactor later for series to be query from front end
-        series = 'GT World Challenge America'
-        filtered = [entry for entry in data
-                    if entry.get('series') == series]
 
-        entries_by_class = helpers.classEntries(filtered)
+        entries_by_class = helpers.classEntries(data)
 
         # Loop through each list for Pro, Pro/Am etc, and alter the list, to be a list of drivers instead of a list of entries. then sort by most points
         for classification in entries_by_class:
@@ -36,3 +33,6 @@ def fetch_drivers():
 
     else:
         return (response.status_code, None)
+
+
+print(fetch_drivers('gtwca'))
