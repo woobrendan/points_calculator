@@ -1,4 +1,5 @@
 import requests
+from . import helpers
 # import json
 
 
@@ -12,16 +13,7 @@ def fetch_drivers():
         filtered = [entry for entry in data
                     if entry.get('series') == series]
 
-        entries_by_class = {}
-
-        # loop through filtered entries, and sort them into dictionary with keys as the class (pro, Pro/Am or am, etc) and the value as a list of entries
-        for entry in filtered:
-            classification = entry['classification']
-
-            if classification in entries_by_class:
-                entries_by_class[classification].append(entry)
-            else:
-                entries_by_class[classification] = [entry]
+        entries_by_class = helpers.classEntries(filtered)
 
         # Loop through each list for Pro, Pro/Am etc, and alter the list, to be a list of drivers instead of a list of entries. then sort by most points
         for classification in entries_by_class:
