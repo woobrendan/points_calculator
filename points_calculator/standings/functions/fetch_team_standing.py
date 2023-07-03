@@ -1,4 +1,5 @@
 import requests
+from . import helpers
 
 
 def fetch_team_standings(series):
@@ -8,3 +9,7 @@ def fetch_team_standings(series):
     if response.status_code == 201:
         data = response.json()['teamsBySeries']
         team_points_list = data['teamPoints']
+
+        return helpers.classEntries(team_points_list)
+    else:
+        return (response.status_code, None)
