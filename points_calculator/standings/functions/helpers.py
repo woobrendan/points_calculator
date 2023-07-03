@@ -11,3 +11,16 @@ def classEntries(entry_list):
             entries_by_class[classification] = [entry]
 
     return entries_by_class
+
+
+def getSeriesName(str):
+    if str == "gtwca":
+        return "GT World Challenge America"
+    if str == "pgt4a":
+        return "Pirelli GT4 America"
+    if str == "gta":
+        return "GT America"
+    if str == "tca":
+        return "TC America"
+    if str == "tgr":
+        return "Toyota GR Cup"
