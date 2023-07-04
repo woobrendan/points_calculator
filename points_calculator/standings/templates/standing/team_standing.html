@@ -1,4 +1,47 @@
-{% extends 'core/base.html' %} {% block title %}Drivers Standing{% endblock %}
+{% extends 'core/base.html' %} 
+
+{% block title %}Team Standing{% endblock %}
+
 {% block content %}
-<div>Hello</div>
+    <h1 class="mb-6 text-3xl">Team Standings</h1>
+
+    {% for classifcation, teams in team_standing.items %}
+            <table class="table-fixed">
+
+                <caption>{{ classification }}</caption>
+                <thead>
+                    <tr>
+                        <th>Pos</th>
+                        <th>Team</th>
+                        <th>Total</th>
+                        <th>R1</th>
+                        <th>R2</th>
+                        <th>R3</th>
+                        <th>R4</th>
+                        <th>R5</th>
+                        <th>R6</th>
+                        <th>R7</th>
+                        <th>R8</th>
+                        <th>R9</th>
+                        <th>R10</th>
+                        <th>R11</th>
+                        <th>R12</th>
+                        <th>R13</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for entry in teams %}
+                    <tr>
+                        <td>{{ forloop.counter }}</td>
+                        <td>{{ entry.teamName }}</td>
+                        <td>Total</td>
+                        <td>{{ entry.points.R1 }}</td>
+                        <td>{{ entry.points.R2 }}</td>
+                    </tr>
+                    {% endfor %}
+                </tbody>
+
+            </table>
+    {% endfor %}
+
 {% endblock %}
