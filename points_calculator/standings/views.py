@@ -22,6 +22,15 @@ def drivers_standing(request, series):
 def team_standing(request, series):
     team_standing = fetch_team_standing.fetch_team_standings(series)
 
+    if series == 'gtwca':
+        for classification, lists in team_standing.items():
+            for team in lists:
+                points = team['points']
+                keys_to_remove = ['R14', 'R15', 'R16', 'R17', 'R18']
+                for key in keys_to_remove:
+                    if key in points:
+                        del points[key]
+
     # if the value is a tuple, means fetch failed, and we have status code and none value
     if isinstance(team_standing, tuple):
         status_code, data = team_standing
