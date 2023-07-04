@@ -1,5 +1,5 @@
 import requests
-import helpers
+from . import helpers
 
 
 def fetch_team_standings(series):
