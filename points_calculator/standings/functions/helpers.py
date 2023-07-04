@@ -5,6 +5,10 @@ def classEntries(entry_list):
     for entry in entry_list:
         classification = entry['classification']
 
+        for roundNum in entry['points']:
+            if entry['points'][roundNum] is None:
+                entry['points'][roundNum] = ''
+
         if classification in entries_by_class:
             entries_by_class[classification].append(entry)
         else:
