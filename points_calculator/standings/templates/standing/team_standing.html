@@ -6,7 +6,8 @@
     <h1 class="mb-6 text-3xl text-center">Team Standings</h1>
 
     {% for classification, teams in team_standing.items %}
-            <table class="w-full mb-6 text-m text-left rounded-xl">
+        <div class="bg-gray-200 mb-10 border-2 border-black-600 p-1">
+            <table class="w-full text-m text-left">
                 
                 <caption class="w-full h-1/2 text-white uppercase bg-red-500 font-bold">{{ classification }}</caption>
                 <thead class="w-full text-m text-black-700 uppercase bg-gray-200 dark:bg-red-800 dark:text-gray-400">
@@ -35,8 +36,8 @@
                     </tr>
                     {% endfor %}
                 </tbody>
-
             </table>
+        </div>
     {% endfor %}
 
 {% endblock %}
