@@ -22,11 +22,14 @@ def drivers_standing(request, series):
 def team_standing(request, series):
     team_standing = fetch_team_standing.fetch_team_standings(series)
 
-    if series == 'gtwca':
+    if series != 'gta':
         for classification, lists in team_standing.items():
+            keys_to_remove = ['R14', 'R15', 'R16', 'R17', 'R18']
+            if series == 'tca' or series == 'pgt4a':
+                del keys_to_remove[0]
+
             for team in lists:
                 points = team['points']
-                keys_to_remove = ['R14', 'R15', 'R16', 'R17', 'R18']
                 for key in keys_to_remove:
                     if key in points:
                         del points[key]
