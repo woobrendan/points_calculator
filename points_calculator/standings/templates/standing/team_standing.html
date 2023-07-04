@@ -3,40 +3,43 @@
 {% block title %}Team Standing{% endblock %}
 
 {% block content %}
-    <h1 class="mb-6 text-3xl">Team Standings</h1>
+    <h1 class="mb-6 text-3xl text-center">Team Standings</h1>
 
     {% for classification, teams in team_standing.items %}
-            <table class="table-fixed">
-
-                <caption>{{ classification }}</caption>
-                <thead>
+            <table class="w-full mb-6 text-m text-left ">
+                
+                <caption class="w-full text-black-700 uppercase bg-red-500">{{ classification }}</caption>
+                <thead class="w-full text-m text-black-700 uppercase bg-gray-200 dark:bg-red-800 dark:text-gray-400">
                     <tr>
-                        <th>Pos</th>
-                        <th>Team</th>
-                        <th>Total</th>
-                        <th>R1</th>
-                        <th>R2</th>
-                        <th>R3</th>
-                        <th>R4</th>
-                        <th>R5</th>
-                        <th>R6</th>
-                        <th>R7</th>
-                        <th>R8</th>
-                        <th>R9</th>
-                        <th>R10</th>
-                        <th>R11</th>
-                        <th>R12</th>
-                        <th>R13</th>
+                        <th scope="col" class="px-3 py-1">Pos</th>
+                        <th scope="col" class="px-3 py-1">Team</th>
+                        <th scope="col" class="px-3 py-1">Total</th>
+                        <th scope="col" class="px-3 py-1">R1</th>
+                        <th scope="col" class="px-3 py-1">R2</th>
+                        <th scope="col" class="px-3 py-1">R3</th>
+                        <th scope="col" class="px-3 py-1">R4</th>
+                        <th scope="col" class="px-3 py-1">R5</th>
+                        <th scope="col" class="px-3 py-1">R6</th>
+                        <th scope="col" class="px-3 py-1">R7</th>
+                        <th scope="col" class="px-3 py-1">R8</th>
+                        <th scope="col" class="px-3 py-1">R9</th>
+                        <th scope="col" class="px-3 py-1">R10</th>
+                        <th scope="col" class="px-3 py-1">R11</th>
+                        <th scope="col" class="px-3 py-1">R12</th>
+                        <th scope="col" class="px-3 py-1">R13</th>
                     </tr>
                 </thead>
                 <tbody>
                     {% for entry in teams %}
-                    <tr>
-                        <td>{{ forloop.counter }}</td>
-                        <td>{{ entry.teamName }}</td>
-                        <td>{{ entry.totalPoints }}</td>
-                        <td>{{ entry.points.R1 }}</td>
-                        <td>{{ entry.points.R2 }}</td>
+                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                        <td class="px-6 py-4">{{ forloop.counter }}</td>
+                        <td class="whitespace-nowrap">{{ entry.teamName }}</td>
+                        <td class="text-center">{{ entry.totalPoints }}</td>
+                        
+                        {% for round, value in entry.points.items %}
+                            <td class="text-center">{{ value }}</td>
+                        {% endfor %}
+                       
                     </tr>
                     {% endfor %}
                 </tbody>
