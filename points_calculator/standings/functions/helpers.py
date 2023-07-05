@@ -1,13 +1,4 @@
-class TeamEntry:
-    def __init__(self, name: str, classification: str, points, type):
-        self.name = name
-        self.classifcation = classification
-        self.points = points
-        self.total_points = sum(value or 0 for value in points.values())
-
-        for round_num in points:
-            if points[round_num] is None:
-                points[round_num] = ''
+from . import team_entry
 
 
 def classEntries(entry_list):
@@ -15,17 +6,19 @@ def classEntries(entry_list):
 
     # loop through filtered entries, and sort them into dictionary with keys as the class (pro, Pro/Am or am, etc) and the value as a list of entries
     for entry in entry_list:
-        classification = entry['classification']
-        points = entry['points']
-        entry_obj = TeamEntry(entry['teamName'], classification, points)
 
-        if classification in entries_by_class:
+        entry_obj = team_entry.TeamEntry(
+            entry['teamName'], entry['classification'], entry['points'])
+
+        classification = entry_obj.classification
+
+        if entry_obj.classification in entries_by_class:
             entries_by_class[classification].append(entry_obj)
         else:
             entries_by_class[classification] = [entry_obj]
 
     for class_list in entries_by_class.values():
-        class_list.sort(key=lambda x: x.totalPoints, reverse=True)
+        class_list.sort(key=lambda x: x.total_points, reverse=True)
 
     return entries_by_class
 
