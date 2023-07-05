@@ -59,7 +59,6 @@ const startServer = () => {
   router.use("/teamPoints", teamPointsRoute);
 
   //** API Routes */
-  router.use("/api/events", eventRoute);
   router.use("/api/series", seriesRoute);
 
   //** Error handling */
