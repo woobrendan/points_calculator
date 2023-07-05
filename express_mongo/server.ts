@@ -3,7 +3,6 @@ import mongoose from "mongoose";
 import http from "http";
 import { config } from "./config/config";
 import entryRoute from "./routes/entriesRoutes";
-import eventRoute from "./routes/eventRoutes";
 import seriesRoute from "./routes/seriesRoutes";
 import teamPointsRoute from "./routes/teamPointsRoutes";
 
