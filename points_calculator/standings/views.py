@@ -28,11 +28,12 @@ def team_standing(request, series):
             if series == 'tca' or series == 'pgt4a':
                 del keys_to_remove[0]
 
+            # List of TeamEntry
             for team in lists:
-                points = team['points']
+                points = team.points
                 for key in keys_to_remove:
-                    if key in points:
-                        del points[key]
+                    if key in points.__dict__:
+                        delattr(points, key)
 
     # if the value is a tuple, means fetch failed, and we have status code and none value
     if isinstance(team_standing, tuple):
