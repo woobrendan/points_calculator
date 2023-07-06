@@ -9,24 +9,18 @@
 
     <div class="mt-6 px-6 py-12 bg-gray-100 rounded-xl">
         <ul class="space-y-2">
-            <li class="py-2 px-2 rounded-xl bg-red-200 text-lg hover:bg-red-500">
+            <li class="{{ styling }}">
                 New Result
             </li>
             
-            <li class="py-2 px-2 rounded-xl bg-red-200 text-lg hover:bg-red-500">
-                <a href="#">
-                    Drivers Standings
-                </a>
+            <li class="{{ styling }}">
+                <a href="#"> Drivers Standings </a>
             </li>
-            <li class="py-2 px-2 rounded-xl bg-red-200 text-lg hover:bg-red-500">
-                <a href="#">
-                    Manufacturer Standings
-                </a>
+            <li class="{{ styling }}">
+                <a href="#"> Manufacturer Standings </a>
             </li>
-            <li class="py-2 px-2 rounded-xl bg-red-200 text-lg hover:bg-red-500">
-                <a href="{% url 'standing:team' 'gtwca' %}">
-                    Team Standings
-                </a>
+            <li class="{{ styling }}">
+                <a href="{% url 'standing:team' 'gtwca' %}"> Team Standings </a>
             </li>
            
         </ul>
