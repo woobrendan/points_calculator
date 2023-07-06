@@ -40,6 +40,8 @@ def team_standing(request, series):
     _, team_list = list(team_standing.items())[0]
     round_list = helpers.getRounds(team_list[0].points)
 
+    button_style = "px-4 py-2 text-sm font-medium text-white bg-red-600 border border-gray-200 rounded-lg hover:bg-black hover:text-red-400 hover:border-red-500"
+
     # if the value is a tuple, means fetch failed, and we have status code and none value
     if isinstance(team_standing, tuple):
         status_code, data = team_standing
@@ -49,5 +51,6 @@ def team_standing(request, series):
     else:
         return render(request, 'standing/team_standing.html', {
             'team_standing': team_standing,
-            'round_list': round_list
+            'round_list': round_list,
+            'button_style': button_style
         })
