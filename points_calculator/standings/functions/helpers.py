@@ -6,11 +6,9 @@ def classEntries(entry_list):
 
     # loop through filtered entries, and sort them into dictionary with keys as the class (pro, Pro/Am or am, etc) and the value as a list of entries
     for entry in entry_list:
+        teamName, classification, points = entry['teamName'], entry['classification'], entry['points']
 
-        entry_obj = team_entry.TeamEntry(
-            entry['teamName'], entry['classification'], entry['points'])
-
-        classification = entry_obj.classification
+        entry_obj = team_entry.TeamEntry(teamName, classification, points)
 
         if entry_obj.classification in entries_by_class:
             entries_by_class[classification].append(entry_obj)
@@ -34,3 +32,10 @@ def getSeriesName(str):
         return "TC America"
     if str == "tgr":
         return "Toyota GR Cup"
+
+
+def getRounds(points_dict):
+    round_list = []
+    for roundNum in points_dict.__dict__:
+        round_list.append(roundNum)
+    return round_list
