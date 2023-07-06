@@ -14,12 +14,10 @@
                     <tr>
                         <th scope="col" class="px-3 py-1">Pos</th>
                         <th scope="col" class="px-3 py-1">Team</th>
-                        <th scope="col" class="px-3 py-1">Total</th>
-                        {% with first_team=teams.0 %}
-                            {% for round, value in first_team.points.items %}
-                                <th scope="col" class="px-3 py-1">{{ round }}</th>
-                            {% endfor %}    
-                        {% endwith %}
+                        <th scope="col" class="px-3 py-1">Total</th>                      
+                        {% for round in round_list %}
+                            <th scope="col" class="px-3 py-1">{{ round }}</th>
+                        {% endfor %}    
                     </tr>
                 </thead>
                 <tbody>
