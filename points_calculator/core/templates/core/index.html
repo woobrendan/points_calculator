@@ -12,13 +12,23 @@
             <li class="py-2 px-2 rounded-xl bg-red-200 text-lg hover:bg-red-500">
                 New Result
             </li>
-            {% for standing in standing_list %}
+            
             <li class="py-2 px-2 rounded-xl bg-red-200 text-lg hover:bg-red-500">
                 <a href="#">
-                    {{ standing }} Standings
+                    Drivers Standings
                 </a>
             </li>
-            {% endfor %}
+            <li class="py-2 px-2 rounded-xl bg-red-200 text-lg hover:bg-red-500">
+                <a href="#">
+                    Manufacturer Standings
+                </a>
+            </li>
+            <li class="py-2 px-2 rounded-xl bg-red-200 text-lg hover:bg-red-500">
+                <a href="{% url 'standing:team' 'gtwca' %}">
+                    Team Standings
+                </a>
+            </li>
+           
         </ul>
     </div>
 {% endblock %}
