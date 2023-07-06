@@ -1,4 +1,5 @@
-{% extends 'core/base.html' %} 
+{% extends 'core/base.html' %}
+{% load custom_filters %} 
 
 {% block title %}Team Standing{% endblock %}
 
@@ -24,12 +25,13 @@
                     {% for entry in teams %}
                     <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
                         <td class="px-6 py-4">{{ forloop.counter }}</td>
-                        <td class="whitespace-nowrap">{{ entry.teamName }}</td>
-                        <td class="text-center">{{ entry.totalPoints }}</td>
+                        <td class="whitespace-nowrap">{{ entry.name }}</td>
+                        <td class="text-center">{{ entry.total_points }}</td>
                         
-                        {% for round, value in entry.points.items %}
-                            <td class="text-center">{{ value }}</td>
-                        {% endfor %}
+                        {% for round_num in entry.points|get_rounds %}
+                            <td class="text-center">{{ entry.points|get_value:round_num }}</td>
+                        {% endfor %} 
+                        
                        
                     </tr>
                     {% endfor %}
