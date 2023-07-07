@@ -3,7 +3,22 @@
 {% block title %}New Result{% endblock %}
 
 {% block content %}
-    <div>
-        New Result
-    </div>
+    <h1 class="mb-6 text-3xl text-center font-bold">New Result</h1>
+
+    <form id="csvUploadForm" class="w-full py-4 px-6 bg-gray-200">
+
+        <textarea name="content" class="w-full py-4 px-6 rounded-xl border"></textarea>
+
+        <div class="flex flex-col">
+
+            <label class="text-m">Result Number</label>
+            <input type="text" class="w-1/5">
+        </div>
+        
+        <input type="file" id="csvFileInput" accept=".csv">
+
+        <button type="submit" class="py-4 px-8 text-lg bg-teal-500 hover:bg-teal-700 rounded-xl text-white">Submit</button>
+    </form>
+
+
 {% endblock %}
