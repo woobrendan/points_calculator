@@ -59,4 +59,10 @@ def team_standing(request, series):
 
 
 def new_result(request):
+    if request.method == 'POST':
+        # form = request.POST, request.FILES
+        pass
+
+    else:
+        pass
     return render(request, 'standing/new_result.html')
