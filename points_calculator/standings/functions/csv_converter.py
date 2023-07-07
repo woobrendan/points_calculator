@@ -40,16 +40,16 @@ def change_key_name(dict_arr):
         if 'Additional3' in result:
             result['Series'] = result.pop('Additional3')
 
-            series = result['Series']
+        series = result['Series']
 
-            if series == 'FGTWCA':
-                result['Series'] = 'GT World Challenge America'
-            elif series == 'PGT4A':
-                result['Series'] = 'Pirelli GT4 America'
-            elif series == 'GTA':
-                result['Series'] = 'GT America'
-            elif series == 'TCAM':
-                result['Series'] = 'TC America'
+        if series == 'FGTWCA':
+            result['Series'] = 'gtwca'
+        if series == 'PGT4A':
+            result['Series'] = 'pgt4a'
+        if series == 'GTA':
+            result['Series'] = 'gta'
+        if series == 'TCAM':
+            result['Series'] = 'tca'
 
     return dict_arr
 
