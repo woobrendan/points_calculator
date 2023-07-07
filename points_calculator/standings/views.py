@@ -56,3 +56,7 @@ def team_standing(request, series):
             'button_style': button_style,
             'anchor_style': anchor_style
         })
+
+
+def new_result(request):
+    return render(request, 'standing/new_result.html')
