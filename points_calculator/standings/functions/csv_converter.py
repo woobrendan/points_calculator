@@ -1,4 +1,5 @@
 import csv
+import io
 
 file_path = '../Results/results.csv'
 
@@ -14,13 +15,12 @@ key_list = [
 ]
 
 
-def csv_to_dict_arr(file_path):
-    with open(file_path, 'r') as csv_file:
-        csv_reader = csv.DictReader(csv_file)
-        results = []
-        for row in csv_reader:
-            results.append(row)
-        return results
+def csv_to_dict_arr(csv_file):
+    csv_reader = csv.reader(io.TextIOWrapper(csv_file, encoding='utf-8'))
+    results = []
+    for row in csv_reader:
+        results.append(row)
+    return results
 
 
 def clean_results(arr, key_arr):
@@ -55,8 +55,8 @@ def change_key_name(dict_arr):
 
 
 # returns cleaned up csv results into list of dictionaries to use to compare to entries
-def csv_to_clean_keys(file_path):
-    dict_arr = csv_to_dict_arr(file_path)
+def csv_to_clean_keys(csv_file):
+    dict_arr = csv_to_dict_arr(csv_file)
     cleaned = clean_results(dict_arr, key_list)
     return change_key_name(cleaned)
 
