@@ -41,6 +41,20 @@ def getRounds(points_dict):
     return round_list
 
 
+def removeDuplicateTeams(arr):
+    unique_teams = set()
+    filtered_entries = []
+
+    for entry in arr:
+        team_name = entry['Team']
+
+        if team_name not in unique_teams:
+            unique_teams.add(team_name)
+            filtered_entries.append(entry)
+
+    return arr
+
+
 def team_results_byClass(entry_list):
     entries_by_class = {}
 
@@ -55,5 +69,7 @@ def team_results_byClass(entry_list):
 
     for class_list in entries_by_class.values():
         class_list.sort(key=lambda x: int(x['Points']), reverse=True)
+        class_list.clear()
+        class_list.extend(removeDuplicateTeams(class_list))
 
     return entries_by_class
