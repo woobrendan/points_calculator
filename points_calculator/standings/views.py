@@ -1,5 +1,7 @@
 from django.shortcuts import render
 from flask import jsonify
+import json
+import requests
 
 from .functions import fetch_drivers, fetch_team_standing, helpers
 from .functions.csv_converter import csv_to_clean_keys
@@ -67,7 +69,10 @@ def new_result(request):
         result_num = request.POST.get('result_num', '')
         result_csv = request.FILES['result_csv']
 
+        # Take in CSV file and convert to dict, keys as class (pro/am) values as list of result from race
         result_arr = csv_to_clean_keys(result_csv)
+
+        series = result_arr[0]['Series']
 
         newR = helpers.team_results_byClass(result_arr)
         # returns
@@ -76,15 +81,21 @@ def new_result(request):
         # 'Pro-Am': [{'Pos': '3', 'PIC': '1', '#': '120', 'Class': 'Pro-Am', 'Points': '25', 'Team': 'Wright Motorsports', 'Vehicle': 'Porsche 911 GT3-R (991.ii)', 'Series': 'gtwca'}, {'Pos': '4', 'PIC': '2', '#': '007', 'Class': 'Pro-Am', 'Points': '18', 'Team': 'TRG - The Racers Group', 'Vehicle': 'Aston Martin Vantage AMR GT3', 'Series': 'gtwca'}, {'Pos': '6', 'PIC': '3', '#': '45', 'Class': 'Pro-Am', 'Points': '15', 'Team': 'Wright Motorsports', 'Vehicle': 'Porsche GT3 R 992', 'Series': 'gtwca'}, {'Pos': '7', 'PIC': '4', '#': '91', 'Class': 'Pro-Am', 'Points': '12', 'Team': 'DXDT Racing', 'Vehicle': 'Mercedes-AMG GT3', 'Series': 'gtwca'}, {'Pos': '8', 'PIC': '5', '#': '38', 'Class': 'Pro-Am', 'Points': '10', 'Team': 'ST Racing', 'Vehicle': 'BMW M4 GT3', 'Series': 'gtwca'}, {'Pos': '9', 'PIC': '6', '#': '33', 'Class': 'Pro-Am', 'Points': '8', 'Team': 'Triarsi Competizione', 'Vehicle': 'Ferrari 296 GT3', 'Series': 'gtwca'}, {'Pos': '10', 'PIC': '7', '#': '9', 'Class': 'Pro-Am', 'Points': '6', 'Team': 'TR3 Racing', 'Vehicle': 'Mercedes-AMG GT3', 'Series': 'gtwca'}, {'Pos': '11', 'PIC': '8', '#': '19', 'Class': 'Pro-Am', 'Points': '4', 'Team': 'Esses Racing with Mercedes-Benz of Austin', 'Vehicle': 'Mercedes-AMG GT3', 'Series': 'gtwca'}, {'Pos': '12', 'PIC': '9', '#': '08', 'Class': 'Pro-Am', 'Points': '2', 'Team': 'DXDT Racing', 'Vehicle': 'Mercedes-AMG GT3', 'Series': 'gtwca'}, {'Pos': '14', 'PIC': '10', '#': '16', 'Class': 'Pro-Am', 'Points': '1', 'Team': 'ACI Motorsports', 'Vehicle': 'Porsche 911 GT3-R (991.ii)', 'Series': 'gtwca'}, {'Pos': '', 'PIC': '', '#': '04', 'Class': 'Pro-Am', 'Points': '0', 'Team': 'Crowdstrike by Riley', 'Vehicle': 'Mercedes-AMG GT3', 'Series': 'gtwca'}],
         # 'Am': [{'Pos': '15', 'PIC': '1', '#': '43', 'Class': 'Am', 'Points': '25', 'Team': 'RealTime Racing', 'Vehicle': 'Mercedes-AMG GT3', 'Series': 'gtwca'}]}
 
-        # for result in result_arr:
-        #     r_num = f"R{result_num}"
-        #     data = {
-        #         "classification": result['Class'],
-        #         "round": r_num
-        #         # "points":
-        #     }
+        url = f'http://localhost:2020/teamPoints/{series}'
+        headers = {'Content-Type': 'application/json'}
 
-        # json send should { teamName: "name", classificaiton, round, points}
+        for key, result_arr in newR.items():
+            for result in result_arr:
+                r_num = f"R{result_num}"
+                data = {
+                    "classification": key,
+                    "round": r_num,
+                    "points": result['Points'],
+                    "teamName": result['Team']
+                }
+                json_data = json.dumps(data)
+
+                response = requests.post(url, headers=headers. data=json_data)
 
     else:
         pass
