@@ -17,9 +17,11 @@ key_list = [
 
 def csv_to_dict_arr(csv_file):
     csv_reader = csv.reader(io.TextIOWrapper(csv_file, encoding='utf-8'))
+    headers = next(csv_reader)  # gets the header row
     results = []
     for row in csv_reader:
-        results.append(row)
+        result_dict = dict(zip(headers, row))
+        results.append(result_dict)
     return results
 
 
