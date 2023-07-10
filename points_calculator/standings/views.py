@@ -78,8 +78,6 @@ def new_result(request):
         # returns
         # {'Pro': [{'Pos': '1', 'PIC': '1', '#': '93', 'Class': 'Pro', 'Points': '25', 'Team': 'Racers Edge Motorsports', 'Vehicle': 'Acura NSX GT3 EVO22', 'Series': 'gtwca'}, {'Pos': '2', 'PIC': '2', '#': '28', 'Class': 'Pro', 'Points': '18', 'Team': 'RS1', 'Vehicle': 'Porsche GT3 R 992', 'Series': 'gtwca'}, {'Pos': '5', 'PIC': '3', '#': '53', 'Class': 'Pro', 'Points': '15', 'Team': 'MDK', 'Vehicle': 'Porsche GT3 R 992', 'Series': 'gtwca'}, {'Pos': '13', 'PIC': '4', '#': '94', 'Class': 'Pro', 'Points': '12', 'Team': 'BimmerWorld', 'Vehicle': 'BMW M4 GT3', 'Series': 'gtwca'}],
         #
-        # 'Pro-Am': [{'Pos': '3', 'PIC': '1', '#': '120', 'Class': 'Pro-Am', 'Points': '25', 'Team': 'Wright Motorsports', 'Vehicle': 'Porsche 911 GT3-R (991.ii)', 'Series': 'gtwca'}, {'Pos': '4', 'PIC': '2', '#': '007', 'Class': 'Pro-Am', 'Points': '18', 'Team': 'TRG - The Racers Group', 'Vehicle': 'Aston Martin Vantage AMR GT3', 'Series': 'gtwca'}, {'Pos': '6', 'PIC': '3', '#': '45', 'Class': 'Pro-Am', 'Points': '15', 'Team': 'Wright Motorsports', 'Vehicle': 'Porsche GT3 R 992', 'Series': 'gtwca'}, {'Pos': '7', 'PIC': '4', '#': '91', 'Class': 'Pro-Am', 'Points': '12', 'Team': 'DXDT Racing', 'Vehicle': 'Mercedes-AMG GT3', 'Series': 'gtwca'}, {'Pos': '8', 'PIC': '5', '#': '38', 'Class': 'Pro-Am', 'Points': '10', 'Team': 'ST Racing', 'Vehicle': 'BMW M4 GT3', 'Series': 'gtwca'}, {'Pos': '9', 'PIC': '6', '#': '33', 'Class': 'Pro-Am', 'Points': '8', 'Team': 'Triarsi Competizione', 'Vehicle': 'Ferrari 296 GT3', 'Series': 'gtwca'}, {'Pos': '10', 'PIC': '7', '#': '9', 'Class': 'Pro-Am', 'Points': '6', 'Team': 'TR3 Racing', 'Vehicle': 'Mercedes-AMG GT3', 'Series': 'gtwca'}, {'Pos': '11', 'PIC': '8', '#': '19', 'Class': 'Pro-Am', 'Points': '4', 'Team': 'Esses Racing with Mercedes-Benz of Austin', 'Vehicle': 'Mercedes-AMG GT3', 'Series': 'gtwca'}, {'Pos': '12', 'PIC': '9', '#': '08', 'Class': 'Pro-Am', 'Points': '2', 'Team': 'DXDT Racing', 'Vehicle': 'Mercedes-AMG GT3', 'Series': 'gtwca'}, {'Pos': '14', 'PIC': '10', '#': '16', 'Class': 'Pro-Am', 'Points': '1', 'Team': 'ACI Motorsports', 'Vehicle': 'Porsche 911 GT3-R (991.ii)', 'Series': 'gtwca'}, {'Pos': '', 'PIC': '', '#': '04', 'Class': 'Pro-Am', 'Points': '0', 'Team': 'Crowdstrike by Riley', 'Vehicle': 'Mercedes-AMG GT3', 'Series': 'gtwca'}],
-        # 'Am': [{'Pos': '15', 'PIC': '1', '#': '43', 'Class': 'Am', 'Points': '25', 'Team': 'RealTime Racing', 'Vehicle': 'Mercedes-AMG GT3', 'Series': 'gtwca'}]}
 
         url = f'http://localhost:2020/teamPoints/{series}'
         headers = {'Content-Type': 'application/json'}
@@ -95,7 +93,13 @@ def new_result(request):
                 }
                 json_data = json.dumps(data)
 
-                response = requests.post(url, headers=headers. data=json_data)
+                response = requests.post(url, headers=headers, data=json_data)
+
+                if response.status_code == 200:
+                    print('POST request successful')
+                    # redirect
+                else:
+                    print(f'Error: {response.status_code}')
 
     else:
         pass
