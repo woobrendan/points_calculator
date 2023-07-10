@@ -2,6 +2,7 @@ from django.shortcuts import render
 from flask import jsonify
 
 from .functions import fetch_drivers, fetch_team_standing, helpers
+from .functions.csv_converter import csv_to_clean_keys
 
 
 def drivers_standing(request, series):
@@ -60,8 +61,11 @@ def team_standing(request, series):
 
 def new_result(request):
     if request.method == 'POST':
-        # form = request.POST, request.FILES
-        pass
+        result_num = request.POST.get('result_num', '')
+        result_csv = request.FILES['result_csv']
+
+        result_dict = csv_to_clean_keys(result_csv)
+        print('num', result_dict)
 
     else:
         pass
