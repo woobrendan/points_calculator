@@ -58,7 +58,7 @@ def removeDuplicateTeams(arr):
 def sort_by_pic(entry):
     pic = entry['PIC']
     if pic == '':
-        pic = 100
+        pic = '100'
     return int(pic)
 
 
