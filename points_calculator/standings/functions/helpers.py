@@ -64,17 +64,14 @@ def sort_by_pic(entry):
 
 def update_team_points(arr):
     points = [25, 18, 15, 12, 10, 8, 6, 4, 2, 1]
-    length = len(arr)
 
-    if length <= 10:
-        # update points for the first 10 entries, anything after change to zero
-        for i, entry in enumerate(arr[:length]):
-            entry['Points'] = points[i]
-    else:
-        for i, entry in enumerate(arr[:10]):
-            entry['Points'] = points[i]
-
-        for entry in arr[10:]:
+    for i, entry in enumerate(arr):
+        if i < 10:
+            if entry['PIC'] == '':
+                entry['Points'] = 0
+            else:
+                entry['Points'] = points[i]
+        else:
             entry['Points'] = 0
 
     return arr
