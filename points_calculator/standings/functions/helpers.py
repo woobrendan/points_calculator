@@ -55,6 +55,13 @@ def removeDuplicateTeams(arr):
     return arr
 
 
+def sort_by_pic(entry):
+    pic = entry['PIC']
+    if pic == '':
+        pic = 100
+    return int(pic)
+
+
 def team_results_byClass(entry_list):
     entries_by_class = {}
 
@@ -68,7 +75,8 @@ def team_results_byClass(entry_list):
             entries_by_class[classification] = [entry]
 
     for class_list in entries_by_class.values():
-        class_list.sort(key=lambda x: int(x['Points']), reverse=True)
+        # Take in each class list of result, sort by PIC, then remove duplicate teams
+        class_list.sort(key=sort_by_pic)
         class_list[:] = removeDuplicateTeams(class_list)
 
     return entries_by_class
