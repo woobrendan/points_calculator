@@ -52,7 +52,7 @@ def removeDuplicateTeams(arr):
             unique_teams.add(team_name)
             filtered_entries.append(entry)
 
-    return arr
+    return filtered_entries
 
 
 def sort_by_pic(entry):
@@ -65,7 +65,6 @@ def sort_by_pic(entry):
 def update_team_points(arr):
     points = [25, 18, 15, 12, 10, 8, 6, 4, 2, 1]
     length = len(arr)
-    print('arr', arr)
 
     if length <= 10:
         # update points for the first 10 entries, anything after change to zero
@@ -96,6 +95,8 @@ def team_results_byClass(entry_list):
     for class_list in entries_by_class.values():
         # Take in each class list of result, sort by PIC, then remove duplicate teams
         class_list.sort(key=sort_by_pic)
-        class_list[:] = update_team_points(removeDuplicateTeams(class_list))[:]
+        sorted_list = class_list[:]
+        class_list[:] = update_team_points(
+            removeDuplicateTeams(sorted_list))[:]
 
     return entries_by_class
