@@ -62,6 +62,25 @@ def sort_by_pic(entry):
     return int(pic)
 
 
+def update_team_points(arr):
+    points = [25, 18, 15, 12, 10, 8, 6, 4, 2, 1]
+    length = len(arr)
+    print('arr', arr)
+
+    if length <= 10:
+        # update points for the first 10 entries, anything after change to zero
+        for i, entry in enumerate(arr[:length]):
+            entry['Points'] = points[i]
+    else:
+        for i, entry in enumerate(arr[:10]):
+            entry['Points'] = points[i]
+
+        for entry in arr[10:]:
+            entry['Points'] = 0
+
+    return arr
+
+
 def team_results_byClass(entry_list):
     entries_by_class = {}
 
@@ -77,27 +96,6 @@ def team_results_byClass(entry_list):
     for class_list in entries_by_class.values():
         # Take in each class list of result, sort by PIC, then remove duplicate teams
         class_list.sort(key=sort_by_pic)
-        class_list[:] = removeDuplicateTeams(class_list)
-
-        #######
-        # change points based on team order
+        class_list[:] = update_team_points(removeDuplicateTeams(class_list))[:]
 
     return entries_by_class
-
-
-def update_team_points(arr):
-    points = [25, 18, 15, 12, 10, 8, 6, 4, 2, 1]
-    length = len(arr)
-
-    if length <= 10:
-        # update points for the first 10 entries, anything after change to zero
-        for i, entry in enumerate(arr[:length]):
-            entry['Points'] = points[i]
-    else:
-        for i, entry in enumerate(arr[:10]):
-            entry['Points'] = points[i]
-
-        for entry in arr[10:]:
-            entry['Points'] = 0
-
-    return arr
