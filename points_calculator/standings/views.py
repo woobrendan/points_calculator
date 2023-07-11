@@ -1,4 +1,4 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from flask import jsonify
 import json
 import requests
@@ -76,11 +76,12 @@ def new_result(request):
 
         newR = helpers.team_results_byClass(result_arr)
         # returns
-        # {'Pro': [{'Pos': '1', 'PIC': '1', '#': '93', 'Class': 'Pro', 'Points': '25', 'Team': 'Racers Edge Motorsports', 'Vehicle': 'Acura NSX GT3 EVO22', 'Series': 'gtwca'}, {'Pos': '2', 'PIC': '2', '#': '28', 'Class': 'Pro', 'Points': '18', 'Team': 'RS1', 'Vehicle': 'Porsche GT3 R 992', 'Series': 'gtwca'}, {'Pos': '5', 'PIC': '3', '#': '53', 'Class': 'Pro', 'Points': '15', 'Team': 'MDK', 'Vehicle': 'Porsche GT3 R 992', 'Series': 'gtwca'}, {'Pos': '13', 'PIC': '4', '#': '94', 'Class': 'Pro', 'Points': '12', 'Team': 'BimmerWorld', 'Vehicle': 'BMW M4 GT3', 'Series': 'gtwca'}],
+        # {'Pro': [{'Pos': '1', 'PIC': '1', '#': '93', 'Class': 'Pro', 'Points': '25', 'Team': 'Racers Edge Motorsports', 'Vehicle': 'Acura NSX GT3 EVO22', 'Series': 'gtwca'}, {'Pos': '2', 'PIC': '2', '#': '28', 'Class': 'Pro', 'Points': '18', 'Team': 'RS1', 'Vehicle': 'Porsche GT3 R 992', 'Series': 'gtwca'}, {'Pos': '5', 'PIC': '3', '#': '53', 'Class': 'Pro', 'Points': '15', 'Team': 'MDK', 'Vehicle': 'Porsche GT3 R 992', 'Series': 'gtwca'}, {'Pos': '13', 'PIC': '4', '#': '94', 'Class': 'Pro', 'Points': '12', 'Team': 'BimmerWorld', 'Vehicle': 'BMW M4 GT3', 'Series': 'gtwca'}, {'Pos': '14', 'PIC': '5', '#': '82', 'Class': 'Pro', 'Points': '8', 'Team': 'Racers Edge Motorsports', 'Vehicle': 'Acura NSX GT3 EVO22', 'Series': 'gtwca'}],
         #
 
         url = f'http://localhost:2020/teamPoints/{series}'
         headers = {'Content-Type': 'application/json'}
+        success = False
 
         for key, result_arr in newR.items():
             for result in result_arr:
@@ -97,9 +98,12 @@ def new_result(request):
 
                 if response.status_code == 200:
                     print('POST request successful')
-                    # redirect
+                    sucess = True
                 else:
                     print(f'Error: {response.status_code}')
+
+        if sucess:
+            redirect("standing:team", series)
 
     else:
         pass
