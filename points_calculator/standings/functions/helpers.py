@@ -69,7 +69,6 @@ def team_results_byClass(entry_list):
 
     for class_list in entries_by_class.values():
         class_list.sort(key=lambda x: int(x['Points']), reverse=True)
-        class_list.clear()
-        class_list.extend(removeDuplicateTeams(class_list))
+        class_list[:] = removeDuplicateTeams(class_list)
 
     return entries_by_class
