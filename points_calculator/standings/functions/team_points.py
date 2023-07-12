@@ -1,10 +1,3 @@
-def getRounds(points_dict):
-    round_list = []
-    for roundNum in points_dict.__dict__:
-        round_list.append(roundNum)
-    return round_list
-
-
 def removeDuplicateTeams(arr):
     unique_teams = set()
     filtered_entries = []
