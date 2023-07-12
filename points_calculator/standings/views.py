@@ -29,8 +29,10 @@ def drivers_standing(request, series):
 
 
 def team_standing(request, series):
+    # fetch all team standing values, sorted as a dict with pro/am as keys and list for team vals, remove rounds not used
     team_standing = handle_rounds(series, fetch_team_standings(series))
 
+    # Get the first list from pro, get the rounds to pass for header
     _, team_list = list(team_standing.items())[0]
     round_list = getRounds(team_list[0].points)
 
