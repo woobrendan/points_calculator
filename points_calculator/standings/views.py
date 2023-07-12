@@ -3,7 +3,7 @@ from flask import jsonify
 import json
 import requests
 
-from .functions.helpers import getRounds
+from .functions.helpers import getRounds, handle_rounds
 from .functions.csv_converter import csv_to_clean_keys
 from .functions.team_points import team_results_byClass
 from .functions.fetch_drivers import fetch_drivers
@@ -16,7 +16,7 @@ def drivers_standing(request, series):
 
         # if the value is a tuple, means fetch failed, and we have status code and none value
         if isinstance(drivers, tuple):
-            status_code, data = drivers
+            status_code, _ = drivers
             error_message = f"Failed to fetch data. Status code: { status_code }"
             return jsonify({"error": error_message}), status_code
 
@@ -29,22 +29,7 @@ def drivers_standing(request, series):
 
 
 def team_standing(request, series):
-    team_standing = fetch_team_standings(series)
-
-    if series != 'gta':
-        for _, lists in team_standing.items():
-            keys_to_remove = ['R14', 'R15', 'R16', 'R17', 'R18']
-
-            # TC America & GT4 America have 14 rounds
-            if series == 'tca' or series == 'pgt4a':
-                del keys_to_remove[0]
-
-            # List of TeamEntry
-            for team in lists:
-                points = team.points
-                for key in keys_to_remove:
-                    if key in points.__dict__:
-                        delattr(points, key)
+    team_standing = handle_rounds(series, fetch_team_standings(series))
 
     _, team_list = list(team_standing.items())[0]
     round_list = getRounds(team_list[0].points)
@@ -54,7 +39,7 @@ def team_standing(request, series):
 
     # if the value is a tuple, means fetch failed, and we have status code and none value
     if isinstance(team_standing, tuple):
-        status_code, data = team_standing
+        status_code, _ = team_standing
         error_message = f"Failed to fetch data. Status code: { status_code }"
         return jsonify({"error": error_message}), status_code
 
