@@ -3,13 +3,16 @@ from flask import jsonify
 import json
 import requests
 
-from .functions import fetch_drivers, fetch_team_standing, helpers
+from .functions.helpers import getRounds
 from .functions.csv_converter import csv_to_clean_keys
+from .functions.team_points import team_results_byClass
+from .functions.fetch_drivers import fetch_drivers
+from .functions.fetch_team_standing import fetch_team_standings
 
 
 def drivers_standing(request, series):
     if request.method == 'GET':
-        drivers = fetch_drivers.fetch_drivers(series)
+        drivers = fetch_drivers(series)
 
         # if the value is a tuple, means fetch failed, and we have status code and none value
         if isinstance(drivers, tuple):
@@ -26,7 +29,7 @@ def drivers_standing(request, series):
 
 
 def team_standing(request, series):
-    team_standing = fetch_team_standing.fetch_team_standings(series)
+    team_standing = fetch_team_standings(series)
 
     if series != 'gta':
         for _, lists in team_standing.items():
@@ -44,7 +47,7 @@ def team_standing(request, series):
                         delattr(points, key)
 
     _, team_list = list(team_standing.items())[0]
-    round_list = helpers.getRounds(team_list[0].points)
+    round_list = getRounds(team_list[0].points)
 
     button_style = "px-4 py-2 text-sm font-medium text-white bg-red-600 border border-gray-200 rounded-lg hover:bg-black hover:text-red-400 hover:border-red-500"
     anchor_style = "block px-4 py-2"
@@ -71,13 +74,9 @@ def new_result(request):
 
         # Take in CSV file and convert to dict, keys as class (pro/am) values as list of result from race
         result_arr = csv_to_clean_keys(result_csv)
+        newR = team_results_byClass(result_arr)
 
         series = result_arr[0]['Series']
-
-        newR = helpers.team_results_byClass(result_arr)
-        # returns
-        # {'Pro': [{'Pos': '1', 'PIC': '1', '#': '93', 'Class': 'Pro', 'Points': '25', 'Team': 'Racers Edge Motorsports', 'Vehicle': 'Acura NSX GT3 EVO22', 'Series': 'gtwca'}, {'Pos': '2', 'PIC': '2', '#': '28', 'Class': 'Pro', 'Points': '18', 'Team': 'RS1', 'Vehicle': 'Porsche GT3 R 992', 'Series': 'gtwca'}, {'Pos': '5', 'PIC': '3', '#': '53', 'Class': 'Pro', 'Points': '15', 'Team': 'MDK', 'Vehicle': 'Porsche GT3 R 992', 'Series': 'gtwca'}, {'Pos': '13', 'PIC': '4', '#': '94', 'Class': 'Pro', 'Points': '12', 'Team': 'BimmerWorld', 'Vehicle': 'BMW M4 GT3', 'Series': 'gtwca'}, {'Pos': '14', 'PIC': '5', '#': '82', 'Class': 'Pro', 'Points': '8', 'Team': 'Racers Edge Motorsports', 'Vehicle': 'Acura NSX GT3 EVO22', 'Series': 'gtwca'}],
-        #
 
         url = f'http://localhost:2020/teamPoints/{series}'
         headers = {'Content-Type': 'application/json'}
@@ -101,8 +100,9 @@ def new_result(request):
                     sucess = True
                 else:
                     print(f'Error: {response.status_code}')
+                    sucess = False
 
-        if sucess:
+        if success:
             redirect("standing:team", series)
 
     else:
