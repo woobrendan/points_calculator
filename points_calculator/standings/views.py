@@ -97,13 +97,13 @@ def new_result(request):
 
                 if response.status_code == 200:
                     print('POST request successful')
-                    sucess = True
+                    success = True
                 else:
                     print(f'Error: {response.status_code}')
-                    sucess = False
+                    success = False
 
         if success:
-            redirect("standing:team", series)
+            return redirect("standing:team", series)
 
     else:
         pass
