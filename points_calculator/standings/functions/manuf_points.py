@@ -1,4 +1,5 @@
 from .helpers import sort_by_pic
+from .points import update_points
 
 
 def removeDuplicateManuf(arr):
@@ -15,7 +16,7 @@ def removeDuplicateManuf(arr):
     return filtered_entries
 
 
-def team_results_byClass(entry_list):
+def manuf_results_byClass(entry_list):
     entries_by_class = {}
 
     # loop through filtered entries, and sort them into dictionary with keys as the class (pro, Pro/Am or am, etc) and the value as a list of entries
@@ -33,7 +34,7 @@ def team_results_byClass(entry_list):
         sorted_list = class_list[:]
 
         # remove dupe entries, then update points based on team finish
-        class_list[:] = update_team_points(
+        class_list[:] = update_points(
             removeDuplicateManuf(sorted_list))[:]
 
     return entries_by_class
