@@ -1,4 +1,5 @@
 from .helpers import sort_by_pic
+from .points import update_points
 
 
 def removeDuplicateTeams(arr):
@@ -13,21 +14,6 @@ def removeDuplicateTeams(arr):
             filtered_entries.append(entry)
 
     return filtered_entries
-
-
-def update_team_points(arr):
-    points = [25, 18, 15, 12, 10, 8, 6, 4, 2, 1]
-
-    for i, entry in enumerate(arr):
-        if i < 10:
-            if entry['PIC'] == '':
-                entry['Points'] = 0
-            else:
-                entry['Points'] = points[i]
-        else:
-            entry['Points'] = 0
-
-    return arr
 
 
 def team_results_byClass(entry_list):
@@ -48,7 +34,7 @@ def team_results_byClass(entry_list):
         sorted_list = class_list[:]
 
         # remove dupe entries, then update points based on team finish
-        class_list[:] = update_team_points(
+        class_list[:] = update_points(
             removeDuplicateTeams(sorted_list))[:]
 
     return entries_by_class
