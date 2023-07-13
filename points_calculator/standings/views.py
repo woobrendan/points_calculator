@@ -59,9 +59,13 @@ def new_result(request):
         result_num = request.POST.get('result_num', '')
         result_csv = request.FILES['result_csv']
 
-        # Take in CSV file and convert to dict, keys as class (pro/am) values as list of result from race
+        # Take in CSV file and convert to list of dict
         result_arr = csv_to_clean_keys(result_csv)
+
+        # sort by class, remove dupes, apply points for highest finishing car per team
         newR = team_results_byClass(result_arr)
+
+        # make manuf result, create logic to pass on to its own url
 
         series = result_arr[0]['Series']
 
