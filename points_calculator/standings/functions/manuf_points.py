@@ -2,14 +2,14 @@ from .helpers import sort_by_pic
 
 
 def removeDuplicateManuf(arr):
-    unique_teams = set()
+    unique_manuf = set()
     filtered_entries = []
 
     for entry in arr:
-        team_name = entry['Team']
+        vehicle = entry['Manufacturer']
 
-        if team_name not in unique_teams:
-            unique_teams.add(team_name)
+        if vehicle not in unique_manuf:
+            unique_manuf.add(vehicle)
             filtered_entries.append(entry)
 
     return filtered_entries
