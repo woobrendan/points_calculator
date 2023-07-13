@@ -11,7 +11,8 @@ key_list = [
     'Class',
     'Points',
     'Additional3',
-    'Additional4'
+    'Additional4',
+    'Additional6'
 ]
 
 
