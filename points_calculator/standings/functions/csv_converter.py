@@ -41,6 +41,8 @@ def change_key_name(dict_arr):
             result['Vehicle'] = result.pop('Additional4')
         if 'Additional3' in result:
             result['Series'] = result.pop('Additional3')
+        if 'Additional6' in result:
+            result['Manufacturer'] = result.pop('Additional6')
 
         series = result['Series']
 
