@@ -36,3 +36,14 @@ export interface Series {
   teamPoints: TeamPoints[];
   manufPoints: ManufacturerPoints[];
 }
+
+export interface ReqPoints {
+  Pos: string;
+  PIC: string;
+  Class: string;
+  Points: number;
+  Team: string;
+  Vehicle: string;
+  Series: string;
+  Manufacturer: string;
+}
