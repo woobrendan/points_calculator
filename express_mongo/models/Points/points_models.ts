@@ -9,6 +9,10 @@ interface ManufacturerPoints {
   points: PointsInterface;
 }
 
+export interface IManufPoints {
+  [key: string]: ManufacturerPoints[];
+}
+
 export interface PointsInterface {
   [key: string]: number | null;
   R1: number | null;
@@ -32,9 +36,9 @@ export interface PointsInterface {
 }
 
 export interface Series {
-  name: string;
+  seriesName: string;
   teamPoints: TeamPoints[];
-  manufPoints: ManufacturerPoints[];
+  manufPoints: IManufPoints;
 }
 
 export interface ReqPoints {
