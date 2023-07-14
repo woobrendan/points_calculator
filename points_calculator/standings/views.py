@@ -8,6 +8,7 @@ from .functions.csv_converter import csv_to_clean_keys
 from .functions.team_points import team_results_byClass
 from .functions.fetch_drivers import fetch_drivers
 from .functions.fetch_team_standing import fetch_team_standings
+from .functions.manuf_points import manuf_results_byClass
 
 
 def drivers_standing(request, series):
@@ -64,6 +65,7 @@ def new_result(request):
 
         # sort by class, remove dupes, apply points for highest finishing car per team
         newR = team_results_byClass(result_arr)
+        manufResults = manuf_results_byClass(result_arr)
 
         # make manuf result, create logic to pass on to its own url
 
@@ -95,6 +97,46 @@ def new_result(request):
 
         if success:
             return redirect("standing:team", series)
+
+    else:
+        pass
+    return render(request, 'standing/new_result.html')
+
+########## Test new method to send json with team and manuf information at once"#########
+
+
+def new_result_WITH_MANUF(request):
+    if request.method == 'POST':
+        result_num = request.POST.get('result_num', '')
+        result_csv = request.FILES['result_csv']
+
+        # Take in CSV file and convert to list of dict
+        result_arr = csv_to_clean_keys(result_csv)
+
+        # sort by class, remove dupes, apply points for highest finishing car per team
+        team_results = team_results_byClass(result_arr)
+        manuf_results = manuf_results_byClass(result_arr)
+
+        r_num = f"R{result_num}"
+        series = result_arr[0]['Series']
+        data = {
+            "manufResults": manuf_results,
+            "teamResults": team_results,
+            "roundNum": r_num
+        }
+
+        url = f'http://localhost:2020/teamPoints/{series}'
+        headers = {'Content-Type': 'application/json'}
+        json_data = json.dumps(data)
+
+        response = requests.post(url, headers=headers, data=json_data)
+
+        if response.status_code == 200:
+            print('POST request successful')
+            return redirect("standing:team", series)
+
+        else:
+            print(f'Error: {response.status_code}')
 
     else:
         pass
