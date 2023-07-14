@@ -4,8 +4,9 @@ export interface TeamPoints {
   points: PointsInterface;
 }
 
-interface ManufacturerPoints {
+export interface ManufacturerPoints {
   manufName: string;
+  classification: string;
   points: PointsInterface;
 }
 
@@ -42,6 +43,7 @@ export interface Series {
 }
 
 export interface ReqPoints {
+  [key: string]: string | number;
   Pos: string;
   PIC: string;
   Class: string;
@@ -50,4 +52,8 @@ export interface ReqPoints {
   Vehicle: string;
   Series: string;
   Manufacturer: string;
+}
+
+export interface ReqPointsArr {
+  [key: string]: ReqPoints[];
 }
