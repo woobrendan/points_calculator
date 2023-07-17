@@ -7,7 +7,6 @@ const router = express.Router();
 
 router.get("/", controller.getAll);
 router.get("/:series", controller.getBySeries);
-router.post("/:series", controller.handleTeamPoints);
 router.get("/:series", controller.getBySeries);
 
 export = router;
