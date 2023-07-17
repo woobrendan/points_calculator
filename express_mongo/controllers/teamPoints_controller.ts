@@ -44,61 +44,9 @@ const getTeamPoints = async (req: Request, res: Response) => {
     }
 };
 
-//** Post Route to update team points or add team to points list */
-
-const handleTeamPoints = async (req: Request, res: Response) => {
-    const { teamName, classification, round, points } = req.body;
-    const seriesName = getSeriesName(req.params.series);
-
-    try {
-        const series = await SeriesPoints.findOne({ name: seriesName });
-        let found = false;
-        if (series) {
-            series.teamPoints.forEach((entry, index) => {
-                if (entry.teamName === teamName) {
-                    series.teamPoints[index] = {
-                        teamName: entry.teamName,
-                        classification: entry.classification,
-                        points: updateTeamPoints(round, points, entry.points),
-                    };
-                    found = true;
-                }
-            });
-
-            const newTeam = {
-                teamName: teamName,
-                classification: classification,
-                points: setNewTeamPoints(round, points),
-            };
-
-            if (!found) {
-                series.teamPoints.push(newTeam);
-            }
-            await series.save();
-            res.status(200).json({ newTeam });
-        } else {
-            return res.status(400).json({ message: "Series Not Found" });
-        }
-    } catch (error) {
-        return res.status(500).json({ error });
-    }
-};
-
-//** HANDLE TEAM AND MANUF POINTS from ARRAYS */
-const handleTeamManufPoints = async (req: Request, res: Response) => {
-    const seriesName = getSeriesName(req.params.series);
-    const { manufResults, teamResults, roundNum } = req.body;
-
-    try {
-        handleManufPoints(manufResults, seriesName, roundNum);
-    } catch (error) {
-        return res.status(500).json({ error });
-    }
-};
 
 export default {
     getBySeries,
     getTeamPoints,
-    handleTeamPoints,
     getAll,
 };
