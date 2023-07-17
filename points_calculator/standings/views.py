@@ -57,56 +57,7 @@ def team_standing(request, series):
 
 def new_result(request):
     if request.method == 'POST':
-        result_num = request.POST.get('result_num', '')
-        result_csv = request.FILES['result_csv']
 
-        # Take in CSV file and convert to list of dict
-        result_arr = csv_to_clean_keys(result_csv)
-
-        # sort by class, remove dupes, apply points for highest finishing car per team
-        newR = team_results_byClass(result_arr)
-        manufResults = manuf_results_byClass(result_arr)
-
-        # make manuf result, create logic to pass on to its own url
-
-        series = result_arr[0]['Series']
-
-        url = f'http://localhost:2020/teamPoints/{series}'
-        headers = {'Content-Type': 'application/json'}
-        success = False
-
-        for key, result_arr in newR.items():
-            for result in result_arr:
-                r_num = f"R{result_num}"
-                data = {
-                    "classification": key,
-                    "round": r_num,
-                    "points": result['Points'],
-                    "teamName": result['Team']
-                }
-                json_data = json.dumps(data)
-
-                response = requests.post(url, headers=headers, data=json_data)
-
-                if response.status_code == 200:
-                    print('POST request successful')
-                    success = True
-                else:
-                    print(f'Error: {response.status_code}')
-                    success = False
-
-        if success:
-            return redirect("standing:team", series)
-
-    else:
-        pass
-    return render(request, 'standing/new_result.html')
-
-########## Test new method to send json with team and manuf information at once"#########
-
-
-def new_result_WITH_MANUF(request):
-    if request.method == 'POST':
         result_num = request.POST.get('result_num', '')
         result_csv = request.FILES['result_csv']
 
@@ -125,7 +76,7 @@ def new_result_WITH_MANUF(request):
             "roundNum": r_num
         }
 
-        url = f'http://localhost:2020/teamPoints/{series}'
+        url = f'http://localhost:2020/result/{series}'
         headers = {'Content-Type': 'application/json'}
         json_data = json.dumps(data)
 
