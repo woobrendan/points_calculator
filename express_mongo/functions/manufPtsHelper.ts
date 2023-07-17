@@ -9,7 +9,7 @@ const handleManufPoints = async (
     manufObj: ReqPointsArr,
     seriesName: string,
     round: string,
-) => {
+): Promise<boolean> => {
     try {
         const series = await SeriesPoints.findOne({ name: seriesName });
 
@@ -50,8 +50,10 @@ const handleManufPoints = async (
                 }
             }
         }
+        return true;
     } catch (error) {
         console.log("Error with Manuf Points", error);
+        return false;
     }
 };
 
