@@ -66,7 +66,7 @@ const handleTeamManufPoints = async (
         }
         return true;
     } catch (error) {
-        console.log("Error with Manuf Points", error);
+        console.log("Error with Points", error);
         return false;
     }
 };
