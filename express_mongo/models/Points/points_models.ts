@@ -23,7 +23,7 @@ export interface PointsInterface {
 //** Interfaces for Team and Manuf Array */
 export interface TeamPoints {
     teamName?: string;
-    classification: string;
+    classification?: string;
     points: PointsInterface;
 }
 
@@ -33,7 +33,7 @@ interface ITeamPoints {
 
 export interface ManufacturerPoints {
     manufName?: string;
-    classification: string;
+    classification?: string;
     points: PointsInterface;
 }
 
@@ -46,6 +46,7 @@ export interface Series {
     seriesName: string;
     teamPoints: ITeamPoints;
     manufPoints: IManufPoints;
+    manufPointsList: ManufacturerPoints[];
 }
 
 //** Interfaces for points coming from front end */
