@@ -1,6 +1,7 @@
 import {
     ReqPointsArr,
     ManufacturerPoints,
+    TeamPoints,
 } from "../models/Points/points_models";
 import SeriesPoints from "../models/Points/seriesPoints_schema";
 import { setNewTeamPoints } from "./teamPointsHelper";
@@ -33,14 +34,17 @@ const handleTeamManufPoints = async (
 
                         for (const dbEntry of dbArr) {
                             if (pointsType === "teamPoints") {
-                                if (dbEntry.teamName === Team) {
-                                    dbEntry.points[round] = Points;
+                                const teamEntry = dbEntry as TeamPoints;
+                                if (teamEntry.teamName === Team) {
+                                    teamEntry.points[round] = Points;
                                     found = true;
                                     break;
                                 }
                             } else {
-                                if (dbEntry.manufName === Manufacturer) {
-                                    dbEntry.points[round] = Points;
+                                const manufEntry =
+                                    dbEntry as ManufacturerPoints;
+                                if (manufEntry.manufName === Manufacturer) {
+                                    manufEntry.points[round] = Points;
                                     found = true;
                                     break;
                                 }
