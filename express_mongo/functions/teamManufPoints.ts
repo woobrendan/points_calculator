@@ -33,21 +33,18 @@ const handleTeamManufPoints = async (
                         let found = false;
 
                         for (const dbEntry of dbArr) {
-                            if (pointsType === "teamPoints") {
-                                const teamEntry = dbEntry as TeamPoints;
-                                if (teamEntry.teamName === Team) {
-                                    teamEntry.points[round] = Points;
-                                    found = true;
-                                    break;
-                                }
-                            } else {
-                                const manufEntry =
-                                    dbEntry as ManufacturerPoints;
-                                if (manufEntry.manufName === Manufacturer) {
-                                    manufEntry.points[round] = Points;
-                                    found = true;
-                                    break;
-                                }
+                            // Based on pointsType var, assert the interface that dbEntry uses then check that team name or manuf name matches, then update points accordingly
+                            if (
+                                (pointsType === "teamPoints" &&
+                                    (dbEntry as TeamPoints).teamName ===
+                                        Team) ||
+                                (pointsType === "manufPoints" &&
+                                    (dbEntry as ManufacturerPoints)
+                                        .manufName === Manufacturer)
+                            ) {
+                                dbEntry.points[round] = Points;
+                                found = true;
+                                break;
                             }
                         }
 
