@@ -6,11 +6,7 @@
         "Pro-Am": [],
         "Am": []
       },
-      "manufPoints": {
-        "Pro": [],
-        "Pro-Am": [],
-        "Am": []
-      }
+      "manufPointsList": []
     },
     {
       "name": "Pirelli GT4 America",
@@ -19,11 +15,7 @@
         "Pro-Am": [],
         "Am": []
       },
-      "manufPoints": {
-        "Silver": [],
-        "Pro-Am": [],
-        "Am": []
-      }
+      "manufPointsList": []
     },
     {
       "name": "GT America",
