@@ -52,14 +52,23 @@ const handleTeamManufPoints = async (
                         }
 
                         if (!found) {
-                            const newManuf: ManufacturerPoints = {
-                                manufName: Manufacturer,
-                                classification: newResult.Class,
-                                points: setNewTeamPoints(round, Points),
-                            };
+                            let newEntry: ManufacturerPoints | TeamPoints;
 
-                            dbArr.push(newManuf);
+                            if (pointsType === "teamPoints") {
+                                newEntry = {
+                                    teamName: Team,
+                                    classification: newResult.Class,
+                                    points: setNewTeamPoints(round, Points),
+                                } as TeamPoints;
+                            } else {
+                                newEntry = {
+                                    manufName: Manufacturer,
+                                    classification: newResult.Class,
+                                    points: setNewTeamPoints(round, Points),
+                                } as ManufacturerPoints;
+                            }
 
+                            dbArr.push(newEntry);
                             await series.save();
                         }
                     }
