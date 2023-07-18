@@ -6,6 +6,7 @@ import {
 import SeriesPoints from "../models/Points/seriesPoints_schema";
 import { setNewTeamPoints } from "./teamPointsHelper";
 
+//** Handles Team and Manufacturer Points. Can only handle Manuf Points IF series is not GTWCA or GT4A */
 const handleTeamManufPoints = async (
     pointsObj: ReqPointsArr,
     seriesName: string,
@@ -58,11 +59,11 @@ const handleTeamManufPoints = async (
                             };
 
                             dbArr.push(newEntry);
-                            await series.save();
                         }
                     }
                 }
             }
+            await series.save();
         }
         return true;
     } catch (error) {
