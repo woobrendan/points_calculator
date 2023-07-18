@@ -1,7 +1,11 @@
 [
     {
       "name": "GT World Challenge America",
-      "teamPoints": {},
+      "teamPoints": {
+        "Pro": [],
+        "Pro-Am": [],
+        "Am": []
+      },
       "manufPoints": {
         "Pro": [],
         "Pro-Am": [],
@@ -10,7 +14,11 @@
     },
     {
       "name": "Pirelli GT4 America",
-      "teamPoints": {},
+      "teamPoints": {
+        "Silver": [],
+        "Pro-Am": [],
+        "Am": []
+      },
       "manufPoints": {
         "Silver": [],
         "Pro-Am": [],
@@ -19,7 +27,12 @@
     },
     {
       "name": "GT America",
-      "teamPoints": {},
+      "teamPoints": {
+        "SRO3": [],
+        "GT4": [],
+        "Masters": [],
+        "GT2": []
+      },
       "manufPoints": {
         "SRO3": [],
         "GT4": [],
@@ -29,7 +42,11 @@
     },
     {
       "name": "TC America",
-      "teamPoints": {},
+      "teamPoints": {
+        "TCX": [],
+        "TC": [],
+        "TCA": []
+      },
       "manufPoints": {
         "TCX": [],
         "TC": [],
@@ -43,7 +60,9 @@
     },
     {
       "name": "Toyota GR Cup",
-      "teamPoints": {},
+      "teamPoints": {
+        "Am": []
+      },
       "manufPoints": {
         "Am": []
       }
