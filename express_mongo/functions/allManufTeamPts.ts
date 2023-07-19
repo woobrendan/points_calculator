@@ -17,7 +17,7 @@ const teamManufPoints = async (
         const series = await SeriesPoints.findOne({ name: seriesName });
 
         if (series) {
-            const { teamPoints, manufPoints, manufList } = series;
+            const { teamPoints, manufPoints, manufPointsList } = series;
 
             // Loop through keys (class) from the incoming array and check if those keys exist inside the db for manufPoints
             for (const classification in pointsObj) {
