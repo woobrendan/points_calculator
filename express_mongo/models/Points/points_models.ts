@@ -27,7 +27,7 @@ export interface TeamPoints {
     points: PointsInterface;
 }
 
-interface ITeamPoints {
+export interface ITeamPoints {
     [key: string]: TeamPoints[];
 }
 
