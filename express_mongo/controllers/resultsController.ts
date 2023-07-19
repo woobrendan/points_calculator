@@ -1,8 +1,7 @@
 import { Request, Response } from "express";
-import SeriesPoints from "../models/Points/seriesPoints_schema";
 import { getSeriesName } from "../functions/teamPointsHelper";
-import handleManufPoints from "../functions/manufPtsHelper";
 import handleGT3GT4ManufPts from "../functions/manufPtsHelper";
+import teamManufPoints from "../functions/teamManufPoints";
 
 const handleTeamManufPoints = async (req: Request, res: Response) => {
     const seriesName = getSeriesName(req.params.series);
@@ -17,7 +16,20 @@ const handleTeamManufPoints = async (req: Request, res: Response) => {
                 roundNum,
             );
         } else {
-            manuf = await handleManufPoints(manufResults, seriesName, roundNum);
+            const manufComplete = await teamManufPoints(
+                manufResults,
+                seriesName,
+                roundNum,
+                "manufPoints",
+            );
+            const teamComplete = await teamManufPoints(
+                teamResults,
+                seriesName,
+                roundNum,
+                "teamPoints",
+            );
+
+            if (manufComplete && teamComplete) manuf = true;
         }
         if (manuf) {
             return res.status(200).send();
