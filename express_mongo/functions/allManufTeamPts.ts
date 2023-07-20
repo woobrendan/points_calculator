@@ -1,16 +1,11 @@
-import {
-    ReqPointsArr,
-    ManufacturerPoints,
-    TeamPoints,
-    Series,
-} from "../models/Points/points_models";
+import { ReqPointsArr, ReqPoints } from "../models/Points/points_models";
 import SeriesPoints from "../models/Points/seriesPoints_schema";
 import { setNewTeamPoints, updateTeamPointsObj } from "./teamPointsHelper";
-import { handleManufPoints } from "./manufPtsHelper";
+import { handleGT3GT4ManufPts, handleManufPoints } from "./manufPtsHelper";
 
 //** Handles Team and Manufacturer Points. Can only handle Manuf Points IF series is not GTWCA or GT4A */
 const teamManufPoints = async (
-    manufPointsObj: ReqPointsArr,
+    manufPointsObj: ReqPointsArr | ReqPoints[],
     teamPointsObj: ReqPointsArr,
     seriesName: string,
     round: string,
@@ -26,6 +21,13 @@ const teamManufPoints = async (
 
             //Pass manufPoints to handleManufPoints func
             if (seriesName === "gtwca" || seriesName === "pgt4a") {
+                const manufList = handleGT3GT4ManufPts(
+                    manufPointsObj,
+                    manufPointsList,
+                    round,
+                );
+
+                series.manufPointsList = manufList;
             } else {
                 const manufObj = handleManufPoints(
                     manufPointsObj,
