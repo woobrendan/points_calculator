@@ -1,4 +1,8 @@
-import { PointsInterface } from "../models/Points/points_models";
+import {
+    PointsInterface,
+    ReqPointsArr,
+    ITeamPoints,
+} from "../models/Points/points_models";
 
 const setNewTeamPoints = (round: string, points: number) => {
     const pts: PointsInterface = {
@@ -54,5 +58,12 @@ const updateTeamPoints = (
 
     return ptsObj;
 };
+
+const updateTeamPointsObj = (
+    teamPointsObj: ReqPointsArr,
+    backendTeamPts: ITeamPoints,
+    seriesName: string,
+    round: string,
+) => {};
 
 export { setNewTeamPoints, getSeriesName, updateTeamPoints };
