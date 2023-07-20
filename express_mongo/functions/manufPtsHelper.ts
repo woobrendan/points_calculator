@@ -4,7 +4,7 @@ import {
     ManufacturerPoints,
     IManufPoints,
 } from "../models/Points/points_models";
-import SeriesPoints from "../models/Points/seriesPoints_schema";
+
 import { setNewTeamPoints } from "./teamPointsHelper";
 
 const handleManufPoints = (
@@ -51,9 +51,9 @@ const handleGT3GT4ManufPts = async (
     backendManufPoints: ManufacturerPoints[],
     round: string,
 ) => {
-    for (const newResult of reqList) {
+    return reqList.reduce((acc, newResult) => {
         const { Manufacturer, Points } = newResult;
-        const foundManuf = backendManufPoints.find(
+        const foundManuf = acc.find(
             (manuf) => manuf.manufName === Manufacturer,
         );
 
@@ -66,11 +66,11 @@ const handleGT3GT4ManufPts = async (
                 points: setNewTeamPoints(round, Points),
             };
 
-            backendManufPoints.push(newManuf);
+            acc.push(newManuf);
         }
-    }
 
-    return backendManufPoints;
+        return acc;
+    }, backendManufPoints);
 };
 
 export { handleGT3GT4ManufPts, handleManufPoints };
