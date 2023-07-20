@@ -2,11 +2,12 @@ import {
     ReqPointsArr,
     ReqPoints,
     ManufacturerPoints,
+    IManufPoints,
 } from "../models/Points/points_models";
 import SeriesPoints from "../models/Points/seriesPoints_schema";
 import { setNewTeamPoints } from "./teamPointsHelper";
 
-const handleManufPoints = async (
+const handleManufPoints = (
     manufObj: ReqPointsArr,
     backendManufPoints: IManufPoints,
     round: string,
@@ -47,45 +48,32 @@ const handleManufPoints = async (
 
 const handleGT3GT4ManufPts = async (
     reqList: ReqPoints[],
-    seriesName: string,
+    backendManufPoints: ManufacturerPoints[],
     round: string,
-): Promise<boolean> => {
-    try {
-        const series = await SeriesPoints.findOne({ name: seriesName });
+) => {
+    for (const newResult of reqList) {
+        const { Manufacturer, Points } = newResult;
+        const foundManuf = backendManufPoints.find(
+            (manuf) => manuf.manufName === Manufacturer,
+        );
 
-        if (series) {
-            const manufList: ManufacturerPoints[] = series.manufPointsList;
+        if (foundManuf) {
+            foundManuf.points[round] = Points;
+        } else {
+            const newManuf: ManufacturerPoints = {
+                manufName: Manufacturer,
+                classification: newResult.Class,
+                points: setNewTeamPoints(round, Points),
+            };
 
-            for (const newResult of reqList) {
-                const { Manufacturer, Points } = newResult;
-                const foundManuf = manufList.find(
-                    (manuf) => manuf.manufName === Manufacturer,
-                );
-
-                if (foundManuf) {
-                    foundManuf.points[round] = Points;
-                } else {
-                    const newManuf: ManufacturerPoints = {
-                        manufName: Manufacturer,
-                        classification: newResult.Class,
-                        points: setNewTeamPoints(round, Points),
-                    };
-
-                    manufList.push(newManuf);
-                }
-            }
-
-            await series.save();
+            backendManufPoints.push(newManuf);
         }
-
-        return true;
-    } catch (error) {
-        console.log("Error with GT3/GT4 Manuf Points", error);
-        return false;
     }
+
+    return backendManufPoints;
 };
 
-export default handleGT3GT4ManufPts;
+export { handleGT3GT4ManufPts, handleManufPoints };
 
 //REQUEST || manufObj
 // {'Pro': [{'Pos': '1', 'PIC': '1', '#': '93', 'Class': 'Pro', 'Points': 25, 'Team': 'Racers Edge Motorsports', 'Vehicle': 'Acura NSX GT3 EVO22', 'Series': 'gtwca', 'Manufacturer': 'Acura'}, {'Pos': '2', 'PIC': '2', '#': '28', 'Class': 'Pro', 'Points': 18, 'Team': 'RS1', 'Vehicle': 'Porsche GT3 R 992', 'Series': 'gtwca', 'Manufacturer': 'Porsche'}, {'Pos': '13', 'PIC': '4', '#': '94', 'Class': 'Pro', 'Points': 15, 'Team': 'BimmerWorld', 'Vehicle': 'BMW M4 GT3', 'Series': 'gtwca', 'Manufacturer': 'BMW'}], 'Pro-Am': [{'Pos': '3', 'PIC': '1', '#': '120', 'Class': 'Pro-Am', 'Points': 25, 'Team': 'Wright Motorsports', 'Vehicle': 'Porsche 911 GT3-R (991.ii)', 'Series': 'gtwca', 'Manufacturer': 'Porsche'}, {'Pos': '4', 'PIC': '2', '#': '007', 'Class': 'Pro-Am', 'Points': 18, 'Team': 'TRG - The Racers Group', 'Vehicle': 'Aston Martin Vantage AMR GT3', 'Series': 'gtwca', 'Manufacturer': 'Aston Martin'}, {'Pos': '7', 'PIC': '4', '#': '91', 'Class': 'Pro-Am', 'Points': 15, 'Team': 'DXDT Racing', 'Vehicle': 'Mercedes-AMG GT3', 'Series': 'gtwca', 'Manufacturer': 'Mercedes AMG GmbH'}, {'Pos': '8', 'PIC': '5', '#': '38', 'Class': 'Pro-Am', 'Points': 12, 'Team': 'ST Racing', 'Vehicle': 'BMW M4 GT3', 'Series': 'gtwca', 'Manufacturer': 'BMW'}, {'Pos': '9', 'PIC': '6', '#': '33', 'Class': 'Pro-Am', 'Points': 10, 'Team': 'Triarsi Competizione', 'Vehicle': 'Ferrari 296 GT3', 'Series': 'gtwca', 'Manufacturer': 'Ferrari'}], 'Am': [{'Pos': '15', 'PIC': '1', '#': '43', 'Class': 'Am', 'Points': 25, 'Team': 'RealTime Racing', 'Vehicle': 'Mercedes-AMG GT3', 'Series': 'gtwca', 'Manufacturer': 'Mercedes AMG GmbH'}]}
