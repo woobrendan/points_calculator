@@ -2,6 +2,7 @@ import {
     PointsInterface,
     ReqPointsArr,
     ITeamPoints,
+    TeamPoints,
 } from "../models/Points/points_models";
 
 const setNewTeamPoints = (round: string, points: number) => {
@@ -64,6 +65,40 @@ const updateTeamPointsObj = (
     backendTeamPts: ITeamPoints,
     seriesName: string,
     round: string,
-) => {};
+) => {
+    // Loop through keys (class) from the incoming array and check if those keys exist inside the db for manufPoints
+    for (const classification in teamPointsObj) {
+        if (classification in backendTeamPts) {
+            // Once found, declare variables for each backend and incoming array for the appropriate class
+            const dbArr = backendTeamPts[classification];
+            const reqArr = teamPointsObj[classification];
+
+            for (const newResult of reqArr) {
+                const { Points, Team } = newResult;
+                let found = false;
+
+                for (const dbEntry of dbArr) {
+                    if (dbEntry.teamName === Team) {
+                        dbEntry.points[round] = Points;
+                        found = true;
+                        break;
+                    }
+                }
+
+                if (!found) {
+                    const newEntry: TeamPoints = {
+                        teamName: Team,
+                        classification: newResult.Class,
+                        points: setNewTeamPoints(round, Points),
+                    };
+
+                    dbArr.push(newEntry);
+                }
+            }
+        }
+    }
+
+    return backendTeamPts;
+};
 
 export { setNewTeamPoints, getSeriesName, updateTeamPoints };
