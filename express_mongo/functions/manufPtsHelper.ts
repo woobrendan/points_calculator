@@ -6,57 +6,44 @@ import {
 import SeriesPoints from "../models/Points/seriesPoints_schema";
 import { setNewTeamPoints } from "./teamPointsHelper";
 
-// const handleManufPoints = async (
-//     manufObj: ReqPointsArr,
-//     seriesName: string,
-//     round: string,
-// ): Promise<boolean> => {
-//     try {
-//         const series = await SeriesPoints.findOne({ name: seriesName });
+const handleManufPoints = async (
+    manufObj: ReqPointsArr,
+    backendManufPoints: IManufPoints,
+    round: string,
+) => {
+    // Loop through keys (class) from the incoming array manufObj
+    for (const classification in manufObj) {
+        if (classification in backendManufPoints) {
+            // Once found, declare variables for each backend and incoming array for the appropriate class
+            const dbArr = backendManufPoints[classification];
+            const reqArr = manufObj[classification];
 
-//         if (series) {
-//             const manufList = series.manufPoints;
+            for (const newResult of reqArr) {
+                const { Manufacturer, Points } = newResult;
+                let found = false;
 
-//             // Loop through keys (class) from the incoming array and check if those keys exist inside the db for manufPoints
-//             for (const classification in manufObj) {
-//                 if (classification in manufList) {
-//                     // Once found, declare variables for each backend and incoming array for the appropriate class
-//                     const dbArr = manufList[classification];
-//                     const reqArr = manufObj[classification];
+                for (const dbEntry of dbArr) {
+                    if (dbEntry.manufName === Manufacturer) {
+                        dbEntry.points[round] = Points;
+                        found = true;
+                        break;
+                    }
+                }
 
-//                     for (const newResult of reqArr) {
-//                         const { Manufacturer, Points } = newResult;
-//                         let found = false;
+                if (!found) {
+                    const newManuf: ManufacturerPoints = {
+                        manufName: Manufacturer,
+                        classification: newResult.Class,
+                        points: setNewTeamPoints(round, Points),
+                    };
 
-//                         for (const dbEntry of dbArr) {
-//                             if (dbEntry.manufName === Manufacturer) {
-//                                 dbEntry.points[round] = Points;
-//                                 found = true;
-//                                 break;
-//                             }
-//                         }
-
-//                         if (!found) {
-//                             const newManuf: ManufacturerPoints = {
-//                                 manufName: Manufacturer,
-//                                 classification: newResult.Class,
-//                                 points: setNewTeamPoints(round, Points),
-//                             };
-
-//                             dbArr.push(newManuf);
-
-//                             await series.save();
-//                         }
-//                     }
-//                 }
-//             }
-//         }
-//         return true;
-//     } catch (error) {
-//         console.log("Error with Manuf Points", error);
-//         return false;
-//     }
-// };
+                    dbArr.push(newManuf);
+                }
+            }
+        }
+    }
+    return backendManufPoints;
+};
 
 const handleGT3GT4ManufPts = async (
     reqList: ReqPoints[],
