@@ -63,10 +63,9 @@ const updateTeamPoints = (
 const updateTeamPointsObj = (
     teamPointsObj: ReqPointsArr,
     backendTeamPts: ITeamPoints,
-    seriesName: string,
     round: string,
-) => {
-    // Loop through keys (class) from the incoming array and check if those keys exist inside the db for manufPoints
+): ITeamPoints => {
+    // Loop through keys (class) from the incoming array teamPointsObj
     for (const classification in teamPointsObj) {
         if (classification in backendTeamPts) {
             // Once found, declare variables for each backend and incoming array for the appropriate class
@@ -101,4 +100,9 @@ const updateTeamPointsObj = (
     return backendTeamPts;
 };
 
-export { setNewTeamPoints, getSeriesName, updateTeamPoints };
+export {
+    setNewTeamPoints,
+    getSeriesName,
+    updateTeamPoints,
+    updateTeamPointsObj,
+};
