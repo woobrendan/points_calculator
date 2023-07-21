@@ -51,7 +51,7 @@ const handleGT3GT4ManufPts = async (
     reqList: ReqPoints[],
     round: string,
     seriesName: string,
-) => {
+): Promise<boolean> => {
     try {
         const series = await SeriesPoints.findOne({ name: seriesName });
         if (series) {
@@ -66,7 +66,11 @@ const handleGT3GT4ManufPts = async (
 
             await series.save();
         }
-    } catch (error) {}
+        return true;
+    } catch (error) {
+        console.log("Error updateing GT3/GT4 Points", error);
+        return false;
+    }
 };
 
 const updateManufListPoints = (
