@@ -4,6 +4,7 @@ import {
     ManufacturerPoints,
     IManufPoints,
 } from "../models/Points/points_models";
+import SeriesPoints from "../models/Points/seriesPoints_schema";
 
 import { setNewTeamPoints } from "./teamPointsHelper";
 
@@ -47,6 +48,28 @@ const handleManufPoints = (
 };
 
 const handleGT3GT4ManufPts = async (
+    reqList: ReqPoints[],
+    round: string,
+    seriesName: string,
+) => {
+    try {
+        const series = await SeriesPoints.findOne({ name: seriesName });
+        if (series) {
+            const { manufPointsList } = series;
+            const updated = updateManufListPoints(
+                reqList,
+                manufPointsList,
+                round,
+            );
+
+            series.manufPointsList = updated;
+
+            await series.save();
+        }
+    } catch (error) {}
+};
+
+const updateManufListPoints = (
     reqList: ReqPoints[],
     backendManufPoints: ManufacturerPoints[],
     round: string,
