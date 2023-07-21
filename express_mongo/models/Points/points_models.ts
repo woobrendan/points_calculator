@@ -43,7 +43,7 @@ export interface IManufPoints {
 
 //** Interface for Series Points Schema */
 export interface Series {
-    seriesName: string;
+    name: string;
     teamPoints: ITeamPoints;
     manufPoints: IManufPoints;
     manufPointsList: ManufacturerPoints[];
