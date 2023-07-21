@@ -1,7 +1,7 @@
-import { ReqPointsArr, ReqPoints } from "../models/Points/points_models";
+import { ReqPointsArr } from "../models/Points/points_models";
 import SeriesPoints from "../models/Points/seriesPoints_schema";
-import { setNewTeamPoints, updateTeamPointsObj } from "./teamPointsHelper";
-import { handleGT3GT4ManufPts, handleManufPoints } from "./manufPtsHelper";
+import { updateTeamPointsObj } from "./teamPointsHelper";
+import { handleManufPoints } from "./manufPtsHelper";
 
 //** Handles Team and Manufacturer Points. Can only handle Manuf Points IF series is not GTWCA or GT4A */
 const teamManufPoints = async (
@@ -22,20 +22,20 @@ const teamManufPoints = async (
                 round,
             );
 
-            series.manufPoints = manufObj;
-
             const newTeamObj = updateTeamPointsObj(
                 teamPointsObj,
                 teamPoints,
                 round,
             );
+
             series.teamPoints = newTeamObj;
+            series.manufPoints = manufObj;
 
             await series.save();
         }
         return true;
     } catch (error) {
-        console.log("Error with Points", error);
+        console.log("Error while updating Team and Manuf Points", error);
         return false;
     }
 };
