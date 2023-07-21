@@ -1,7 +1,7 @@
 import { Request, Response } from "express";
 import { getSeriesName } from "../functions/teamPointsHelper";
 import { handleGT3GT4ManufPts } from "../functions/manufPtsHelper";
-import teamManufPoints from "../functions/allManufTeamPts";
+import teamManufPoints from "../functions/teamManufPoints";
 
 const handleTeamManufPoints = async (req: Request, res: Response) => {
     const seriesName = getSeriesName(req.params.series);
@@ -26,7 +26,7 @@ const handleTeamManufPoints = async (req: Request, res: Response) => {
         if (manuf) {
             return res.status(200).send();
         } else {
-            console.log("I am a failure");
+            console.log("Error Updating all team and manuf points");
             return res.status(400).send();
         }
     } catch (error) {
