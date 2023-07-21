@@ -1,12 +1,7 @@
 import { NextFunction, Request, Response } from "express";
 import mongoose from "mongoose";
 import SeriesPoints from "../models/Points/seriesPoints_schema";
-import {
-    setNewTeamPoints,
-    getSeriesName,
-    updateTeamPoints,
-} from "../functions/teamPointsHelper";
-import handleManufPoints from "../functions/manufPtsHelper";
+import { getSeriesName } from "../functions/teamPointsHelper";
 
 const getAll = async (req: Request, res: Response) => {
     return SeriesPoints.find()
@@ -43,7 +38,6 @@ const getTeamPoints = async (req: Request, res: Response) => {
         return res.status(500).json({ error });
     }
 };
-
 
 export default {
     getBySeries,
