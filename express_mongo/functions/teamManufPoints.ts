@@ -1,68 +1,36 @@
-import {
-    ReqPointsArr,
-    ManufacturerPoints,
-    TeamPoints,
-} from "../models/Points/points_models";
+import { ReqPointsArr, ReqPoints } from "../models/Points/points_models";
 import SeriesPoints from "../models/Points/seriesPoints_schema";
-import { setNewTeamPoints } from "./teamPointsHelper";
+import { setNewTeamPoints, updateTeamPointsObj } from "./teamPointsHelper";
+import { handleGT3GT4ManufPts, handleManufPoints } from "./manufPtsHelper";
 
 //** Handles Team and Manufacturer Points. Can only handle Manuf Points IF series is not GTWCA or GT4A */
 const teamManufPoints = async (
-    pointsObj: ReqPointsArr,
+    manufPointsObj: ReqPointsArr,
+    teamPointsObj: ReqPointsArr,
     seriesName: string,
     round: string,
-    pointsType: string,
 ): Promise<boolean> => {
     try {
         const series = await SeriesPoints.findOne({ name: seriesName });
 
         if (series) {
-            const dbList =
-                pointsType === "teamPoints"
-                    ? series.teamPoints
-                    : series.manufPoints;
+            const { teamPoints, manufPoints } = series;
 
-            // Loop through keys (class) from the incoming array and check if those keys exist inside the db for manufPoints
-            for (const classification in pointsObj) {
-                if (classification in dbList) {
-                    // Once found, declare variables for each backend and incoming array for the appropriate class
-                    const dbArr = dbList[classification];
-                    const reqArr = pointsObj[classification];
+            const manufObj = handleManufPoints(
+                manufPointsObj,
+                manufPoints,
+                round,
+            );
 
-                    for (const newResult of reqArr) {
-                        const { Manufacturer, Points, Team } = newResult;
-                        let found = false;
+            series.manufPoints = manufObj;
 
-                        for (const dbEntry of dbArr) {
-                            // Based on pointsType var, assert the interface that dbEntry uses then check that team name or manuf name matches, then update points accordingly
-                            if (
-                                (pointsType === "teamPoints" &&
-                                    (dbEntry as TeamPoints).teamName ===
-                                        Team) ||
-                                (pointsType === "manufPoints" &&
-                                    (dbEntry as ManufacturerPoints)
-                                        .manufName === Manufacturer)
-                            ) {
-                                dbEntry.points[round] = Points;
-                                found = true;
-                                break;
-                            }
-                        }
+            const newTeamObj = updateTeamPointsObj(
+                teamPointsObj,
+                teamPoints,
+                round,
+            );
+            series.teamPoints = newTeamObj;
 
-                        if (!found) {
-                            const newEntry: ManufacturerPoints | TeamPoints = {
-                                ...(pointsType === "teamPoints"
-                                    ? { teamName: Team }
-                                    : { manufName: Manufacturer }),
-                                classification: newResult.Class,
-                                points: setNewTeamPoints(round, Points),
-                            };
-
-                            dbArr.push(newEntry);
-                        }
-                    }
-                }
-            }
             await series.save();
         }
         return true;
