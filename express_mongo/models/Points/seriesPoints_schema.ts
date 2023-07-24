@@ -4,7 +4,7 @@ import { Series, TeamPoints, IManufPoints } from "./points_models";
 export interface SeriesPointsModel extends Series, Document {}
 
 const seriesPointsSchema: Schema = new Schema({
-    seriesName: { type: String },
+    name: { type: String },
     teamPoints: [
         {
             teamName: { type: String },
