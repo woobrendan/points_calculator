@@ -9,9 +9,10 @@ const handleTeamManufPoints = async (req: Request, res: Response) => {
 
     try {
         let manuf = false;
-        if (seriesName === "gtwca" || seriesName === "pgt4a") {
+        if (req.params.series === "gtwca" || req.params.series === "pgt4a") {
             manuf = await handleGT3GT4ManufPts(
                 manufResults,
+                teamResults,
                 seriesName,
                 roundNum,
             );
