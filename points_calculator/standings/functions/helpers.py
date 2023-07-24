@@ -1,22 +1,24 @@
 from . import team_entry
 
 
-def classEntries(entry_list):
+def classEntries(data):
     entries_by_class = {}
 
-    # loop through filtered entries, and sort them into dictionary with keys as the class (pro, Pro/Am or am, etc) and the value as a list of entries
-    for entry in entry_list:
-        teamName, classification, points = entry['teamName'], entry['classification'], entry['points']
+    for classification, entry_list in data.items():
+        entries_by_class[classification] = []
 
-        entry_obj = team_entry.TeamEntry(teamName, classification, points)
+        if entry_list:
+            for entry in entry_list:
+                teamName, points = entry['teamName'], entry['points']
 
-        if entry_obj.classification in entries_by_class:
-            entries_by_class[classification].append(entry_obj)
-        else:
-            entries_by_class[classification] = [entry_obj]
+                entry_obj = team_entry.TeamEntry(
+                    teamName, classification, points)
+
+                entries_by_class[classification].append(entry_obj)
 
     for class_list in entries_by_class.values():
-        class_list.sort(key=lambda x: x.total_points, reverse=True)
+        if class_list:
+            class_list.sort(key=lambda x: x.total_points, reverse=True)
 
     return entries_by_class
 
