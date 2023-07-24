@@ -4,17 +4,18 @@ import { handleGT3GT4ManufPts } from "../functions/manufPtsHelper";
 import teamManufPoints from "../functions/teamManufPoints";
 
 const handleTeamManufPoints = async (req: Request, res: Response) => {
-    const seriesName = getSeriesName(req.params.series);
+    const series = req.params.series;
+    const seriesName = getSeriesName(series);
     const { manufResults, teamResults, roundNum } = req.body;
 
     try {
         let manuf = false;
-        if (req.params.series === "gtwca" || req.params.series === "pgt4a") {
+        if (series === "gtwca" || series === "pgt4a") {
             manuf = await handleGT3GT4ManufPts(
                 manufResults,
                 teamResults,
-                seriesName,
                 roundNum,
+                seriesName,
             );
         } else {
             manuf = await teamManufPoints(
