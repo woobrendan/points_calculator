@@ -5,7 +5,7 @@ import {
     IManufPoints,
 } from "../models/Points/points_models";
 import SeriesPoints from "../models/Points/seriesPoints_schema";
-import { setNewTeamPoints } from "./teamPointsHelper";
+import { setNewTeamPoints, updateTeamPointsObj } from "./teamPointsHelper";
 
 //** Handle Manufacturer Points for GTA, TCA */
 // is passed the request object and the backend object, updates each class list accordingly and returns the array
@@ -52,19 +52,27 @@ const handleManufPoints = (
 // Update backend points and return boolean to be handled by result controller
 const handleGT3GT4ManufPts = async (
     reqList: ReqPoints[],
+    teamPointsObj: ReqPointsArr,
     round: string,
     seriesName: string,
 ): Promise<boolean> => {
     try {
         const series = await SeriesPoints.findOne({ name: seriesName });
         if (series) {
-            const { manufPointsList } = series;
+            const { manufPointsList, teamPoints } = series;
             const updated = updateManufListPoints(
                 reqList,
                 manufPointsList,
                 round,
             );
 
+            const newTeamObj = updateTeamPointsObj(
+                teamPointsObj,
+                teamPoints,
+                round,
+            );
+
+            series.teamPoints = newTeamObj;
             series.manufPointsList = updated;
 
             await series.save();
