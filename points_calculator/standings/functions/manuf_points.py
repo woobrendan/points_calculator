@@ -30,8 +30,8 @@ def manuf_results_byClass(entry_list):
 
     for class_list in entries_by_class.values():
         # Take in each class list of result, sort by PIC, then remove duplicate teams
-        class_list.sort(key=lambda entry: sort_by_val(entry, 'PIC'))
-        sorted_list = class_list[:]
+        sorted_list = sorted(
+            class_list, key=lambda entry: sort_by_val(entry, 'PIC'))
 
         # remove dupe entries, then update points based on team finish
         class_list[:] = update_points(
@@ -43,8 +43,8 @@ def manuf_results_byClass(entry_list):
 # Used for when the series is GT3 or GT4
 def manuf_results_list(entry_list):
     # Take in result list, sort by finishing position
-    sorted_list = entry_list.sort(
-        key=lambda entry: sort_by_val(entry, 'POS'))[:]
+    sorted_list = sorted(entry_list,
+                         key=lambda entry: sort_by_val(entry, 'Pos'))
 
     # Remove all duplicate manufacturers
     filtered = removeDuplicateManuf(sorted_list)
