@@ -8,7 +8,7 @@ from .functions.csv_converter import csv_to_clean_keys
 from .functions.team_points import team_results_byClass
 from .functions.fetch_drivers import fetch_drivers
 from .functions.fetch_team_standing import fetch_team_standings
-from .functions.manuf_points import manuf_results_byClass
+from .functions.manuf_points import manuf_results_byClass, manuf_results_list
 
 
 def drivers_standing(request, series):
@@ -64,12 +64,14 @@ def new_result(request):
         # Take in CSV file and convert to list of dict
         result_arr = csv_to_clean_keys(result_csv)
 
+        series = result_arr[0]['Series']
+
         # sort by class, remove dupes, apply points for highest finishing car per team
         team_results = team_results_byClass(result_arr)
-        manuf_results = manuf_results_byClass(result_arr)
+        manuf_results = manuf_results_list(
+            result_arr) if series == 'gtwca' or series == 'pgt4a' else manuf_results_byClass(result_arr)
 
         r_num = f"R{result_num}"
-        series = result_arr[0]['Series']
         data = {
             "manufResults": manuf_results,
             "teamResults": team_results,
