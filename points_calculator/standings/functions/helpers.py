@@ -72,15 +72,23 @@ def handle_rounds(series, class_entries):
     return class_entries
 
 
-def sort_by_pic(entry):
-    pic = entry['PIC']
-    if pic == '':
-        pic = 100
-    return int(pic)
+# def sort_by_pic(entry):
+#     pic = entry['PIC']
+#     if pic == '':
+#         pic = 100
+#     return int(pic)
 
 
-def sort_by_POS(entry):
-    pos = entry['POS']
-    if pos == '':
-        pos = '100'
-    return int(pos)
+# def sort_by_POS(entry):
+#     pos = entry['POS']
+#     if pos == '':
+#         pos = '100'
+#     return int(pos)
+
+def sort_by_val(entry, sort_by):
+    key = entry[sort_by]
+
+    if key == '':
+        key = 100
+
+    return int(key)
