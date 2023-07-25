@@ -94,43 +94,30 @@ const updateManufListPoints = (
     backendManufPoints: ManufacturerPoints[],
     round: string,
 ) => {
-    // // acc is accumulator, which starts as the backendManufPoints. newResult is the current iteration through reqList
-    // return reqList.reduce((acc, newResult) => {
-    //     const { Manufacturer, Points } = newResult;
-
-    //     // same as backendManufPoints.find
-    //     const foundManuf = acc.find(
-    //         (manuf) => manuf.manufName === Manufacturer,
-    //     );
-
-    //     if (foundManuf) {
-    //         foundManuf.points[round] = Points;
-    //     } else {
-    //         const newManuf: ManufacturerPoints = {
-    //             manufName: Manufacturer,
-    //             classification: newResult.Class,
-    //             points: setNewTeamPoints(round, Points),
-    //         };
-
-    //         acc.push(newManuf);
-    //     }
-
-    //     return acc;
-    // }, backendManufPoints);
-
     for (const result of reqList) {
         const { Manufacturer, Points } = result;
         let found = false;
 
-        for (const manuf of backendManufPoints) {
-            if (manuf.manufName === Manufacturer) {
-                manuf.points[round] = Points;
-                found = true;
-                break;
+        // If the backend array has entries in it already
+        if (backendManufPoints.length !== 0) {
+            for (const manuf of backendManufPoints) {
+                if (manuf.manufName === Manufacturer) {
+                    manuf.points[round] = Points;
+                    found = true;
+                    break;
+                }
             }
-        }
 
-        if (!found) {
+            if (!found) {
+                const newManuf: ManufacturerPoints = {
+                    manufName: Manufacturer,
+                    classification: result.Class,
+                    points: setNewTeamPoints(round, Points),
+                };
+
+                backendManufPoints.push(newManuf);
+            }
+        } else {
             const newManuf: ManufacturerPoints = {
                 manufName: Manufacturer,
                 classification: result.Class,
@@ -142,6 +129,5 @@ const updateManufListPoints = (
     }
     return backendManufPoints;
 };
-
 
 export { handleGT3GT4ManufPts, handleManufPoints };
