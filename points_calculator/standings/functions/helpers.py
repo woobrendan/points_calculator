@@ -1,3 +1,4 @@
+import posix
 from . import team_entry
 
 
@@ -74,5 +75,12 @@ def handle_rounds(series, class_entries):
 def sort_by_pic(entry):
     pic = entry['PIC']
     if pic == '':
-        pic = '100'
+        pic = 100
     return int(pic)
+
+
+def sort_by_POS(entry):
+    pos = entry['POS']
+    if pos == '':
+        pos = '100'
+    return int(pos)
