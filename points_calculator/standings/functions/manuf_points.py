@@ -1,4 +1,4 @@
-from .helpers import sort_by_pic
+from .helpers import sort_by_pic, sort_by_POS
 from .points import update_points
 
 
@@ -38,3 +38,15 @@ def manuf_results_byClass(entry_list):
             removeDuplicateManuf(sorted_list))[:]
 
     return entries_by_class
+
+
+# Used for when the series is GT3 or GT4
+def manuf_results_list(entry_list):
+    # Take in result list, sort by finishing position
+    sorted_list = entry_list.sort(key=sort_by_POS)[:]
+
+    # Remove all duplicate manufacturers
+    filtered = removeDuplicateManuf(sorted_list)
+
+    # updates points value
+    return update_points(filtered)
