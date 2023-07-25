@@ -72,12 +72,17 @@ const handleGT3GT4ManufPts = async (
                 round,
             );
 
+            console.log("newTeamObj", newTeamObj);
+            console.log("manufList", updated);
+
             series.teamPoints = newTeamObj;
             series.manufPointsList = updated;
 
             await series.save();
+
+            return true;
         }
-        return true;
+        return false;
     } catch (error) {
         console.log("Error updateing GT3/GT4 Points", error);
         return false;
@@ -89,29 +94,54 @@ const updateManufListPoints = (
     backendManufPoints: ManufacturerPoints[],
     round: string,
 ) => {
-    // acc is accumulator, which starts as the backendManufPoints. newResult is the current iteration through reqList
-    return reqList.reduce((acc, newResult) => {
-        const { Manufacturer, Points } = newResult;
+    // // acc is accumulator, which starts as the backendManufPoints. newResult is the current iteration through reqList
+    // return reqList.reduce((acc, newResult) => {
+    //     const { Manufacturer, Points } = newResult;
 
-        // same as backendManufPoints.find
-        const foundManuf = acc.find(
-            (manuf) => manuf.manufName === Manufacturer,
-        );
+    //     // same as backendManufPoints.find
+    //     const foundManuf = acc.find(
+    //         (manuf) => manuf.manufName === Manufacturer,
+    //     );
 
-        if (foundManuf) {
-            foundManuf.points[round] = Points;
-        } else {
+    //     if (foundManuf) {
+    //         foundManuf.points[round] = Points;
+    //     } else {
+    //         const newManuf: ManufacturerPoints = {
+    //             manufName: Manufacturer,
+    //             classification: newResult.Class,
+    //             points: setNewTeamPoints(round, Points),
+    //         };
+
+    //         acc.push(newManuf);
+    //     }
+
+    //     return acc;
+    // }, backendManufPoints);
+
+    for (const result of reqList) {
+        const { Manufacturer, Points } = result;
+        let found = false;
+
+        for (const manuf of backendManufPoints) {
+            if (manuf.manufName === Manufacturer) {
+                manuf.points[round] = Points;
+                found = true;
+                break;
+            }
+        }
+
+        if (!found) {
             const newManuf: ManufacturerPoints = {
                 manufName: Manufacturer,
-                classification: newResult.Class,
+                classification: result.Class,
                 points: setNewTeamPoints(round, Points),
             };
 
-            acc.push(newManuf);
+            backendManufPoints.push(newManuf);
         }
-
-        return acc;
-    }, backendManufPoints);
+    }
+    return backendManufPoints;
 };
+
 
 export { handleGT3GT4ManufPts, handleManufPoints };
