@@ -1,4 +1,4 @@
-from . import points
+from .. import points
 
 
 class TeamEntry:
