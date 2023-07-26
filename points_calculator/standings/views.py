@@ -10,6 +10,9 @@ from .functions.fetch_drivers import fetch_drivers
 from .functions.fetch_team_standing import fetch_team_standings
 from .functions.manuf_points import manuf_results_byClass, manuf_results_list
 
+button_style = "px-4 py-2 text-sm font-medium text-white bg-red-600 border border-gray-200 rounded-lg hover:bg-black hover:text-red-400 hover:border-red-500"
+anchor_style = "block px-4 py-2"
+
 
 def drivers_standing(request, series):
     if request.method == 'GET':
@@ -34,11 +37,7 @@ def team_standing(request, series):
     team_standing = handle_rounds(series, fetch_team_standings(series))
 
     # Get the first list from pro, get the rounds to pass for header
-    _, team_list = list(team_standing.items())[0]
     round_list = getRounds(series)
-
-    button_style = "px-4 py-2 text-sm font-medium text-white bg-red-600 border border-gray-200 rounded-lg hover:bg-black hover:text-red-400 hover:border-red-500"
-    anchor_style = "block px-4 py-2"
 
     # if the value is a tuple, means fetch failed, and we have status code and none value
     if isinstance(team_standing, tuple):
@@ -53,6 +52,10 @@ def team_standing(request, series):
             'button_style': button_style,
             'anchor_style': anchor_style
         })
+
+
+def manuf_standing(request, series):
+    pass
 
 
 def new_result(request):
