@@ -60,6 +60,7 @@ const handleGT3GT4ManufPts = async (
         const series = await SeriesPoints.findOne({ name: seriesName });
         if (series) {
             const { manufPointsList, teamPoints } = series;
+
             const updated = updateManufListPoints(
                 reqList,
                 manufPointsList,
@@ -71,9 +72,6 @@ const handleGT3GT4ManufPts = async (
                 teamPoints,
                 round,
             );
-
-            console.log("newTeamObj", newTeamObj);
-            console.log("manufList", updated);
 
             series.teamPoints = newTeamObj;
             series.manufPointsList = updated;
