@@ -5,9 +5,9 @@ import requests
 
 from .functions.helpers import getRounds, handle_rounds
 from .functions.csv_converter import csv_to_clean_keys
-from .functions.team_points import team_results_byClass
+from .functions.team_points.team_points import team_results_byClass
 from .functions.fetch_drivers import fetch_drivers
-from .functions.fetch_team_standing import fetch_team_standings
+from .functions.team_points.fetch_team_standing import fetch_team_standings
 from .functions.manuf_points import manuf_results_byClass, manuf_results_list
 
 button_style = "px-4 py-2 text-sm font-medium text-white bg-red-600 border border-gray-200 rounded-lg hover:bg-black hover:text-red-400 hover:border-red-500"
@@ -55,6 +55,7 @@ def team_standing(request, series):
 
 
 def manuf_standing(request, series):
+    manuf_standing = handle_rounds(series, fetch_manuf_standings(series))
     pass
 
 
