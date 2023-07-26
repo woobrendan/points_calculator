@@ -76,6 +76,8 @@ const handleGT3GT4ManufPts = async (
             series.teamPoints = newTeamObj;
             series.manufPointsList = updated;
 
+            series.markModified("teamPoints");
+
             await series.save();
 
             return true;
