@@ -1,7 +1,7 @@
-from .. import points
+from . import points
 
 
-class TeamEntry:
+class Team_Manuf_Entry:
     def __init__(self, name: str, classification: str, points_dict: dict):
         self.name = name
         self.classification = classification
