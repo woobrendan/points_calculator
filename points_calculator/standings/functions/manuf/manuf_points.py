@@ -1,5 +1,5 @@
-from .helpers import sort_by_val
-from .points import update_points
+from ..helpers import sort_by_val
+from ..points import update_points
 
 
 def removeDuplicateManuf(arr):
