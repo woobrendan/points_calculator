@@ -1,5 +1,6 @@
 from ..helpers import sort_by_val
 from ..points import update_points
+from ..team_manuf_entry import Team_Manuf_Entry
 
 
 def removeDuplicateManuf(arr):
@@ -51,3 +52,19 @@ def manuf_results_list(entry_list):
 
     # updates points value
     return update_points(filtered)
+
+
+def convert_manufList_to_dict(data):
+    overall_class = {"overall": []}
+
+    for manuf in data:
+        manufName, points = manuf['manufName'], manuf['points']
+
+        entry_obj = Team_Manuf_Entry(
+            manufName, "overall", points)
+
+        overall_class['overall'].append(entry_obj)
+
+    overall_class['overall'].sort(key=lambda x: x.total_points, reverse=True)
+
+    return overall_class
