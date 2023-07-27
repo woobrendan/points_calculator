@@ -8,7 +8,7 @@ from .functions.csv_converter import csv_to_clean_keys
 from .functions.team_points.team_points import team_results_byClass
 from .functions.fetch_drivers import fetch_drivers
 from .functions.team_points.fetch_team_standing import fetch_team_standings
-from .functions.manuf_points import manuf_results_byClass, manuf_results_list
+from .functions.manuf.manuf_points import manuf_results_byClass, manuf_results_list
 
 button_style = "px-4 py-2 text-sm font-medium text-white bg-red-600 border border-gray-200 rounded-lg hover:bg-black hover:text-red-400 hover:border-red-500"
 anchor_style = "block px-4 py-2"
@@ -36,7 +36,6 @@ def team_standing(request, series):
     # fetch all team standing values, sorted as a dict with pro/am as keys and list for team vals, remove rounds not used
     team_standing = handle_rounds(series, fetch_team_standings(series))
 
-    # Get the first list from pro, get the rounds to pass for header
     round_list = getRounds(series)
 
     # if the value is a tuple, means fetch failed, and we have status code and none value
@@ -56,7 +55,21 @@ def team_standing(request, series):
 
 def manuf_standing(request, series):
     manuf_standing = handle_rounds(series, fetch_manuf_standings(series))
-    pass
+
+    round_list = getRounds(series)
+
+    # if the value is a tuple, means fetch failed, and we have status code and none value
+    if isinstance(team_standing, tuple):
+        status_code, _ = team_standing
+        error_message = f"Failed to fetch data. Status code: { status_code }"
+        return jsonify({"error": error_message}), status_code
+    else:
+        return render(request, 'standing/manuf_standing.html', {
+            'manuf_standing': manuf_standing,
+            'round_list': round_list,
+            'button_style': button_style,
+            'anchor_style': anchor_style
+        })
 
 
 def new_result(request):
