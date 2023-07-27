@@ -2,32 +2,14 @@ import { NextFunction, Request, Response } from "express";
 import mongoose from "mongoose";
 import SeriesPoints from "../models/Points/seriesPoints_schema";
 import { getSeriesName } from "../functions/functions";
-
-const gtwca = "GT World Challenge America";
-const pgt4a = "Pirelli GT4 America";
+import { filterSeriesByPoints } from "../functions/functions";
 
 const getAll = async (req: Request, res: Response) => {
     try {
         const data = await SeriesPoints.find();
 
-        if (data) {
-            // Loop through each series object returned (type Series) and only return keys needed
-            const filtered = data.map((series: any) => {
-                const keys = ["name", "manufPoints"];
-
-                // Remove manufPoints and replace with manufPointsList
-                if (series.name === gtwca || series.name === pgt4a) {
-                    keys.splice(1, 1, "manufPointsList");
-                }
-
-                const cleanSeriesObj: any = {};
-
-                keys.forEach((key) => {
-                    cleanSeriesObj[key] = series[key];
-                });
-
-                return cleanSeriesObj;
-            });
+        if (data) {         
+            const filtered = filterSeriesByPoints(data, "manuf");
 
             const moreFiltered = filtered.filter(
                 (series) => series.name !== "Toyota GR Cup",
