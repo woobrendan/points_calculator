@@ -1,9 +1,10 @@
-from .team_points.team_points import team_entry
+from .team_manuf_entry import Team_Manuf_Entry
 
 
 def classEntries(data):
     entries_by_class = {}
 
+    # loop through data, getting key and value, creating a new key in entries_by_class for each class, create empty list, then creating instance of team_entry
     for classification, entry_list in data.items():
         entries_by_class[classification] = []
 
@@ -11,7 +12,7 @@ def classEntries(data):
             for entry in entry_list:
                 teamName, points = entry['teamName'], entry['points']
 
-                entry_obj = team_entry.TeamEntry(
+                entry_obj = Team_Manuf_Entry(
                     teamName, classification, points)
 
                 entries_by_class[classification].append(entry_obj)
