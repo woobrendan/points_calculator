@@ -1,0 +1,64 @@
+{% extends 'core/base.html' %}
+{% load custom_filters %} 
+
+{% block title %}Team Standing{% endblock %}
+
+{% block content %}
+    <h1 class="mb-6 text-3xl text-center">Team Standings</h1>
+
+
+    <div class="inline-flex rounded-md w-full gap-3 center mb-6" role="group">
+
+        <button type="button" class="{{ button_style }}">
+            <a href="{% url 'standing:team' 'gtwca' %}" class="{{ anchor_style }}">GTWCA</a>
+        </button>
+        <button type="button" class="{{ button_style }}">
+            <a href="{% url 'standing:team' 'pgt4a' %}" class="{{ anchor_style }}">PGT4A</a>
+        </button>
+        <button type="button" class="{{ button_style }}">
+            <a href="{% url 'standing:team' 'gta' %}" class="{{ anchor_style }}">GTA</a>
+        </button>
+        <button type="button" class="{{ button_style }}">
+            <a href="{% url 'standing:team' 'tca' %}" class="{{ anchor_style }}">TCA</a>
+        </button>
+        <button type="button" class="{{ button_style }}">
+            <a href="{% url 'standing:team' 'grc' %}" class="{{ anchor_style }}">GR Cup</a>
+        </button>
+    
+    </div>
+
+    {% for classification, teams in team_standing.items %}
+        <div class="bg-gray-200 mb-10 border-2 border-black-600 p-1">
+            <table class="w-full text-m text-left">
+                
+                <caption class="w-full h-1/2 text-white uppercase bg-red-500 font-bold">{{ classification }}</caption>
+                <thead class="w-full text-m text-black-700 uppercase bg-gray-200 dark:bg-red-800 dark:text-gray-400">
+                    <tr>
+                        <th scope="col" class="px-3 py-1">Pos</th>
+                        <th scope="col" class="px-3 py-1">Team</th>
+                        <th scope="col" class="px-3 py-1">Total</th>                      
+                        {% for round in round_list %}
+                            <th scope="col" class="px-3 py-1">{{ round }}</th>
+                        {% endfor %}    
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for entry in teams %}
+                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                        <td class="px-6 py-4">{{ forloop.counter }}</td>
+                        <td class="whitespace-nowrap">{{ entry.name }}</td>
+                        <td class="text-center">{{ entry.total_points }}</td>
+                        
+                        {% for round_num in entry.points|get_rounds %}
+                            <td class="text-center">{{ entry.points|get_value:round_num }}</td>
+                        {% endfor %} 
+                        
+                       
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
+    {% endfor %}
+
+{% endblock %}
