@@ -1,30 +1,26 @@
 {% extends 'core/base.html' %}
 {% load custom_filters %} 
 
-{% block title %}Team Standing{% endblock %}
+{% block title %}Manufacturer Standing{% endblock %}
 
 {% block content %}
-    <h1 class="mb-6 text-3xl text-center">Team Standings</h1>
+    <h1 class="mb-6 text-3xl text-center">Manufacturer Standings</h1>
 
 
     <div class="inline-flex rounded-md w-full gap-3 center mb-6" role="group">
 
         <button type="button" class="{{ button_style }}">
-            <a href="{% url 'standing:team' 'gtwca' %}" class="{{ anchor_style }}">GTWCA</a>
+            <a href="{% url 'standing:manufacturer' 'gtwca' %}" class="{{ anchor_style }}">GTWCA</a>
         </button>
         <button type="button" class="{{ button_style }}">
-            <a href="{% url 'standing:team' 'pgt4a' %}" class="{{ anchor_style }}">PGT4A</a>
+            <a href="{% url 'standing:manufacturer' 'pgt4a' %}" class="{{ anchor_style }}">PGT4A</a>
         </button>
         <button type="button" class="{{ button_style }}">
-            <a href="{% url 'standing:team' 'gta' %}" class="{{ anchor_style }}">GTA</a>
+            <a href="{% url 'standing:manufacturer' 'gta' %}" class="{{ anchor_style }}">GTA</a>
         </button>
         <button type="button" class="{{ button_style }}">
-            <a href="{% url 'standing:team' 'tca' %}" class="{{ anchor_style }}">TCA</a>
-        </button>
-        <button type="button" class="{{ button_style }}">
-            <a href="{% url 'standing:team' 'grc' %}" class="{{ anchor_style }}">GR Cup</a>
-        </button>
-    
+            <a href="{% url 'standing:manufacturer' 'tca' %}" class="{{ anchor_style }}">TCA</a>
+        </button>  
     </div>
 
     {% for classification, teams in team_standing.items %}
