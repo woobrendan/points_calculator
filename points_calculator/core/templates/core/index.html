@@ -17,7 +17,7 @@
                 <a href="#"> Drivers Standings </a>
             </li>
             <li class="{{ styling }}">
-                <a href="#"> Manufacturer Standings </a>
+                <a href="{% url 'standing:manufacturer' 'gtwca' %}"> Manufacturer Standings </a>
             </li>
             <li class="{{ styling }}">
                 <a href="{% url 'standing:team' 'gtwca' %}"> Team Standings </a>
