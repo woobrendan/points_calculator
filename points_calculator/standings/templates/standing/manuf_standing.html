@@ -23,7 +23,7 @@
         </button>  
     </div>
 
-    {% for classification, teams in team_standing.items %}
+    {% for classification, teams in manuf_standing.items %}
         <div class="bg-gray-200 mb-10 border-2 border-black-600 p-1">
             <table class="w-full text-m text-left">
                 
@@ -31,7 +31,7 @@
                 <thead class="w-full text-m text-black-700 uppercase bg-gray-200 dark:bg-red-800 dark:text-gray-400">
                     <tr>
                         <th scope="col" class="px-3 py-1">Pos</th>
-                        <th scope="col" class="px-3 py-1">Team</th>
+                        <th scope="col" class="px-3 py-1">Manufacturer</th>
                         <th scope="col" class="px-3 py-1">Total</th>                      
                         {% for round in round_list %}
                             <th scope="col" class="px-3 py-1">{{ round }}</th>
