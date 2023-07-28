@@ -1,4 +1,4 @@
-from ..helpers import sort_by_val
+from .. import helpers
 from ..points import update_points
 
 
@@ -31,7 +31,7 @@ def team_results_byClass(entry_list):
     for class_list in entries_by_class.values():
         # Take in each class list of result, sort by PIC, then remove duplicate teams
         sorted_list = sorted(
-            class_list, key=lambda entry: sort_by_val(entry, 'PIC'))
+            class_list, key=lambda entry: helpers.sort_by_val(entry, 'PIC'))
 
         # remove dupe entries, then update points based on team finish
         class_list[:] = update_points(
