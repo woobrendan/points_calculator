@@ -9,6 +9,7 @@ from .functions.team_points.team_points import team_results_byClass
 from .functions.fetch_drivers import fetch_drivers
 from .functions.team_points.fetch_team_standing import fetch_team_standings
 from .functions.manuf.manuf_points import manuf_results_byClass, manuf_results_list
+from .functions.manuf.fetch_manuf_points import fetch_manuf_standings
 
 button_style = "px-4 py-2 text-sm font-medium text-white bg-red-600 border border-gray-200 rounded-lg hover:bg-black hover:text-red-400 hover:border-red-500"
 anchor_style = "block px-4 py-2"
