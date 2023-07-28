@@ -1,9 +1,10 @@
 from ast import Gt
 import requests
 from ..helpers import classEntries
+from .manuf_points import convert_manufList_to_dict
 
 
-def fetch_team_standings(series):
+def fetch_manuf_standings(series):
     url = f'http://localhost:2020/teamPoints/{series}'
     response = requests.get(url)
 
@@ -15,7 +16,7 @@ def fetch_team_standings(series):
         data = response.json()['teamsBySeries'][manuf_val]
 
         if GT3_GT4:
-            pass
+            return convert_manufList_to_dict(data)
         else:
             return classEntries(data)
     else:
