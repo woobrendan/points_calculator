@@ -10,6 +10,7 @@ from .functions.fetch_drivers import fetch_drivers
 from .functions.team_points.fetch_team_standing import fetch_team_standings
 from .functions.manuf.manuf_points import manuf_results_byClass, manuf_results_list
 from .functions.manuf.fetch_manuf_points import fetch_manuf_standings
+from .functions.series_buttons import get_series_buttons
 
 button_style = "px-4 py-2 text-sm font-medium text-white bg-red-600 border border-gray-200 rounded-lg hover:bg-black hover:text-red-400 hover:border-red-500"
 anchor_style = "block px-4 py-2"
@@ -39,6 +40,8 @@ def team_standing(request, series):
 
     round_list = getRounds(series)
 
+    buttons = get_series_buttons('team', series)
+
     # if the value is a tuple, means fetch failed, and we have status code and none value
     if isinstance(team_standing, tuple):
         status_code, _ = team_standing
@@ -59,6 +62,8 @@ def manuf_standing(request, series):
 
     round_list = getRounds(series)
 
+    buttons = get_series_buttons('manuf', series)
+
     # if the value is a tuple, means fetch failed, and we have status code and none value
     if isinstance(team_standing, tuple):
         status_code, _ = team_standing
@@ -69,7 +74,8 @@ def manuf_standing(request, series):
             'manuf_standing': manuf_standing,
             'round_list': round_list,
             'button_style': button_style,
-            'anchor_style': anchor_style
+            'anchor_style': anchor_style,
+            'buttons': buttons
         })
 
 
