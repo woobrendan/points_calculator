@@ -6,25 +6,12 @@
 {% block content %}
     <h1 class="mb-6 text-3xl text-center">Team Standings</h1>
 
-
     <div class="inline-flex rounded-md w-full gap-3 center mb-6" role="group">
-
-        <button type="button" class="{{ button_style }}">
-            <a href="{% url 'standing:team' 'gtwca' %}" class="{{ anchor_style }}">GTWCA</a>
-        </button>
-        <button type="button" class="{{ button_style }}">
-            <a href="{% url 'standing:team' 'pgt4a' %}" class="{{ anchor_style }}">PGT4A</a>
-        </button>
-        <button type="button" class="{{ button_style }}">
-            <a href="{% url 'standing:team' 'gta' %}" class="{{ anchor_style }}">GTA</a>
-        </button>
-        <button type="button" class="{{ button_style }}">
-            <a href="{% url 'standing:team' 'tca' %}" class="{{ anchor_style }}">TCA</a>
-        </button>
-        <button type="button" class="{{ button_style }}">
-            <a href="{% url 'standing:team' 'grc' %}" class="{{ anchor_style }}">GR Cup</a>
-        </button>
-    
+        {% for series, style in buttons.items %}
+            <button type="button" class="{{ style.button }}">
+                <a href="{% url 'standing:team' series %}" class="{{ style.anchor }}">{{ series|upper }}</a>
+            </button>
+        {% endfor %}
     </div>
 
     {% for classification, teams in team_standing.items %}
