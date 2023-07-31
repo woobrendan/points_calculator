@@ -6,27 +6,10 @@
 {% block content %}
     <h1 class="mb-6 text-3xl text-center">Manufacturer Standings</h1>
 
-
-    {% comment %} <div class="inline-flex rounded-md w-full gap-3 center mb-6" role="group">
-
-        <button type="button" class="{{ button_style }}">
-            <a href="{% url 'standing:manufacturer' 'gtwca' %}" class="{{ anchor_style }}">GTWCA</a>
-        </button>
-        <button type="button" class="{{ button_style }}">
-            <a href="{% url 'standing:manufacturer' 'pgt4a' %}" class="{{ anchor_style }}">PGT4A</a>
-        </button>
-        <button type="button" class="{{ button_style }}">
-            <a href="{% url 'standing:manufacturer' 'gta' %}" class="{{ anchor_style }}">GTA</a>
-        </button>
-        <button type="button" class="{{ button_style }}">
-            <a href="{% url 'standing:manufacturer' 'tca' %}" class="{{ anchor_style }}">TCA</a>
-        </button>  
-    </div> {% endcomment %}
-
     <div class="inline-flex rounded-md w-full gap-3 center mb-6" role="group">
         {% for series, style in buttons.items %}
-            <button type="button" class="{{ style }}">
-                <a href="{% url 'standing:manufacturer' series %}" class="{{ anchor_style }}">{{ series|upper }}</a>
+            <button type="button" class="{{ style.button }}">
+                <a href="{% url 'standing:manufacturer' series %}" class="{{ style.anchor }}">{{ series|upper }}</a>
             </button>
         {% endfor %}
     </div>
