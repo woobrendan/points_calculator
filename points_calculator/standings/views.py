@@ -12,9 +12,6 @@ from .functions.manuf.manuf_points import manuf_results_byClass, manuf_results_l
 from .functions.manuf.fetch_manuf_points import fetch_manuf_standings
 from .functions.series_buttons import get_series_buttons
 
-button_style = "px-4 py-2 text-sm font-medium text-white bg-red-600 border border-gray-200 rounded-lg hover:bg-black hover:text-red-400 hover:border-red-500"
-anchor_style = "block px-4 py-2"
-
 
 def drivers_standing(request, series):
     if request.method == 'GET':
@@ -52,8 +49,7 @@ def team_standing(request, series):
         return render(request, 'standing/team_standing.html', {
             'team_standing': team_standing,
             'round_list': round_list,
-            'button_style': button_style,
-            'anchor_style': anchor_style
+            'buttons': buttons
         })
 
 
@@ -73,8 +69,6 @@ def manuf_standing(request, series):
         return render(request, 'standing/manuf_standing.html', {
             'manuf_standing': manuf_standing,
             'round_list': round_list,
-            'button_style': button_style,
-            'anchor_style': anchor_style,
             'buttons': buttons
         })
 
