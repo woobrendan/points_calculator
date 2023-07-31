@@ -3,9 +3,13 @@
 {% block title %}Drivers Standing{% endblock %}
 
 {% block content %}
-    <div>
-        {% for classification in drivers %}
-            <p>{{classification}}</p>
+    <h1 class="mb-6 text-3xl text-center">Drivers Standings</h1>
+
+    <div class="inline-flex rounded-md w-full gap-3 center mb-6" role="group">
+        {% for series, style in buttons.items %}
+            <button type="button" class="{{ style.button }}">
+                <a href="{% url 'standing:drivers' series %}" class="{{ style.anchor }}">{{ series|upper }}</a>
+            </button>
         {% endfor %}
     </div>
 {% endblock %}
