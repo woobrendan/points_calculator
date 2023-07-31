@@ -14,21 +14,21 @@ from .functions.series_buttons import get_series_buttons
 
 
 def drivers_standing(request, series):
-    if request.method == 'GET':
-        drivers = fetch_drivers(series)
+    # drivers = fetch_drivers(series)
 
-        # if the value is a tuple, means fetch failed, and we have status code and none value
-        if isinstance(drivers, tuple):
-            status_code, _ = drivers
-            error_message = f"Failed to fetch data. Status code: { status_code }"
-            return jsonify({"error": error_message}), status_code
+    buttons = get_series_buttons('drivers', series)
 
-        else:
-            return render(request, 'standing/drivers_standing.html', {
-                'drivers': drivers
-            })
-    else:
-        pass
+    # if the value is a tuple, means fetch failed, and we have status code and none value
+    # if isinstance(drivers, tuple):
+    #     status_code, _ = drivers
+    #     error_message = f"Failed to fetch data. Status code: { status_code }"
+    #     return jsonify({"error": error_message}), status_code
+
+    # else:
+    return render(request, 'standing/drivers_standing.html', {
+        # 'drivers': drivers,
+        'buttons': buttons
+    })
 
 
 def team_standing(request, series):
