@@ -12,4 +12,37 @@
             </button>
         {% endfor %}
     </div>
+
+    {% for classification, teams in drivers_standing.items %}
+        <div class="bg-gray-200 mb-10 border-2 border-black-600 p-1">
+            <table class="w-full text-m text-left">
+                
+                <caption class="w-full h-1/2 text-white uppercase bg-red-500 font-bold">{{ classification }}</caption>
+                <thead class="w-full text-m text-black-700 uppercase bg-gray-200 dark:bg-red-800 dark:text-gray-400">
+                    <tr>
+                        <th scope="col" class="px-3 py-1">Pos</th>
+                        <th scope="col" class="px-3 py-1">Driver</th>
+                        <th scope="col" class="px-3 py-1">Total</th>                      
+                        {% for round in round_list %}
+                            <th scope="col" class="px-3 py-1">{{ round }}</th>
+                        {% endfor %}    
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for entry in teams %}
+                    <tr class="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
+                        <td class="px-6 py-4">{{ forloop.counter }}</td>
+                        <td class="whitespace-nowrap">{{ entry.name }}</td>
+                        <td class="text-center">{{ entry.total_points }}</td>
+                        
+                        {% for round_num in entry.points|get_rounds %}
+                            <td class="text-center">{{ entry.points|get_value:round_num }}</td>
+                        {% endfor %} 
+                        
+                       
+                    </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        </div>
 {% endblock %}
