@@ -33,6 +33,9 @@ const seriesPointsSchema: Schema = new Schema({
             },
         },
     ],
+    driversPoints: {
+        type: Schema.Types.Mixed,
+    },
 });
 
 export default mongoose.model<SeriesPointsModel>(
