@@ -13,7 +13,7 @@ def fetch_manuf_standings(series):
     if response.status_code == 200:
         manuf_val = 'manufPointsList' if GT3_GT4 else 'manufPoints'
 
-        data = response.json()['teamsBySeries'][manuf_val]
+        data = response.json()['seriesData'][manuf_val]
 
         if GT3_GT4:
             return convert_manufList_to_dict(data)
