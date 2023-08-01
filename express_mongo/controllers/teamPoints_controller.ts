@@ -14,9 +14,9 @@ const getBySeries = async (req: Request, res: Response) => {
     let seriesName = getSeriesName(series);
 
     try {
-        const teamsBySeries = await SeriesPoints.findOne({ name: seriesName });
-        return teamsBySeries
-            ? res.status(200).json({ teamsBySeries })
+        const seriesData = await SeriesPoints.findOne({ name: seriesName });
+        return seriesData
+            ? res.status(200).json({ seriesData })
             : res.status(400).json({ message: "Series Not Found" });
     } catch (error) {
         return res.status(500).json({ error });
