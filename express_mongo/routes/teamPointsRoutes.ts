@@ -6,7 +6,6 @@ const router = express.Router();
 // url = teamPoints/
 
 router.get("/", controller.getAll);
-router.get("/:series", controller.getBySeries);
-router.get("/:series", controller.getBySeries);
+router.get("/:series", controller.getTeamPoints);
 
 export = router;
