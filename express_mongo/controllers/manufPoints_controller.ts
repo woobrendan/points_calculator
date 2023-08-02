@@ -21,7 +21,7 @@ const getManufPoints = async (req: Request, res: Response) => {
     try {
         const data = await SeriesPoints.findOne({ name: seriesName });
         return data
-            ? res.status(200).json({ seriesData: data[manuf_type] })
+            ? res.status(200).json({ [manuf_type]: data[manuf_type] })
             : res.status(400).json({ message: "Series Not Found" });
     } catch (error) {
         return res.status(500).json({ error });
