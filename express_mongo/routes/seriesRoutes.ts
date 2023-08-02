@@ -3,8 +3,9 @@ import controller from "../controllers/series_controller";
 
 const router = express.Router();
 
-// url = series/
+// url = /api/series/
 
-router.get("/:series", controller.getAll);
+router.get("/", controller.getAll);
+router.get("/:series", controller.getBySeries);
 
 export = router;
