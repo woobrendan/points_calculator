@@ -9,38 +9,21 @@ const getAll = async (req: Request, res: Response) => {
         .catch((error) => res.status(500).json({ error }));
 };
 
-const getBySeries = async (req: Request, res: Response) => {
+const getTeamPoints = async (req: Request, res: Response) => {
     const series = req.params.series;
     let seriesName = getSeriesName(series);
 
     try {
-        const seriesData = await SeriesPoints.findOne({ name: seriesName });
-        return seriesData
-            ? res.status(200).json({ seriesData })
+        const data = await SeriesPoints.findOne({ name: seriesName });
+        return data
+            ? res.status(200).json({ seriesData: data?.teamPoints })
             : res.status(400).json({ message: "Series Not Found" });
     } catch (error) {
         return res.status(500).json({ error });
     }
 };
 
-const getTeamPoints = async (req: Request, res: Response) => {
-    const seriesName = req.params.series;
-
-    try {
-        const series = await SeriesPoints.findOne({ name: seriesName });
-        if (series) {
-            const teamPointsList = series.teamPoints;
-            return res.status(200).json({ teamPointsList });
-        } else {
-            return res.status(400).json({ message: "Series Not Found" });
-        }
-    } catch (error) {
-        return res.status(500).json({ error });
-    }
-};
-
 export default {
-    getBySeries,
     getTeamPoints,
     getAll,
 };
