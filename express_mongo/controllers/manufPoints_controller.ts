@@ -4,9 +4,32 @@ import SeriesPoints from "../models/Points/seriesPoints_schema";
 import { getSeriesName } from "../functions/teamPointsHelper";
 
 const getAll = async (req: Request, res: Response) => {
-    return SeriesPoints.find()
-        .then((series) => res.status(201).json({ series }))
-        .catch((error) => res.status(500).json({ error }));
+    try {
+        const data = await SeriesPoints.find();
+
+        if (data) {
+            const keys = ["name", "manufPoints"];
+
+            const filtered = data.map((series: any) => {
+                if (series.name === "gtwca" || series.name === "pgt4a") {
+                    keys.splice(1, 1, "manufPointsList");
+                }
+                const cleanSeriesObj: any = {};
+
+                keys.forEach((key) => {
+                    cleanSeriesObj[key] = series[key];
+                });
+
+                return cleanSeriesObj;
+            });
+
+            return res.status(201).json({ seriesData: filtered });
+        } else {
+            return res.status(400).json({ message: "Series Not Found" });
+        }
+    } catch (error) {
+        res.status(500).json({ error });
+    }
 };
 
 const getManufPoints = async (req: Request, res: Response) => {
