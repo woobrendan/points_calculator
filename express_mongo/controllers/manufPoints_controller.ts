@@ -3,17 +3,23 @@ import mongoose from "mongoose";
 import SeriesPoints from "../models/Points/seriesPoints_schema";
 import { getSeriesName } from "../functions/teamPointsHelper";
 
+const gtwca = "GT World Challenge America";
+const pgt4a = "Pirelli GT4 America";
+
 const getAll = async (req: Request, res: Response) => {
     try {
         const data = await SeriesPoints.find();
 
         if (data) {
-            const keys = ["name", "manufPoints"];
-
+            // Loop through each series object returned (type Series) and only return keys needed
             const filtered = data.map((series: any) => {
-                if (series.name === "gtwca" || series.name === "pgt4a") {
+                const keys = ["name", "manufPoints"];
+
+                // Remove manufPoints and replace with manufPointsList
+                if (series.name === gtwca || series.name === pgt4a) {
                     keys.splice(1, 1, "manufPointsList");
                 }
+
                 const cleanSeriesObj: any = {};
 
                 keys.forEach((key) => {
