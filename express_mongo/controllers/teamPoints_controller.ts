@@ -4,9 +4,30 @@ import SeriesPoints from "../models/Points/seriesPoints_schema";
 import { getSeriesName } from "../functions/teamPointsHelper";
 
 const getAll = async (req: Request, res: Response) => {
-    return SeriesPoints.find()
-        .then((series) => res.status(201).json({ series }))
-        .catch((error) => res.status(500).json({ error }));
+    try {
+        const data = await SeriesPoints.find();
+
+        if (data) {
+            // Loop through each series object returned (type Series) and only return keys needed
+            const filtered = data.map((series: any) => {
+                const keys = ["name", "teamPoints"];
+
+                const cleanSeriesObj: any = {};
+
+                keys.forEach((key) => {
+                    cleanSeriesObj[key] = series[key];
+                });
+
+                return cleanSeriesObj;
+            });
+
+            return res.status(201).json({ seriesData: filtered });
+        } else {
+            return res.status(400).json({ message: "Series Not Found" });
+        }
+    } catch (error) {
+        res.status(500).json({ error });
+    }
 };
 
 const getTeamPoints = async (req: Request, res: Response) => {
