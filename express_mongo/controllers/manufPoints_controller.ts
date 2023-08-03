@@ -29,7 +29,11 @@ const getAll = async (req: Request, res: Response) => {
                 return cleanSeriesObj;
             });
 
-            return res.status(201).json({ seriesData: filtered });
+            const moreFiltered = filtered.filter(
+                (series) => series.name !== "Toyota GR Cup",
+            );
+
+            return res.status(201).json({ seriesData: moreFiltered });
         } else {
             return res.status(400).json({ message: "Series Not Found" });
         }
