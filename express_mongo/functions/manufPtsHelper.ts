@@ -5,7 +5,8 @@ import {
     IManufPoints,
 } from "../models/Points/points_models";
 import SeriesPoints from "../models/Points/seriesPoints_schema";
-import { setNewTeamPoints, updateTeamPointsObj } from "./teamPointsHelper";
+import { updateTeamPointsObj } from "./teamPointsHelper";
+import { setNewPoints } from "./functions";
 
 //** Handle Manufacturer Points for GTA, TCA */
 // is passed the request object and the backend object, updates each class list accordingly and returns the array
@@ -37,7 +38,7 @@ const handleManufPoints = (
                     const newManuf: ManufacturerPoints = {
                         manufName: Manufacturer,
                         classification: newResult.Class,
-                        points: setNewTeamPoints(round, Points),
+                        points: setNewPoints(round, Points),
                     };
 
                     dbArr.push(newManuf);
@@ -112,7 +113,7 @@ const updateManufListPoints = (
                 const newManuf: ManufacturerPoints = {
                     manufName: Manufacturer,
                     classification: result.Class,
-                    points: setNewTeamPoints(round, Points),
+                    points: setNewPoints(round, Points),
                 };
 
                 backendManufPoints.push(newManuf);
@@ -121,7 +122,7 @@ const updateManufListPoints = (
             const newManuf: ManufacturerPoints = {
                 manufName: Manufacturer,
                 classification: result.Class,
-                points: setNewTeamPoints(round, Points),
+                points: setNewPoints(round, Points),
             };
 
             backendManufPoints.push(newManuf);
