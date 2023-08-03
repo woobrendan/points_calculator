@@ -1,6 +1,6 @@
 import { Request, Response } from "express";
 import SeriesPoints from "../models/Points/seriesPoints_schema";
-import { getSeriesName } from "../functions/teamPointsHelper";
+import { getSeriesName } from "../functions/functions";
 
 const getAll = async (req: Request, res: Response) => {
     return SeriesPoints.find()
@@ -10,7 +10,7 @@ const getAll = async (req: Request, res: Response) => {
 
 const getBySeries = async (req: Request, res: Response) => {
     const series = req.params.series;
-    let seriesName = getSeriesName(series);
+    const seriesName = getSeriesName(series);
 
     try {
         const seriesData = await SeriesPoints.findOne({ name: seriesName });

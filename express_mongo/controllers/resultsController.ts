@@ -1,5 +1,5 @@
 import { Request, Response } from "express";
-import { getSeriesName } from "../functions/teamPointsHelper";
+import { getSeriesName } from "../functions/functions";
 import { handleGT3GT4ManufPts } from "../functions/manufPtsHelper";
 import teamManufPoints from "../functions/teamManufPoints";
 

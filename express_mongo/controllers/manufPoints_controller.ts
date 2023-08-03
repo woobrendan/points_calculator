@@ -1,7 +1,7 @@
 import { NextFunction, Request, Response } from "express";
 import mongoose from "mongoose";
 import SeriesPoints from "../models/Points/seriesPoints_schema";
-import { getSeriesName } from "../functions/teamPointsHelper";
+import { getSeriesName } from "../functions/functions";
 
 const gtwca = "GT World Challenge America";
 const pgt4a = "Pirelli GT4 America";
@@ -44,7 +44,7 @@ const getAll = async (req: Request, res: Response) => {
 
 const getManufPoints = async (req: Request, res: Response) => {
     const series = req.params.series;
-    let seriesName = getSeriesName(series);
+    const seriesName = getSeriesName(series);
 
     const manuf_type =
         series === "gtwca" || series === "pgt4a"
