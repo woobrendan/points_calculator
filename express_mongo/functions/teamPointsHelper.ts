@@ -6,20 +6,6 @@ import {
 } from "../models/Points/points_models";
 import { setNewPoints } from "./functions";
 
-const updateTeamPoints = (
-    round: string,
-    points: number,
-    ptsObj: PointsInterface,
-) => {
-    for (const roundNum in ptsObj) {
-        if (roundNum === round) {
-            ptsObj[roundNum] = points;
-        }
-    }
-
-    return ptsObj;
-};
-
 const updateTeamPointsObj = (
     teamPointsObj: ReqPointsArr,
     backendTeamPts: ITeamPoints,
@@ -60,4 +46,4 @@ const updateTeamPointsObj = (
     return backendTeamPts;
 };
 
-export { updateTeamPoints, updateTeamPointsObj };
+export { updateTeamPointsObj };
