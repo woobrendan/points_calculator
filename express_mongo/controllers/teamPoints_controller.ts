@@ -2,24 +2,15 @@ import { NextFunction, Request, Response } from "express";
 import mongoose from "mongoose";
 import SeriesPoints from "../models/Points/seriesPoints_schema";
 import { getSeriesName } from "../functions/functions";
+import { filterSeriesByPoints } from "../functions/functions";
 
 const getAll = async (req: Request, res: Response) => {
     try {
         const data = await SeriesPoints.find();
 
         if (data) {
-            // Loop through each series object returned (type Series) and only return keys needed
-            const filtered = data.map((series: any) => {
-                const keys = ["name", "teamPoints"];
-
-                const cleanSeriesObj: any = {};
-
-                keys.forEach((key) => {
-                    cleanSeriesObj[key] = series[key];
-                });
-
-                return cleanSeriesObj;
-            });
+            // only return keys needed [name, teamPoints] from the Series Type
+            const filtered = filterSeriesByPoints(data, "teamPoints");
 
             return res.status(201).json({ seriesData: filtered });
         } else {
