@@ -1,4 +1,4 @@
-import { PointsInterface } from "../models/Points/points_models";
+import { PointsInterface, Series } from "../models/Points/points_models";
 
 const getSeriesName = (val: string): string => {
     if (val === "gtwca") return "GT World Challenge America";
@@ -41,4 +41,20 @@ const setNewPoints = (round: string, points: number) => {
     return pts;
 };
 
-export { getSeriesName, setNewPoints };
+const filterSeriesByPoints = (data: Series[], pointsType: string) => {
+    const filtered = data.map((series: any) => {
+        const keys = ["name", pointsType];
+
+        const cleanSeriesObj: any = {};
+
+        keys.forEach((key) => {
+            cleanSeriesObj[key] = series[key];
+        });
+
+        return cleanSeriesObj;
+    });
+
+    return filtered;
+};
+
+export { getSeriesName, setNewPoints, filterSeriesByPoints };
