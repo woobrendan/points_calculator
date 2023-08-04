@@ -5,15 +5,14 @@ from .manuf_points import convert_manufList_to_dict
 
 
 def fetch_manuf_standings(series):
-    url = f'http://localhost:2020/teamPoints/{series}'
+    url = f'http://localhost:2020/api/manufPoints/{series}'
     response = requests.get(url)
 
     GT3_GT4 = True if series == 'gtwca' or series == 'pgt4a' else False
 
     if response.status_code == 200:
         manuf_val = 'manufPointsList' if GT3_GT4 else 'manufPoints'
-
-        data = response.json()['seriesData'][manuf_val]
+        data = response.json()[manuf_val]
 
         if GT3_GT4:
             return convert_manufList_to_dict(data)
