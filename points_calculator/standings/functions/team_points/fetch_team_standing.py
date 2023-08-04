@@ -7,7 +7,7 @@ def fetch_team_standings(series):
     response = requests.get(url)
 
     if response.status_code == 200:
-        data = response.json()['seriesData']['teamPoints']
+        data = response.json()['seriesData']
 
         return helpers.classEntries(data)
     else:
