@@ -6,12 +6,12 @@ export interface SeriesList {
     [key: string]: Series;
 }
 
-interface Series {
+export interface Series {
     name: string;
     entries: Entry[];
 }
 
-interface Entry {
+export interface Entry {
     number: number;
     driver1: string;
     driver2?: string;
