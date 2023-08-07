@@ -1,9 +1,8 @@
-interface Events {
-    events: Event[];
+export interface Events {
+    [key: string]: SeriesList;
 }
 
-interface Event {
-    name: string;
+export interface SeriesList {
     [key: string]: Series;
 }
 
