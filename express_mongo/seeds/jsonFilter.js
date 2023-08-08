@@ -10,6 +10,18 @@ const series = [
 
 const seriesShort = ["gtwca", "gta", "pgt4a", "tca", "gr"];
 
+const events = {
+    "St Petersburg": false,
+    Sonoma: false,
+    NOLA: false,
+    COTA: false,
+    VIR: false,
+    Nashville: false,
+    RoadAm: false,
+    Sebring: false,
+    Indy: false,
+};
+
 fs.readFile("entries23.json", "utf-8", (err, data) => {
     if (err) {
         console.log("Error reading json entries file", err);
@@ -28,8 +40,8 @@ fs.readFile("entries23.json", "utf-8", (err, data) => {
             return {
                 number,
                 teamName: team,
-                driver1: driver1.teamName,
-                ...(driver2 ? { driver2: { ...driver2.name } } : {}),
+                driver1: driver1.name,
+                ...(driver2 ? { driver2: driver2.name } : {}),
                 classificaiton,
                 series,
                 events,
