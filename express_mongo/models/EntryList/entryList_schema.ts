@@ -1,23 +1,34 @@
-import mongoose, { Document, Schema } from "mongoose";
-import { Events, Entry, Series, SeriesList } from "./entryList_models";
+import mongoose from "mongoose";
 
-const EntrySchema = new Schema<Entry>({
-    number: { type: Number, required: true },
-    driver1: { type: String, required: true },
-    driver2: { type: String },
-    driver3: { type: String },
-    classification: { type: String, required: true },
-    series: { type: String, required: true },
+const entrySchema = new mongoose.Schema({
+    number: Number,
+    teamName: String,
+    driver1: String,
+    driver2: String,
+    driver3: String,
+    classification: String,
+    series: String,
+    events: {
+        type: Map,
+        of: Boolean,
+        default: {},
+    },
 });
 
-const SeriesSchema = new Schema<Series>({
-    name: { type: String, required: true },
-    entries: { type: [EntrySchema], required: true },
+const seriesSchema = new mongoose.Schema({
+    name: String,
+    entries: [entrySchema],
 });
 
-const EventsSchema: Schema = new Schema<Events>({});
+const seriesListSchema = new mongoose.Schema({
+    series: {
+        type: Map,
+        of: seriesSchema,
+        default: {},
+    },
+});
 
 // export default mongoose.model<EventsModel>("EventsModel", eventsSchema);
-const EventsModel = mongoose.model<Events & Document>("Events", EventsSchema);
+const SeriesListModel = mongoose.model("SeriesList", seriesListSchema);
 
-export default EventsModel;
+module.exports = SeriesListModel;
