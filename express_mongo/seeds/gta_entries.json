@@ -3,6 +3,7 @@
     "number": "04",
     "teamName": "CrowdStrike by Riley",
     "driver1": "George Kurtz",
+    "classification": "SRO3",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -20,6 +21,7 @@
     "number": "08",
     "teamName": "DXDT Racing",
     "driver1": "Scott Smithson",
+    "classification": "SRO3",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -37,6 +39,7 @@
     "number": "9",
     "teamName": "TR3 Racing",
     "driver1": "Ziad Ghandour",
+    "classification": "SRO3",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -54,6 +57,7 @@
     "number": "011",
     "teamName": "Lone Star Racing",
     "driver1": "Marc Austin",
+    "classification": "SRO3",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -71,6 +75,7 @@
     "number": "27",
     "teamName": "CRP Racing",
     "driver1": "Jason Daskalos",
+    "classification": "SRO3",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -88,6 +93,7 @@
     "number": "32",
     "teamName": "GMG Racing",
     "driver1": "Kyle Washington",
+    "classification": "SRO3",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -105,6 +111,7 @@
     "number": "41",
     "teamName": "CRP Racing",
     "driver1": "Todd Treffert",
+    "classification": "SRO3",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -122,6 +129,7 @@
     "number": "043",
     "teamName": "OnlyFans Racing w/ P1 Groupe by MRS",
     "driver1": "Alex Vogel",
+    "classification": "SRO3",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -139,6 +147,7 @@
     "number": "70",
     "teamName": "MISHUMOTORS",
     "driver1": "Mirco Schultis",
+    "classification": "SRO3",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -156,6 +165,7 @@
     "number": "91",
     "teamName": "DXDT Racing",
     "driver1": "Jeff Burton",
+    "classification": "SRO3",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -173,6 +183,7 @@
     "number": "120",
     "teamName": "Wright Motorsports",
     "driver1": "Adam Adelson",
+    "classification": "SRO3",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -190,6 +201,7 @@
     "number": "427",
     "teamName": "RealTime Racing",
     "driver1": "Anthony Bartone",
+    "classification": "SRO3",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -207,6 +219,7 @@
     "number": "5",
     "teamName": "Blackdog Speed Shop",
     "driver1": "Tony Gaples",
+    "classification": "GT4",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -224,6 +237,7 @@
     "number": "253",
     "teamName": "AutoTechnic Racing",
     "driver1": "Rob Walker",
+    "classification": "GT4",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -241,6 +255,7 @@
     "number": "21",
     "teamName": "Carrus Callas Race Team",
     "driver1": "Nick Shanny",
+    "classification": "GT4",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -258,6 +273,7 @@
     "number": "25",
     "teamName": "Heart of Racing Team",
     "driver1": "Gray Newell",
+    "classification": "GT4",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -275,6 +291,7 @@
     "number": "50",
     "teamName": "Chouest Povoledo Racing",
     "driver1": "Ross Chouest",
+    "classification": "GT4",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -292,6 +309,7 @@
     "number": "69",
     "teamName": "Archangel Motorsports",
     "driver1": "Todd Coleman",
+    "classification": "GT4",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -309,6 +327,7 @@
     "number": "045",
     "teamName": "Archangel Motorsports",
     "driver1": "Scott Blind",
+    "classification": "GT4",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -326,6 +345,7 @@
     "number": "000",
     "teamName": "GMG Racing",
     "driver1": "Todd Parriott",
+    "classification": "GT4",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -343,6 +363,7 @@
     "number": "77",
     "teamName": "TR3 Racing",
     "driver1": "Paul Kiebler",
+    "classification": "GT4",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -360,6 +381,7 @@
     "number": "099",
     "teamName": "Rotek Racing",
     "driver1": "Robb Holland",
+    "classification": "GT4",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -377,6 +399,7 @@
     "number": "098",
     "teamName": "Rotek Racing",
     "driver1": "Chris Alliegro",
+    "classification": "GT4",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -394,6 +417,7 @@
     "number": "101",
     "teamName": "TKO Motorsports",
     "driver1": "Memo Gidley",
+    "classification": "SRO3",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -411,6 +435,7 @@
     "number": "102",
     "teamName": "TKO Motorsports",
     "driver1": "David Traitel",
+    "classification": "SRO3",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -428,6 +453,7 @@
     "number": "460",
     "teamName": "Flying Lizard Motorsports",
     "driver1": "Andy Wilzoch",
+    "classification": "SRO3",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -445,6 +471,7 @@
     "number": "8",
     "teamName": "Flying Lizard Motorsports",
     "driver1": "Elias Sabo",
+    "classification": "GT4",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -462,6 +489,7 @@
     "number": "2",
     "teamName": "Flying Lizard Motorsports",
     "driver1": "Jason Bell",
+    "classification": "GT4",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -479,6 +507,7 @@
     "number": "11",
     "teamName": "Flying Lizard Motorsports",
     "driver1": "Slade Stewart",
+    "classification": "GT4",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -496,6 +525,7 @@
     "number": "428",
     "teamName": "van der Steur Racing",
     "driver1": "Brady Behrman",
+    "classification": "GT4",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -513,6 +543,7 @@
     "number": "009",
     "teamName": "TRG - The Racers Group",
     "driver1": "Tim Savage",
+    "classification": "GT4",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -530,6 +561,7 @@
     "number": "91",
     "teamName": "DXDT Racing",
     "driver1": "Jeff Burton",
+    "classification": "Masters",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -547,6 +579,7 @@
     "number": "460",
     "teamName": "Flying Lizard Motorsports",
     "driver1": "Andy Wilzoch",
+    "classification": "Masters",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -564,6 +597,7 @@
     "number": "70",
     "teamName": "MISHUMOTORS",
     "driver1": "Mirco Schultis",
+    "classification": "Masters",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -581,6 +615,7 @@
     "number": "3",
     "teamName": "SKI Autosports",
     "driver1": "Johnny O'Connell",
+    "classification": "SRO3",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -598,6 +633,7 @@
     "number": "3",
     "teamName": "SKI Autosports",
     "driver1": "Johnny O'Connell",
+    "classification": "Masters",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -615,6 +651,7 @@
     "number": "99",
     "teamName": "Extreme Velocity Motorsports",
     "driver1": "Matt Joffe",
+    "classification": "GT4",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -632,6 +669,7 @@
     "number": "14",
     "teamName": "GMG Racing",
     "driver1": "James Sofronas",
+    "classification": "SRO3",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -649,6 +687,7 @@
     "number": "14",
     "teamName": "GMG Racing",
     "driver1": "James Sofronas",
+    "classification": "Masters",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -666,6 +705,7 @@
     "number": "11",
     "teamName": "Fast Track Racing",
     "driver1": "John Roberts",
+    "classification": "GT4",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -683,6 +723,7 @@
     "number": "71",
     "teamName": "GMG Racing",
     "driver1": "Jay Logan",
+    "classification": "GT4",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -700,6 +741,7 @@
     "number": "096",
     "teamName": "Turner Motorsports",
     "driver1": "Vincent Barletta",
+    "classification": "SRO3",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -717,6 +759,7 @@
     "number": "58",
     "teamName": "GMG Racing",
     "driver1": "CJ Moses",
+    "classification": "GT2",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -734,6 +777,7 @@
     "number": "7",
     "teamName": "Flatrock Motorsports",
     "driver1": "Rusty Bittle",
+    "classification": "GT4",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -751,6 +795,7 @@
     "number": "66",
     "teamName": "CDR Valkyrie",
     "driver1": "Amir Haleem",
+    "classification": "SRO3",
     "series": "GT America",
     "events": {
       "St Petersburg": false,
@@ -768,6 +813,7 @@
     "number": "86",
     "teamName": "CDR Valkyrie",
     "driver1": "Brian Lock",
+    "classification": "SRO3",
     "series": "GT America",
     "events": {
       "St Petersburg": false,

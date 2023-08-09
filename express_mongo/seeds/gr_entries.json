@@ -3,6 +3,7 @@
     "number": "5",
     "teamName": "TechSport",
     "driver1": "Gresham Wagner",
+    "classification": "Am",
     "series": "Toyota GR Cup",
     "events": {
       "St Petersburg": false,
@@ -20,6 +21,7 @@
     "number": "6",
     "teamName": "Godwin Motorsports",
     "driver1": "Will Rodgers",
+    "classification": "Am",
     "series": "Toyota GR Cup",
     "events": {
       "St Petersburg": false,
@@ -37,6 +39,7 @@
     "number": "7",
     "teamName": "Zotz Racing",
     "driver1": "Michael Garcia",
+    "classification": "Am",
     "series": "Toyota GR Cup",
     "events": {
       "St Petersburg": false,
@@ -54,6 +57,7 @@
     "number": "8",
     "teamName": "Smooge Racing",
     "driver1": "Will Robusto",
+    "classification": "Am",
     "series": "Toyota GR Cup",
     "events": {
       "St Petersburg": false,
@@ -71,6 +75,7 @@
     "number": "09",
     "teamName": "Precision Racing LA",
     "driver1": "Cat Lauren",
+    "classification": "Am",
     "series": "Toyota GR Cup",
     "events": {
       "St Petersburg": false,
@@ -88,6 +93,7 @@
     "number": "10",
     "teamName": "PJM / VGRT",
     "driver1": "Mark Pombo",
+    "classification": "Am",
     "series": "Toyota GR Cup",
     "events": {
       "St Petersburg": false,
@@ -105,6 +111,7 @@
     "number": "11",
     "teamName": "RVA Graphics Motorsports by Speed Syndicate",
     "driver1": "Jack Woodfin",
+    "classification": "Am",
     "series": "Toyota GR Cup",
     "events": {
       "St Petersburg": false,
@@ -122,6 +129,7 @@
     "number": "18",
     "teamName": "BSI Racing",
     "driver1": "Jordan Segrini",
+    "classification": "Am",
     "series": "Toyota GR Cup",
     "events": {
       "St Petersburg": false,
@@ -139,6 +147,7 @@
     "number": "23",
     "teamName": "Tommy McCarthy Racing",
     "driver1": "Tommy McCarthy",
+    "classification": "Am",
     "series": "Toyota GR Cup",
     "events": {
       "St Petersburg": false,
@@ -156,6 +165,7 @@
     "number": "24",
     "teamName": "Nitro Motorsports",
     "driver1": "Taylor Crews",
+    "classification": "Am",
     "series": "Toyota GR Cup",
     "events": {
       "St Petersburg": false,
@@ -173,6 +183,7 @@
     "number": "27",
     "teamName": "McCumbee McAleer Racing",
     "driver1": "Lev Uretsky",
+    "classification": "Am",
     "series": "Toyota GR Cup",
     "events": {
       "St Petersburg": false,
@@ -190,6 +201,7 @@
     "number": "28",
     "teamName": "McCumbee McAleer Racing",
     "driver1": "Justin Piscitelli",
+    "classification": "Am",
     "series": "Toyota GR Cup",
     "events": {
       "St Petersburg": false,
@@ -207,6 +219,7 @@
     "number": "30",
     "teamName": "Zotz Racing",
     "driver1": "Alex Garcia",
+    "classification": "Am",
     "series": "Toyota GR Cup",
     "events": {
       "St Petersburg": false,
@@ -224,6 +237,7 @@
     "number": "31",
     "teamName": "RVA Graphics Motorsports by Speed Syndicate",
     "driver1": "Austin Dodge",
+    "classification": "Am",
     "series": "Toyota GR Cup",
     "events": {
       "St Petersburg": false,
@@ -241,6 +255,7 @@
     "number": "37",
     "teamName": "Precision Racing LA",
     "driver1": "Spencer Schmidt",
+    "classification": "Am",
     "series": "Toyota GR Cup",
     "events": {
       "St Petersburg": false,
@@ -258,6 +273,7 @@
     "number": "44",
     "teamName": "PJM / VGRT",
     "driver1": "Derek Jones",
+    "classification": "Am",
     "series": "Toyota GR Cup",
     "events": {
       "St Petersburg": false,
@@ -275,6 +291,7 @@
     "number": "46",
     "teamName": "Lucas Racing",
     "driver1": "Lucas Weisenberg",
+    "classification": "Am",
     "series": "Toyota GR Cup",
     "events": {
       "St Petersburg": false,
@@ -292,6 +309,7 @@
     "number": "55",
     "teamName": "TechSport Racing",
     "driver1": "Spike Kohlbecker",
+    "classification": "Am",
     "series": "Toyota GR Cup",
     "events": {
       "St Petersburg": false,
@@ -309,6 +327,7 @@
     "number": "57",
     "teamName": "Copeland Motorsports",
     "driver1": "Tyler Gonzalez",
+    "classification": "Am",
     "series": "Toyota GR Cup",
     "events": {
       "St Petersburg": false,
@@ -326,6 +345,7 @@
     "number": "58",
     "teamName": "Pura Vida Team",
     "driver1": "Amadeo Quiros Martén",
+    "classification": "Am",
     "series": "Toyota GR Cup",
     "events": {
       "St Petersburg": false,
@@ -343,6 +363,7 @@
     "number": "66",
     "teamName": "Precision Racing LA",
     "driver1": "Jaxon Bell",
+    "classification": "Am",
     "series": "Toyota GR Cup",
     "events": {
       "St Petersburg": false,
@@ -360,6 +381,7 @@
     "number": "67",
     "teamName": "Smooge Racing",
     "driver1": "Joey DaSilva",
+    "classification": "Am",
     "series": "Toyota GR Cup",
     "events": {
       "St Petersburg": false,
@@ -377,6 +399,7 @@
     "number": "68",
     "teamName": "Smooge Racing",
     "driver1": "Mia Lovell",
+    "classification": "Am",
     "series": "Toyota GR Cup",
     "events": {
       "St Petersburg": false,
@@ -394,6 +417,7 @@
     "number": "69",
     "teamName": "OpenRoad Racing",
     "driver1": "Adam Isman",
+    "classification": "Am",
     "series": "Toyota GR Cup",
     "events": {
       "St Petersburg": false,
@@ -411,6 +435,7 @@
     "number": "80",
     "teamName": "Nitro Motorsports",
     "driver1": "Tyler Wettengel",
+    "classification": "Am",
     "series": "Toyota GR Cup",
     "events": {
       "St Petersburg": false,
@@ -428,6 +453,7 @@
     "number": "70",
     "teamName": "Nitro Motorsports",
     "driver1": "Toni Breidinger",
+    "classification": "Am",
     "series": "Toyota GR Cup",
     "events": {
       "St Petersburg": false,
@@ -445,6 +471,7 @@
     "number": "71",
     "teamName": "Copeland Motorsports",
     "driver1": "Paul Bocuse",
+    "classification": "Am",
     "series": "Toyota GR Cup",
     "events": {
       "St Petersburg": false,
@@ -462,6 +489,7 @@
     "number": "73",
     "teamName": "Precision Racing LA",
     "driver1": "Aidan Yoder",
+    "classification": "Am",
     "series": "Toyota GR Cup",
     "events": {
       "St Petersburg": false,
@@ -479,6 +507,7 @@
     "number": "76",
     "teamName": "BSI Racing",
     "driver1": "Steven Clemons",
+    "classification": "Am",
     "series": "Toyota GR Cup",
     "events": {
       "St Petersburg": false,
@@ -496,6 +525,7 @@
     "number": "88",
     "teamName": "VGRT",
     "driver1": "Ruben Iglesias Jr.",
+    "classification": "Am",
     "series": "Toyota GR Cup",
     "events": {
       "St Petersburg": false,
@@ -513,6 +543,7 @@
     "number": "98",
     "teamName": "VGRT",
     "driver1": "Canaan O'Connell",
+    "classification": "Am",
     "series": "Toyota GR Cup",
     "events": {
       "St Petersburg": false,
@@ -530,6 +561,7 @@
     "number": "99",
     "teamName": "Copeland Motorsports",
     "driver1": "Drake Kemper",
+    "classification": "Am",
     "series": "Toyota GR Cup",
     "events": {
       "St Petersburg": false,
@@ -547,6 +579,7 @@
     "number": "70",
     "teamName": "Nitro Motorsports",
     "driver1": "Toni Breidinger",
+    "classification": "Female",
     "series": "Toyota GR Cup",
     "events": {
       "St Petersburg": false,
@@ -564,6 +597,7 @@
     "number": "8",
     "teamName": "Smooge Racing",
     "driver1": "Isabella Robusto",
+    "classification": "Female",
     "series": "Toyota GR Cup",
     "events": {
       "St Petersburg": false,
@@ -581,6 +615,7 @@
     "number": "09",
     "teamName": "Precision Racing LA",
     "driver1": "Cat Lauren",
+    "classification": "Female",
     "series": "Toyota GR Cup",
     "events": {
       "St Petersburg": false,
@@ -598,6 +633,7 @@
     "number": "86",
     "teamName": "Eagles Canyon Racing",
     "driver1": "Andrew Gilleland",
+    "classification": "Am",
     "series": "Toyota GR Cup",
     "events": {
       "St Petersburg": false,
@@ -615,6 +651,7 @@
     "number": "68",
     "teamName": "Smooge Racing",
     "driver1": "Mia Lovell",
+    "classification": "Female",
     "series": "Toyota GR Cup",
     "events": {
       "St Petersburg": false,

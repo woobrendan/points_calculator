@@ -3,6 +3,7 @@
     "number": "14",
     "teamName": "AOA Racing",
     "driver1": "Kenny Schmied",
+    "classification": "TCX",
     "series": "TC America",
     "events": {
       "St Petersburg": false,
@@ -20,6 +21,7 @@
     "number": "21",
     "teamName": "Fast Track Racing",
     "driver1": "Adam Gleason",
+    "classification": "TCX",
     "series": "TC America",
     "events": {
       "St Petersburg": false,
@@ -37,6 +39,7 @@
     "number": "24",
     "teamName": "Rigid Speed Racing",
     "driver1": "Joesph Catania",
+    "classification": "TCX",
     "series": "TC America",
     "events": {
       "St Petersburg": false,
@@ -54,6 +57,7 @@
     "number": "26",
     "teamName": "Rigid Speed Racing",
     "driver1": "Lucas Catania",
+    "classification": "TCX",
     "series": "TC America",
     "events": {
       "St Petersburg": false,
@@ -71,6 +75,7 @@
     "number": "44",
     "teamName": "Rooster Hall Racing",
     "driver1": "Colin Garrett",
+    "classification": "TCX",
     "series": "TC America",
     "events": {
       "St Petersburg": false,
@@ -88,6 +93,7 @@
     "number": "73",
     "teamName": "LA Honda World Racing",
     "driver1": "Matthew Pombo",
+    "classification": "TCX",
     "series": "TC America",
     "events": {
       "St Petersburg": false,
@@ -105,6 +111,7 @@
     "number": "93",
     "teamName": "Ian Lacy Racing",
     "driver1": "Christopher DeFreitas",
+    "classification": "TCX",
     "series": "TC America",
     "events": {
       "St Petersburg": false,
@@ -122,6 +129,7 @@
     "number": "99",
     "teamName": "VGRT",
     "driver1": "Daijiro Yoshihara",
+    "classification": "TCX",
     "series": "TC America",
     "events": {
       "St Petersburg": false,
@@ -139,6 +147,7 @@
     "number": "7",
     "teamName": "Skip Barber Racing School",
     "driver1": "Celso Neto",
+    "classification": "TC",
     "series": "TC America",
     "events": {
       "St Petersburg": false,
@@ -156,6 +165,7 @@
     "number": "37",
     "teamName": "MINI JCW Team",
     "driver1": "Cristian Perocarpi",
+    "classification": "TC",
     "series": "TC America",
     "events": {
       "St Petersburg": false,
@@ -173,6 +183,7 @@
     "number": "60",
     "teamName": "MINI JCW Team",
     "driver1": "Clayton Williams",
+    "classification": "TC",
     "series": "TC America",
     "events": {
       "St Petersburg": false,
@@ -190,6 +201,7 @@
     "number": "78",
     "teamName": "GenRacer / Ricca Autosport",
     "driver1": "Jeff Ricca",
+    "classification": "TC",
     "series": "TC America",
     "events": {
       "St Petersburg": false,
@@ -207,6 +219,7 @@
     "number": "8",
     "teamName": "VGRT",
     "driver1": "Michael Hurczyn",
+    "classification": "TC",
     "series": "TC America",
     "events": {
       "St Petersburg": false,
@@ -224,6 +237,7 @@
     "number": "11",
     "teamName": "DRS",
     "driver1": "Kris Valdez",
+    "classification": "TC",
     "series": "TC America",
     "events": {
       "St Petersburg": false,
@@ -241,6 +255,7 @@
     "number": "42",
     "teamName": "Skiper Barber Racing School",
     "driver1": "Ken Fukuda",
+    "classification": "TC",
     "series": "TC America",
     "events": {
       "St Petersburg": false,
@@ -258,6 +273,7 @@
     "number": "780",
     "teamName": "GenRacer",
     "driver1": "Sally McNulty",
+    "classification": "TC",
     "series": "TC America",
     "events": {
       "St Petersburg": false,
@@ -275,6 +291,7 @@
     "number": "5",
     "teamName": "LA Honda World Racing",
     "driver1": "Spencer Bucknum",
+    "classification": "TCA",
     "series": "TC America",
     "events": {
       "St Petersburg": false,
@@ -292,6 +309,7 @@
     "number": "07",
     "teamName": "LA Honda World Racing",
     "driver1": "Mario Biundo",
+    "classification": "TCA",
     "series": "TC America",
     "events": {
       "St Petersburg": false,
@@ -309,6 +327,7 @@
     "number": "19",
     "teamName": "Skip Barber Racing School",
     "driver1": "Cooper Broll",
+    "classification": "TCA",
     "series": "TC America",
     "events": {
       "St Petersburg": false,
@@ -326,6 +345,7 @@
     "number": "22",
     "teamName": "TechSport Racing",
     "driver1": "Devin Anderson",
+    "classification": "TCA",
     "series": "TC America",
     "events": {
       "St Petersburg": false,
@@ -343,6 +363,7 @@
     "number": "23",
     "teamName": "TechSport Racing",
     "driver1": "Shaoyi Che",
+    "classification": "TCA",
     "series": "TC America",
     "events": {
       "St Petersburg": false,
@@ -360,6 +381,7 @@
     "number": "62",
     "teamName": "MINI JCW Team",
     "driver1": "PJ Groenke",
+    "classification": "TCA",
     "series": "TC America",
     "events": {
       "St Petersburg": false,
@@ -377,6 +399,7 @@
     "number": "64",
     "teamName": "MINI JCW Team",
     "driver1": "Alain Lauziere ",
+    "classification": "TCA",
     "series": "TC America",
     "events": {
       "St Petersburg": false,
@@ -394,6 +417,7 @@
     "number": "63",
     "teamName": "MINI JCW Team",
     "driver1": "Bruce Myrehn",
+    "classification": "TCA",
     "series": "TC America",
     "events": {
       "St Petersburg": false,
@@ -411,6 +435,7 @@
     "number": "77",
     "teamName": "Skip Barber Racing School",
     "driver1": "William Lambros",
+    "classification": "TCA",
     "series": "TC America",
     "events": {
       "St Petersburg": false,
@@ -428,6 +453,7 @@
     "number": "88",
     "teamName": "VGRT",
     "driver1": "Ruben Iglesias Jr",
+    "classification": "TCA",
     "series": "TC America",
     "events": {
       "St Petersburg": false,
@@ -445,6 +471,7 @@
     "number": "09",
     "teamName": "Fast Track Racing",
     "driver1": "Maddie Aust",
+    "classification": "TCX",
     "series": "TC America",
     "events": {
       "St Petersburg": false,
@@ -462,6 +489,7 @@
     "number": "29",
     "teamName": "Fast Track Racing",
     "driver1": "Nick Roberts",
+    "classification": "TCX",
     "series": "TC America",
     "events": {
       "St Petersburg": false,
@@ -479,6 +507,7 @@
     "number": "34",
     "teamName": "Skip Barber Racing School",
     "driver1": "Jeremiah Burton",
+    "classification": "TC",
     "series": "TC America",
     "events": {
       "St Petersburg": false,
@@ -496,6 +525,7 @@
     "number": "808",
     "teamName": "AOA Racing",
     "driver1": "Clifton Lipple",
+    "classification": "TC",
     "series": "TC America",
     "events": {
       "St Petersburg": false,
@@ -513,6 +543,7 @@
     "number": "15",
     "teamName": "Rockwell Autosport Development",
     "driver1": "Eric Rockwell",
+    "classification": "TC",
     "series": "TC America",
     "events": {
       "St Petersburg": false,
@@ -530,6 +561,7 @@
     "number": "18",
     "teamName": "Kaplan Racing Systems",
     "driver1": "Aaron Kaplan",
+    "classification": "SRO3",
     "series": "TC America",
     "events": {
       "St Petersburg": false,

@@ -4,6 +4,7 @@
     "teamName": "GMG Racing",
     "driver1": "Todd Parriott",
     "driver2": "Tom Dyer",
+    "classification": "GT4",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -22,6 +23,7 @@
     "teamName": "TR3 Racing",
     "driver1": "Paul Kiebler",
     "driver2": "Jon Branam",
+    "classification": "Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -40,6 +42,7 @@
     "teamName": "ACI Motorsports",
     "driver1": "Curt Swearingin",
     "driver2": "Kay Van Berlo",
+    "classification": "Pro-Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -58,6 +61,7 @@
     "teamName": "Flying Lizard Motorsports",
     "driver1": "Elias Sabo",
     "driver2": "Andy Lee",
+    "classification": "Pro-Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -76,6 +80,7 @@
     "teamName": "Zotz Racing/ CCDP Racing",
     "driver1": "Christian Ruppel",
     "driver2": "Eric Zitza",
+    "classification": "Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -94,6 +99,7 @@
     "teamName": "RS1",
     "driver1": "Roland Krainz",
     "driver2": "Austin Krainz",
+    "classification": "Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -112,6 +118,7 @@
     "teamName": "ACI Motorsports",
     "driver1": "Francis Selldorff",
     "driver2": "Andrew Davis",
+    "classification": "Silver",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -130,6 +137,7 @@
     "teamName": "TechSport Racing",
     "driver1": "Eric Powell",
     "driver2": "Colin Harrison",
+    "classification": "Pro-Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -148,6 +156,7 @@
     "teamName": "TechSport Racing",
     "driver1": "Tyler Stone",
     "driver2": "Bryan Heitkotter",
+    "classification": "Pro-Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -166,6 +175,7 @@
     "teamName": "Carrus Callas Race Team",
     "driver1": "Nick Shanny",
     "driver2": "Terry Borcheller",
+    "classification": "Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -184,6 +194,7 @@
     "teamName": "Heart of Racing Team",
     "driver1": "Gray Newell",
     "driver2": "Roman De Angelis",
+    "classification": "Pro-Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -202,6 +213,7 @@
     "teamName": "Heart of Racing Team",
     "driver1": "Hannah Grisham",
     "driver2": "Rianna O'Meara-Hunt",
+    "classification": "Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -220,6 +232,7 @@
     "teamName": "JTR Motorsports Engineering",
     "driver1": "Peter Atwater",
     "driver2": "Luca Mars",
+    "classification": "Pro-Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -238,6 +251,7 @@
     "teamName": "GMG Racing",
     "driver1": "Kyle Washington",
     "driver2": "James Sofronas",
+    "classification": "Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -256,6 +270,7 @@
     "teamName": "Conquest Racing/JMF Motorsports",
     "driver1": "Michai Stephens",
     "driver2": "Jesse Webb",
+    "classification": "Silver",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -274,6 +289,7 @@
     "teamName": "Conquest Racing/JMF Motorsports",
     "driver1": "Custodio Toledo",
     "driver2": "Cedric Sbirrazzuoli",
+    "classification": "Pro-Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -292,6 +308,7 @@
     "teamName": "BimmerWorld",
     "driver1": "Charlie Postins",
     "driver2": "James Clay",
+    "classification": "Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -310,6 +327,7 @@
     "teamName": "Skip Barber Racing School",
     "driver1": "Matt Forbush",
     "driver2": "Carter Fartuch",
+    "classification": "Pro-Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -328,6 +346,7 @@
     "teamName": "Rooster Hall Racing",
     "driver1": "Johan Schwartz",
     "driver2": "Colin Garrett",
+    "classification": "Pro-Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -346,6 +365,7 @@
     "teamName": "Chouest Povoledo Racing",
     "driver1": "Ross Chouest",
     "driver2": "Aaron Povoledo",
+    "classification": "Pro-Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -364,6 +384,7 @@
     "teamName": "NOLASPORT",
     "driver1": "David Peterman",
     "driver2": "Lee Carpentier",
+    "classification": "Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -382,6 +403,7 @@
     "teamName": "NOLASPORT",
     "driver1": "Nelson Calle",
     "driver2": "Juan Martinez",
+    "classification": "Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -400,6 +422,7 @@
     "teamName": "Black Swan Racing",
     "driver1": "Tim Pappas",
     "driver2": "Jereon Bleekemolen",
+    "classification": "Pro-Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -418,6 +441,7 @@
     "teamName": "ACI Motorsport",
     "driver1": "Richard Edge",
     "driver2": "Matt Halcome",
+    "classification": "Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -436,6 +460,7 @@
     "teamName": "Smooge Racing",
     "driver1": "Joey DaSilva",
     "driver2": "Isabella Robusto",
+    "classification": "Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -454,6 +479,7 @@
     "teamName": "Smooge Racing",
     "driver1": "Kevin Conway",
     "driver2": "John Geesbreght",
+    "classification": "Pro-Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -472,6 +498,7 @@
     "teamName": "Archangel Motorsports",
     "driver1": "Todd Coleman",
     "driver2": "Billy Johnson",
+    "classification": "Pro-Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -490,6 +517,7 @@
     "teamName": "Copeland Motorsports",
     "driver1": "Tyler Maxson",
     "driver2": "Tyler Gonzalez",
+    "classification": "Silver",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -508,6 +536,7 @@
     "teamName": "BimmerWorld",
     "driver1": "James Walker Jr",
     "driver2": "Tyler McQuarrie",
+    "classification": "Pro-Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -526,6 +555,7 @@
     "teamName": "STR38 Motorsports",
     "driver1": "Harry Gottsacker",
     "driver2": "Chandler Hull",
+    "classification": "Silver",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -544,6 +574,7 @@
     "teamName": "STR38 Motorsports",
     "driver1": "Robert Mau",
     "driver2": "Chris Allen",
+    "classification": "Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -562,6 +593,7 @@
     "teamName": "RENNtech Motorsports",
     "driver1": "Tommy Johnson",
     "driver2": "Michael Auriemma",
+    "classification": "Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -580,6 +612,7 @@
     "teamName": "Random Vandals Racing",
     "driver1": "Kevin Boehm",
     "driver2": "Kenton Koch",
+    "classification": "Silver   ",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -598,6 +631,7 @@
     "teamName": "Random Vandals Racing",
     "driver1": "Paul Sparta",
     "driver2": "Al Carter",
+    "classification": "Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -616,6 +650,7 @@
     "teamName": "OGH Valkyrie Velocity",
     "driver1": "Rob Ferriol",
     "driver2": "Will Owen",
+    "classification": "Pro-Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -634,6 +669,7 @@
     "teamName": "OGH Valkyrie Velocity",
     "driver1": "Chris Walsh",
     "driver2": "Dominic Starkweather",
+    "classification": "Silver",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -652,6 +688,7 @@
     "teamName": "OGH Valkyrie Velocity",
     "driver1": "Sean Gibbons",
     "driver2": "Sam Owen",
+    "classification": "Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -670,6 +707,7 @@
     "teamName": "Rotek Racing",
     "driver1": "Robb Holland",
     "driver2": "Alain Stad",
+    "classification": "Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -688,6 +726,7 @@
     "teamName": "AutoTechnic Racing",
     "driver1": "Rob Walker",
     "driver2": "Satakal Khalsa",
+    "classification": "Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -706,6 +745,7 @@
     "teamName": "AutoTechnic Racing",
     "driver1": "John Capestro Dubets",
     "driver2": "Zac Anderson",
+    "classification": "Silver",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -724,6 +764,7 @@
     "teamName": "van der Steur Racing",
     "driver1": "Brady Behrman",
     "driver2": "Coby Shield",
+    "classification": "Pro-Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -742,6 +783,7 @@
     "teamName": "van der Steur Racing",
     "driver1": "Rory van der Steur",
     "driver2": "Jamie Day",
+    "classification": "Silver",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -760,6 +802,7 @@
     "teamName": "SP Motorsports",
     "driver1": "Anderson Tanoto",
     "driver2": "Jaden Conwright",
+    "classification": "Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -778,6 +821,7 @@
     "teamName": "Hanley Motorsports",
     "driver1": "Parker Thompson",
     "driver2": "Daniel Hanley",
+    "classification": "Silver",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -796,6 +840,7 @@
     "teamName": "NOLASPORT",
     "driver1": "Matt Travis",
     "driver2": "Jason Hart",
+    "classification": "Pro-Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -814,6 +859,7 @@
     "teamName": "KRUGSPEED",
     "driver1": "Anthony Geraci",
     "driver2": "Jaden Lander",
+    "classification": "Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -832,6 +878,7 @@
     "teamName": "Extreme Velocity Motorsports",
     "driver1": "Matt Joffe",
     "driver2": "Grant Maiman",
+    "classification": "Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -850,6 +897,7 @@
     "teamName": "Flying Lizard Motorsports",
     "driver1": "Jason Bell",
     "driver2": "Michael Cooper",
+    "classification": "Pro-Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -868,6 +916,7 @@
     "teamName": "GMG Racing",
     "driver1": "Jay Logan",
     "driver2": "Alec Udell",
+    "classification": "Pro-Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -886,6 +935,7 @@
     "teamName": "Rotek Racing",
     "driver1": "Anderson Tanoto",
     "driver2": "Jaden Conwright",
+    "classification": "Pro-Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -904,6 +954,7 @@
     "teamName": "Rooster Hall Racing",
     "driver1": "Michael Dayton",
     "driver2": "Jason Griscavage",
+    "classification": "Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,
@@ -922,6 +973,7 @@
     "teamName": "Crucial Motorsports",
     "driver1": "Kaia Teo",
     "driver2": "Nick Longhi",
+    "classification": "Am",
     "series": "Pirelli GT4 America",
     "events": {
       "St Petersburg": false,

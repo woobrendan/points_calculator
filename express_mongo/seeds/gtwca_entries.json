@@ -4,6 +4,7 @@
     "teamName": "Crowdstrike by Riley",
     "driver1": "George Kurtz",
     "driver2": "Colin Braun",
+    "classification": "Pro-Am",
     "series": "GT World Challenge America",
     "events": {
       "St Petersburg": false,
@@ -22,6 +23,7 @@
     "teamName": "TRG - The Racers Group",
     "driver1": "Derek DeBoer",
     "driver2": "Valentin Hasse Clot",
+    "classification": "Pro-Am",
     "series": "GT World Challenge America",
     "events": {
       "St Petersburg": false,
@@ -40,6 +42,7 @@
     "teamName": "DXDT Racing",
     "driver1": "Scott Smithson",
     "driver2": "Bryan Sellers",
+    "classification": "Pro-Am",
     "series": "GT World Challenge America",
     "events": {
       "St Petersburg": false,
@@ -58,6 +61,7 @@
     "teamName": "TR3 Racing",
     "driver1": "Kenton Koch",
     "driver2": "Daniel Morad",
+    "classification": "Pro",
     "series": "GT World Challenge America",
     "events": {
       "St Petersburg": false,
@@ -76,6 +80,7 @@
     "teamName": "GMG Racing",
     "driver1": "James Sofronas",
     "driver2": "Tom Dyer",
+    "classification": "Pro-Am",
     "series": "GT World Challenge America",
     "events": {
       "St Petersburg": false,
@@ -94,6 +99,7 @@
     "teamName": "ACI Motorsport",
     "driver1": "Pedro Torres",
     "driver2": "Spencer Pumpelly",
+    "classification": "Pro-Am",
     "series": "GT World Challenge America",
     "events": {
       "St Petersburg": false,
@@ -112,6 +118,7 @@
     "teamName": "Esses Racing w/ Mercendes-Benz of Austin",
     "driver1": "Will Hardeman",
     "driver2": "Adam Carroll",
+    "classification": "Pro-Am",
     "series": "GT World Challenge America",
     "events": {
       "St Petersburg": false,
@@ -130,6 +137,7 @@
     "teamName": "Conquest Racing",
     "driver1": "Manny Franco",
     "driver2": "Alessandro Balzan",
+    "classification": "Pro",
     "series": "GT World Challenge America",
     "events": {
       "St Petersburg": false,
@@ -148,6 +156,7 @@
     "teamName": "RS1",
     "driver1": "Eric Filgueiras",
     "driver2": "Stevan McAleer",
+    "classification": "Pro",
     "series": "GT World Challenge America",
     "events": {
       "St Petersburg": false,
@@ -166,6 +175,7 @@
     "teamName": "Triarsi Competizione",
     "driver1": "Justin Wetherill",
     "driver2": "Ryan Dalziel",
+    "classification": "Pro-Am",
     "series": "GT World Challenge America",
     "events": {
       "St Petersburg": false,
@@ -184,6 +194,7 @@
     "teamName": "ST Racing",
     "driver1": "Samantha Tan",
     "driver2": "Neil Verhagen",
+    "classification": "Pro-Am",
     "series": "GT World Challenge America",
     "events": {
       "St Petersburg": false,
@@ -202,6 +213,7 @@
     "teamName": "RealTime Racing",
     "driver1": "Anthony Bartone",
     "driver2": "Adam Christodoulou",
+    "classification": "Pro-Am",
     "series": "GT World Challenge America",
     "events": {
       "St Petersburg": false,
@@ -220,6 +232,7 @@
     "teamName": "Wright Motorsports",
     "driver1": "Madison Snow",
     "driver2": "Jan Heylen",
+    "classification": "Pro",
     "series": "GT World Challenge America",
     "events": {
       "St Petersburg": false,
@@ -238,6 +251,7 @@
     "teamName": "TR3 Racing",
     "driver1": "Paul Kiebler",
     "driver2": "Jon Branam",
+    "classification": "Am",
     "series": "GT World Challenge America",
     "events": {
       "St Petersburg": false,
@@ -256,6 +270,7 @@
     "teamName": "MDK Motorsports",
     "driver1": "Trenton Estep",
     "driver2": "Seth Lucas",
+    "classification": "Pro",
     "series": "GT World Challenge America",
     "events": {
       "St Petersburg": false,
@@ -274,6 +289,7 @@
     "teamName": "DXDT Racing",
     "driver1": "Jeff Burton",
     "driver2": "Corey Lewis",
+    "classification": "Pro-Am",
     "series": "GT World Challenge America",
     "events": {
       "St Petersburg": false,
@@ -292,6 +308,7 @@
     "teamName": "Racers Edge Motorsports",
     "driver1": "Ashton Harrison",
     "driver2": "Mario Farnbacher",
+    "classification": "Pro",
     "series": "GT World Challenge America",
     "events": {
       "St Petersburg": false,
@@ -310,6 +327,7 @@
     "teamName": "BimmerWorld",
     "driver1": "Chandler Hull",
     "driver2": "Bill Auberlen",
+    "classification": "Pro",
     "series": "GT World Challenge America",
     "events": {
       "St Petersburg": false,
@@ -328,6 +346,7 @@
     "teamName": "Wright Motorsports",
     "driver1": "Adam Adelson",
     "driver2": "Elliott Skeer",
+    "classification": "Pro-Am",
     "series": "GT World Challenge America",
     "events": {
       "St Petersburg": false,
@@ -346,6 +365,7 @@
     "teamName": "GMG Racing",
     "driver1": "Kyle Washington",
     "driver2": "James Sofronas",
+    "classification": "Am",
     "series": "GT World Challenge America",
     "events": {
       "St Petersburg": false,
@@ -364,6 +384,7 @@
     "teamName": "Turner Motorsports",
     "driver1": "Vincent Barletta",
     "driver2": "Robby Foley",
+    "classification": "Pro-Am",
     "series": "GT World Challenge America",
     "events": {
       "St Petersburg": false,
