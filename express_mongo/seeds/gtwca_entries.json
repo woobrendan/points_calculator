@@ -8,12 +8,12 @@
     "series": "GT World Challenge America",
     "events": {
       "St Petersburg": false,
-      "Sonoma": false,
-      "NOLA": false,
-      "COTA": false,
-      "VIR": false,
+      "Sonoma": true,
+      "NOLA": true,
+      "COTA": true,
+      "VIR": true,
       "Nashville": false,
-      "RoadAm": false,
+      "RoadAm": true,
       "Sebring": false,
       "Indy": false
     }
@@ -28,6 +28,25 @@
     "events": {
       "St Petersburg": false,
       "Sonoma": false,
+      "NOLA": true,
+      "COTA": true,
+      "VIR": true,
+      "Nashville": false,
+      "RoadAm": true,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "007",
+    "teamName": "TRG - The Racers Group",
+    "driver1": "Derek DeBoer",
+    "driver2": "Ross Gunn",
+    "classification": "Pro-Am",
+    "series": "GT World Challenge America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": true,
       "NOLA": false,
       "COTA": false,
       "VIR": false,
@@ -46,12 +65,12 @@
     "series": "GT World Challenge America",
     "events": {
       "St Petersburg": false,
-      "Sonoma": false,
-      "NOLA": false,
-      "COTA": false,
-      "VIR": false,
+      "Sonoma": true,
+      "NOLA": true,
+      "COTA": true,
+      "VIR": true,
       "Nashville": false,
-      "RoadAm": false,
+      "RoadAm": true,
       "Sebring": false,
       "Indy": false
     }
@@ -68,9 +87,28 @@
       "Sonoma": false,
       "NOLA": false,
       "COTA": false,
-      "VIR": false,
+      "VIR": true,
       "Nashville": false,
       "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "9",
+    "teamName": "TR3 Racing",
+    "driver1": "Ziad Ghandor",
+    "driver2": "Daniel Morad",
+    "classification": "Pro-Am",
+    "series": "GT World Challenge America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": true,
+      "NOLA": true,
+      "COTA": true,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": true,
       "Sebring": false,
       "Indy": false
     }
@@ -84,7 +122,7 @@
     "series": "GT World Challenge America",
     "events": {
       "St Petersburg": false,
-      "Sonoma": false,
+      "Sonoma": true,
       "NOLA": false,
       "COTA": false,
       "VIR": false,
@@ -103,12 +141,12 @@
     "series": "GT World Challenge America",
     "events": {
       "St Petersburg": false,
-      "Sonoma": false,
-      "NOLA": false,
-      "COTA": false,
-      "VIR": false,
+      "Sonoma": true,
+      "NOLA": true,
+      "COTA": true,
+      "VIR": true,
       "Nashville": false,
-      "RoadAm": false,
+      "RoadAm": true,
       "Sebring": false,
       "Indy": false
     }
@@ -122,12 +160,12 @@
     "series": "GT World Challenge America",
     "events": {
       "St Petersburg": false,
-      "Sonoma": false,
-      "NOLA": false,
-      "COTA": false,
+      "Sonoma": true,
+      "NOLA": true,
+      "COTA": true,
       "VIR": false,
       "Nashville": false,
-      "RoadAm": false,
+      "RoadAm": true,
       "Sebring": false,
       "Indy": false
     }
@@ -141,12 +179,12 @@
     "series": "GT World Challenge America",
     "events": {
       "St Petersburg": false,
-      "Sonoma": false,
-      "NOLA": false,
-      "COTA": false,
-      "VIR": false,
+      "Sonoma": true,
+      "NOLA": true,
+      "COTA": true,
+      "VIR": true,
       "Nashville": false,
-      "RoadAm": false,
+      "RoadAm": true,
       "Sebring": false,
       "Indy": false
     }
@@ -160,12 +198,12 @@
     "series": "GT World Challenge America",
     "events": {
       "St Petersburg": false,
-      "Sonoma": false,
-      "NOLA": false,
-      "COTA": false,
-      "VIR": false,
+      "Sonoma": true,
+      "NOLA": true,
+      "COTA": true,
+      "VIR": true,
       "Nashville": false,
-      "RoadAm": false,
+      "RoadAm": true,
       "Sebring": false,
       "Indy": false
     }
@@ -179,12 +217,12 @@
     "series": "GT World Challenge America",
     "events": {
       "St Petersburg": false,
-      "Sonoma": false,
-      "NOLA": false,
-      "COTA": false,
-      "VIR": false,
+      "Sonoma": true,
+      "NOLA": true,
+      "COTA": true,
+      "VIR": true,
       "Nashville": false,
-      "RoadAm": false,
+      "RoadAm": true,
       "Sebring": false,
       "Indy": false
     }
@@ -201,9 +239,28 @@
       "Sonoma": false,
       "NOLA": false,
       "COTA": false,
-      "VIR": false,
+      "VIR": true,
       "Nashville": false,
-      "RoadAm": false,
+      "RoadAm": true,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "38",
+    "teamName": "ST Racing",
+    "driver1": "Samantha Tan",
+    "driver2": "John Edwards",
+    "classification": "Pro-Am",
+    "series": "GT World Challenge America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": true,
+      "NOLA": true,
+      "COTA": false,
+      "VIR": true,
+      "Nashville": false,
+      "RoadAm": true,
       "Sebring": false,
       "Indy": false
     }
@@ -220,6 +277,25 @@
       "Sonoma": false,
       "NOLA": false,
       "COTA": false,
+      "VIR": true,
+      "Nashville": false,
+      "RoadAm": true,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "43",
+    "teamName": "RealTime Racing",
+    "driver1": "Anthony Bartone",
+    "driver2": "Andy Pilgrim",
+    "classification": "Am",
+    "series": "GT World Challenge America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": true,
+      "NOLA": true,
+      "COTA": true,
       "VIR": false,
       "Nashville": false,
       "RoadAm": false,
