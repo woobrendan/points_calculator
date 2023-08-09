@@ -317,6 +317,25 @@
       "COTA": false,
       "VIR": false,
       "Nashville": false,
+      "RoadAm": true,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "45",
+    "teamName": "Wright Motorsports",
+    "driver1": "Madison Snow",
+    "driver2": "Charlie Luck",
+    "classification": "Pro-Am",
+    "series": "GT World Challenge America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": true,
+      "NOLA": true,
+      "COTA": true,
+      "VIR": true,
+      "Nashville": false,
       "RoadAm": false,
       "Sebring": false,
       "Indy": false
@@ -336,7 +355,7 @@
       "COTA": false,
       "VIR": false,
       "Nashville": false,
-      "RoadAm": false,
+      "RoadAm": true,
       "Sebring": false,
       "Indy": false
     }
@@ -350,12 +369,12 @@
     "series": "GT World Challenge America",
     "events": {
       "St Petersburg": false,
-      "Sonoma": false,
-      "NOLA": false,
-      "COTA": false,
-      "VIR": false,
+      "Sonoma": true,
+      "NOLA": true,
+      "COTA": true,
+      "VIR": true,
       "Nashville": false,
-      "RoadAm": false,
+      "RoadAm": true,
       "Sebring": false,
       "Indy": false
     }
@@ -369,12 +388,12 @@
     "series": "GT World Challenge America",
     "events": {
       "St Petersburg": false,
-      "Sonoma": false,
-      "NOLA": false,
-      "COTA": false,
-      "VIR": false,
+      "Sonoma": true,
+      "NOLA": true,
+      "COTA": true,
+      "VIR": true,
       "Nashville": false,
-      "RoadAm": false,
+      "RoadAm": true,
       "Sebring": false,
       "Indy": false
     }
@@ -388,12 +407,12 @@
     "series": "GT World Challenge America",
     "events": {
       "St Petersburg": false,
-      "Sonoma": false,
-      "NOLA": false,
-      "COTA": false,
-      "VIR": false,
+      "Sonoma": true,
+      "NOLA": true,
+      "COTA": true,
+      "VIR": true,
       "Nashville": false,
-      "RoadAm": false,
+      "RoadAm": true,
       "Sebring": false,
       "Indy": false
     }
@@ -407,12 +426,12 @@
     "series": "GT World Challenge America",
     "events": {
       "St Petersburg": false,
-      "Sonoma": false,
-      "NOLA": false,
-      "COTA": false,
-      "VIR": false,
+      "Sonoma": true,
+      "NOLA": true,
+      "COTA": true,
+      "VIR": true,
       "Nashville": false,
-      "RoadAm": false,
+      "RoadAm": true,
       "Sebring": false,
       "Indy": false
     }
@@ -426,12 +445,12 @@
     "series": "GT World Challenge America",
     "events": {
       "St Petersburg": false,
-      "Sonoma": false,
-      "NOLA": false,
-      "COTA": false,
-      "VIR": false,
+      "Sonoma": true,
+      "NOLA": true,
+      "COTA": true,
+      "VIR": true,
       "Nashville": false,
-      "RoadAm": false,
+      "RoadAm": true,
       "Sebring": false,
       "Indy": false
     }
@@ -450,7 +469,7 @@
       "COTA": false,
       "VIR": false,
       "Nashville": false,
-      "RoadAm": false,
+      "RoadAm": true,
       "Sebring": false,
       "Indy": false
     }
@@ -467,7 +486,7 @@
       "Sonoma": false,
       "NOLA": false,
       "COTA": false,
-      "VIR": false,
+      "VIR": true,
       "Nashville": false,
       "RoadAm": false,
       "Sebring": false,
