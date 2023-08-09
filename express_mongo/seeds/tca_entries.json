@@ -1,0 +1,546 @@
+[
+  {
+    "number": "14",
+    "teamName": "AOA Racing",
+    "driver1": "Kenny Schmied",
+    "series": "TC America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "21",
+    "teamName": "Fast Track Racing",
+    "driver1": "Adam Gleason",
+    "series": "TC America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "24",
+    "teamName": "Rigid Speed Racing",
+    "driver1": "Joesph Catania",
+    "series": "TC America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "26",
+    "teamName": "Rigid Speed Racing",
+    "driver1": "Lucas Catania",
+    "series": "TC America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "44",
+    "teamName": "Rooster Hall Racing",
+    "driver1": "Colin Garrett",
+    "series": "TC America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "73",
+    "teamName": "LA Honda World Racing",
+    "driver1": "Matthew Pombo",
+    "series": "TC America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "93",
+    "teamName": "Ian Lacy Racing",
+    "driver1": "Christopher DeFreitas",
+    "series": "TC America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "99",
+    "teamName": "VGRT",
+    "driver1": "Daijiro Yoshihara",
+    "series": "TC America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "7",
+    "teamName": "Skip Barber Racing School",
+    "driver1": "Celso Neto",
+    "series": "TC America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "37",
+    "teamName": "MINI JCW Team",
+    "driver1": "Cristian Perocarpi",
+    "series": "TC America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "60",
+    "teamName": "MINI JCW Team",
+    "driver1": "Clayton Williams",
+    "series": "TC America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "78",
+    "teamName": "GenRacer / Ricca Autosport",
+    "driver1": "Jeff Ricca",
+    "series": "TC America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "8",
+    "teamName": "VGRT",
+    "driver1": "Michael Hurczyn",
+    "series": "TC America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "11",
+    "teamName": "DRS",
+    "driver1": "Kris Valdez",
+    "series": "TC America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "42",
+    "teamName": "Skiper Barber Racing School",
+    "driver1": "Ken Fukuda",
+    "series": "TC America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "780",
+    "teamName": "GenRacer",
+    "driver1": "Sally McNulty",
+    "series": "TC America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "5",
+    "teamName": "LA Honda World Racing",
+    "driver1": "Spencer Bucknum",
+    "series": "TC America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "07",
+    "teamName": "LA Honda World Racing",
+    "driver1": "Mario Biundo",
+    "series": "TC America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "19",
+    "teamName": "Skip Barber Racing School",
+    "driver1": "Cooper Broll",
+    "series": "TC America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "22",
+    "teamName": "TechSport Racing",
+    "driver1": "Devin Anderson",
+    "series": "TC America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "23",
+    "teamName": "TechSport Racing",
+    "driver1": "Shaoyi Che",
+    "series": "TC America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "62",
+    "teamName": "MINI JCW Team",
+    "driver1": "PJ Groenke",
+    "series": "TC America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "64",
+    "teamName": "MINI JCW Team",
+    "driver1": "Alain Lauziere ",
+    "series": "TC America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "63",
+    "teamName": "MINI JCW Team",
+    "driver1": "Bruce Myrehn",
+    "series": "TC America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "77",
+    "teamName": "Skip Barber Racing School",
+    "driver1": "William Lambros",
+    "series": "TC America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "88",
+    "teamName": "VGRT",
+    "driver1": "Ruben Iglesias Jr",
+    "series": "TC America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "09",
+    "teamName": "Fast Track Racing",
+    "driver1": "Maddie Aust",
+    "series": "TC America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "29",
+    "teamName": "Fast Track Racing",
+    "driver1": "Nick Roberts",
+    "series": "TC America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "34",
+    "teamName": "Skip Barber Racing School",
+    "driver1": "Jeremiah Burton",
+    "series": "TC America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "808",
+    "teamName": "AOA Racing",
+    "driver1": "Clifton Lipple",
+    "series": "TC America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "15",
+    "teamName": "Rockwell Autosport Development",
+    "driver1": "Eric Rockwell",
+    "series": "TC America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "18",
+    "teamName": "Kaplan Racing Systems",
+    "driver1": "Aaron Kaplan",
+    "series": "TC America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  }
+]
