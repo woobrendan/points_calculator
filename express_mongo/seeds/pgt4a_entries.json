@@ -1,0 +1,938 @@
+[
+  {
+    "number": "000",
+    "teamName": "GMG Racing",
+    "driver1": "Todd Parriott",
+    "driver2": "Tom Dyer",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "77",
+    "teamName": "TR3 Racing",
+    "driver1": "Paul Kiebler",
+    "driver2": "Jon Branam",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "7",
+    "teamName": "ACI Motorsports",
+    "driver1": "Curt Swearingin",
+    "driver2": "Kay Van Berlo",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "8",
+    "teamName": "Flying Lizard Motorsports",
+    "driver1": "Elias Sabo",
+    "driver2": "Andy Lee",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "09",
+    "teamName": "Zotz Racing/ CCDP Racing",
+    "driver1": "Christian Ruppel",
+    "driver2": "Eric Zitza",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "18",
+    "teamName": "RS1",
+    "driver1": "Roland Krainz",
+    "driver2": "Austin Krainz",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "19",
+    "teamName": "ACI Motorsports",
+    "driver1": "Francis Selldorff",
+    "driver2": "Andrew Davis",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "22",
+    "teamName": "TechSport Racing",
+    "driver1": "Eric Powell",
+    "driver2": "Colin Harrison",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "23",
+    "teamName": "TechSport Racing",
+    "driver1": "Tyler Stone",
+    "driver2": "Bryan Heitkotter",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "20",
+    "teamName": "Carrus Callas Race Team",
+    "driver1": "Nick Shanny",
+    "driver2": "Terry Borcheller",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "24",
+    "teamName": "Heart of Racing Team",
+    "driver1": "Gray Newell",
+    "driver2": "Roman De Angelis",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "26",
+    "teamName": "Heart of Racing Team",
+    "driver1": "Hannah Grisham",
+    "driver2": "Rianna O'Meara-Hunt",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "29",
+    "teamName": "JTR Motorsports Engineering",
+    "driver1": "Peter Atwater",
+    "driver2": "Luca Mars",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "32",
+    "teamName": "GMG Racing",
+    "driver1": "Kyle Washington",
+    "driver2": "James Sofronas",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "34",
+    "teamName": "Conquest Racing/JMF Motorsports",
+    "driver1": "Michai Stephens",
+    "driver2": "Jesse Webb",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "35",
+    "teamName": "Conquest Racing/JMF Motorsports",
+    "driver1": "Custodio Toledo",
+    "driver2": "Cedric Sbirrazzuoli",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "36",
+    "teamName": "BimmerWorld",
+    "driver1": "Charlie Postins",
+    "driver2": "James Clay",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "37",
+    "teamName": "Skip Barber Racing School",
+    "driver1": "Matt Forbush",
+    "driver2": "Carter Fartuch",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "44",
+    "teamName": "Rooster Hall Racing",
+    "driver1": "Johan Schwartz",
+    "driver2": "Colin Garrett",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "50",
+    "teamName": "Chouest Povoledo Racing",
+    "driver1": "Ross Chouest",
+    "driver2": "Aaron Povoledo",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "52",
+    "teamName": "NOLASPORT",
+    "driver1": "David Peterman",
+    "driver2": "Lee Carpentier",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "83",
+    "teamName": "NOLASPORT",
+    "driver1": "Nelson Calle",
+    "driver2": "Juan Martinez",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "54",
+    "teamName": "Black Swan Racing",
+    "driver1": "Tim Pappas",
+    "driver2": "Jereon Bleekemolen",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "58",
+    "teamName": "ACI Motorsport",
+    "driver1": "Richard Edge",
+    "driver2": "Matt Halcome",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "67",
+    "teamName": "Smooge Racing",
+    "driver1": "Joey DaSilva",
+    "driver2": "Isabella Robusto",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "68",
+    "teamName": "Smooge Racing",
+    "driver1": "Kevin Conway",
+    "driver2": "John Geesbreght",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "069",
+    "teamName": "Archangel Motorsports",
+    "driver1": "Todd Coleman",
+    "driver2": "Billy Johnson",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "74",
+    "teamName": "Copeland Motorsports",
+    "driver1": "Tyler Maxson",
+    "driver2": "Tyler Gonzalez",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "82",
+    "teamName": "BimmerWorld",
+    "driver1": "James Walker Jr",
+    "driver2": "Tyler McQuarrie",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "88",
+    "teamName": "STR38 Motorsports",
+    "driver1": "Harry Gottsacker",
+    "driver2": "Chandler Hull",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "438",
+    "teamName": "STR38 Motorsports",
+    "driver1": "Robert Mau",
+    "driver2": "Chris Allen",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "89",
+    "teamName": "RENNtech Motorsports",
+    "driver1": "Tommy Johnson",
+    "driver2": "Michael Auriemma",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "92",
+    "teamName": "Random Vandals Racing",
+    "driver1": "Kevin Boehm",
+    "driver2": "Kenton Koch",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "98",
+    "teamName": "Random Vandals Racing",
+    "driver1": "Paul Sparta",
+    "driver2": "Al Carter",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "95",
+    "teamName": "OGH Valkyrie Velocity",
+    "driver1": "Rob Ferriol",
+    "driver2": "Will Owen",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "96",
+    "teamName": "OGH Valkyrie Velocity",
+    "driver1": "Chris Walsh",
+    "driver2": "Dominic Starkweather",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "97",
+    "teamName": "OGH Valkyrie Velocity",
+    "driver1": "Sean Gibbons",
+    "driver2": "Sam Owen",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "099",
+    "teamName": "Rotek Racing",
+    "driver1": "Robb Holland",
+    "driver2": "Alain Stad",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "253",
+    "teamName": "AutoTechnic Racing",
+    "driver1": "Rob Walker",
+    "driver2": "Satakal Khalsa",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "51",
+    "teamName": "AutoTechnic Racing",
+    "driver1": "John Capestro Dubets",
+    "driver2": "Zac Anderson",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "428",
+    "teamName": "van der Steur Racing",
+    "driver1": "Brady Behrman",
+    "driver2": "Coby Shield",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "119",
+    "teamName": "van der Steur Racing",
+    "driver1": "Rory van der Steur",
+    "driver2": "Jamie Day",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "899",
+    "teamName": "SP Motorsports",
+    "driver1": "Anderson Tanoto",
+    "driver2": "Jaden Conwright",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "999",
+    "teamName": "Hanley Motorsports",
+    "driver1": "Parker Thompson",
+    "driver2": "Daniel Hanley",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "47",
+    "teamName": "NOLASPORT",
+    "driver1": "Matt Travis",
+    "driver2": "Jason Hart",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "72",
+    "teamName": "KRUGSPEED",
+    "driver1": "Anthony Geraci",
+    "driver2": "Jaden Lander",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "99",
+    "teamName": "Extreme Velocity Motorsports",
+    "driver1": "Matt Joffe",
+    "driver2": "Grant Maiman",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "2",
+    "teamName": "Flying Lizard Motorsports",
+    "driver1": "Jason Bell",
+    "driver2": "Michael Cooper",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "71",
+    "teamName": "GMG Racing",
+    "driver1": "Jay Logan",
+    "driver2": "Alec Udell",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "097",
+    "teamName": "Rotek Racing",
+    "driver1": "Anderson Tanoto",
+    "driver2": "Jaden Conwright",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "44",
+    "teamName": "Rooster Hall Racing",
+    "driver1": "Michael Dayton",
+    "driver2": "Jason Griscavage",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "000",
+    "teamName": "Crucial Motorsports",
+    "driver1": "Kaia Teo",
+    "driver2": "Nick Longhi",
+    "series": "Pirelli GT4 America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  }
+]
