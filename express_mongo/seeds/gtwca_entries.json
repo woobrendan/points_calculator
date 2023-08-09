@@ -1,0 +1,380 @@
+[
+  {
+    "number": "04",
+    "teamName": "Crowdstrike by Riley",
+    "driver1": "George Kurtz",
+    "driver2": "Colin Braun",
+    "series": "GT World Challenge America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "007",
+    "teamName": "TRG - The Racers Group",
+    "driver1": "Derek DeBoer",
+    "driver2": "Valentin Hasse Clot",
+    "series": "GT World Challenge America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "08",
+    "teamName": "DXDT Racing",
+    "driver1": "Scott Smithson",
+    "driver2": "Bryan Sellers",
+    "series": "GT World Challenge America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "9",
+    "teamName": "TR3 Racing",
+    "driver1": "Kenton Koch",
+    "driver2": "Daniel Morad",
+    "series": "GT World Challenge America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "14",
+    "teamName": "GMG Racing",
+    "driver1": "James Sofronas",
+    "driver2": "Tom Dyer",
+    "series": "GT World Challenge America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "16",
+    "teamName": "ACI Motorsport",
+    "driver1": "Pedro Torres",
+    "driver2": "Spencer Pumpelly",
+    "series": "GT World Challenge America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "19",
+    "teamName": "Esses Racing w/ Mercendes-Benz of Austin",
+    "driver1": "Will Hardeman",
+    "driver2": "Adam Carroll",
+    "series": "GT World Challenge America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "21",
+    "teamName": "Conquest Racing",
+    "driver1": "Manny Franco",
+    "driver2": "Alessandro Balzan",
+    "series": "GT World Challenge America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "28",
+    "teamName": "RS1",
+    "driver1": "Eric Filgueiras",
+    "driver2": "Stevan McAleer",
+    "series": "GT World Challenge America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "33",
+    "teamName": "Triarsi Competizione",
+    "driver1": "Justin Wetherill",
+    "driver2": "Ryan Dalziel",
+    "series": "GT World Challenge America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "38",
+    "teamName": "ST Racing",
+    "driver1": "Samantha Tan",
+    "driver2": "Neil Verhagen",
+    "series": "GT World Challenge America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "43",
+    "teamName": "RealTime Racing",
+    "driver1": "Anthony Bartone",
+    "driver2": "Adam Christodoulou",
+    "series": "GT World Challenge America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "45",
+    "teamName": "Wright Motorsports",
+    "driver1": "Madison Snow",
+    "driver2": "Jan Heylen",
+    "series": "GT World Challenge America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "77",
+    "teamName": "TR3 Racing",
+    "driver1": "Paul Kiebler",
+    "driver2": "Jon Branam",
+    "series": "GT World Challenge America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "53",
+    "teamName": "MDK Motorsports",
+    "driver1": "Trenton Estep",
+    "driver2": "Seth Lucas",
+    "series": "GT World Challenge America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "91",
+    "teamName": "DXDT Racing",
+    "driver1": "Jeff Burton",
+    "driver2": "Corey Lewis",
+    "series": "GT World Challenge America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "93",
+    "teamName": "Racers Edge Motorsports",
+    "driver1": "Ashton Harrison",
+    "driver2": "Mario Farnbacher",
+    "series": "GT World Challenge America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "94",
+    "teamName": "BimmerWorld",
+    "driver1": "Chandler Hull",
+    "driver2": "Bill Auberlen",
+    "series": "GT World Challenge America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "120",
+    "teamName": "Wright Motorsports",
+    "driver1": "Adam Adelson",
+    "driver2": "Elliott Skeer",
+    "series": "GT World Challenge America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "32",
+    "teamName": "GMG Racing",
+    "driver1": "Kyle Washington",
+    "driver2": "James Sofronas",
+    "series": "GT World Challenge America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "096",
+    "teamName": "Turner Motorsports",
+    "driver1": "Vincent Barletta",
+    "driver2": "Robby Foley",
+    "series": "GT World Challenge America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  }
+]
