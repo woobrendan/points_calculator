@@ -1,0 +1,631 @@
+[
+  {
+    "number": "5",
+    "teamName": "TechSport",
+    "driver1": "Gresham Wagner",
+    "series": "Toyota GR Cup",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "6",
+    "teamName": "Godwin Motorsports",
+    "driver1": "Will Rodgers",
+    "series": "Toyota GR Cup",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "7",
+    "teamName": "Zotz Racing",
+    "driver1": "Michael Garcia",
+    "series": "Toyota GR Cup",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "8",
+    "teamName": "Smooge Racing",
+    "driver1": "Will Robusto",
+    "series": "Toyota GR Cup",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "09",
+    "teamName": "Precision Racing LA",
+    "driver1": "Cat Lauren",
+    "series": "Toyota GR Cup",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "10",
+    "teamName": "PJM / VGRT",
+    "driver1": "Mark Pombo",
+    "series": "Toyota GR Cup",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "11",
+    "teamName": "RVA Graphics Motorsports by Speed Syndicate",
+    "driver1": "Jack Woodfin",
+    "series": "Toyota GR Cup",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "18",
+    "teamName": "BSI Racing",
+    "driver1": "Jordan Segrini",
+    "series": "Toyota GR Cup",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "23",
+    "teamName": "Tommy McCarthy Racing",
+    "driver1": "Tommy McCarthy",
+    "series": "Toyota GR Cup",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "24",
+    "teamName": "Nitro Motorsports",
+    "driver1": "Taylor Crews",
+    "series": "Toyota GR Cup",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "27",
+    "teamName": "McCumbee McAleer Racing",
+    "driver1": "Lev Uretsky",
+    "series": "Toyota GR Cup",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "28",
+    "teamName": "McCumbee McAleer Racing",
+    "driver1": "Justin Piscitelli",
+    "series": "Toyota GR Cup",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "30",
+    "teamName": "Zotz Racing",
+    "driver1": "Alex Garcia",
+    "series": "Toyota GR Cup",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "31",
+    "teamName": "RVA Graphics Motorsports by Speed Syndicate",
+    "driver1": "Austin Dodge",
+    "series": "Toyota GR Cup",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "37",
+    "teamName": "Precision Racing LA",
+    "driver1": "Spencer Schmidt",
+    "series": "Toyota GR Cup",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "44",
+    "teamName": "PJM / VGRT",
+    "driver1": "Derek Jones",
+    "series": "Toyota GR Cup",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "46",
+    "teamName": "Lucas Racing",
+    "driver1": "Lucas Weisenberg",
+    "series": "Toyota GR Cup",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "55",
+    "teamName": "TechSport Racing",
+    "driver1": "Spike Kohlbecker",
+    "series": "Toyota GR Cup",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "57",
+    "teamName": "Copeland Motorsports",
+    "driver1": "Tyler Gonzalez",
+    "series": "Toyota GR Cup",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "58",
+    "teamName": "Pura Vida Team",
+    "driver1": "Amadeo Quiros Martén",
+    "series": "Toyota GR Cup",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "66",
+    "teamName": "Precision Racing LA",
+    "driver1": "Jaxon Bell",
+    "series": "Toyota GR Cup",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "67",
+    "teamName": "Smooge Racing",
+    "driver1": "Joey DaSilva",
+    "series": "Toyota GR Cup",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "68",
+    "teamName": "Smooge Racing",
+    "driver1": "Mia Lovell",
+    "series": "Toyota GR Cup",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "69",
+    "teamName": "OpenRoad Racing",
+    "driver1": "Adam Isman",
+    "series": "Toyota GR Cup",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "80",
+    "teamName": "Nitro Motorsports",
+    "driver1": "Tyler Wettengel",
+    "series": "Toyota GR Cup",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "70",
+    "teamName": "Nitro Motorsports",
+    "driver1": "Toni Breidinger",
+    "series": "Toyota GR Cup",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "71",
+    "teamName": "Copeland Motorsports",
+    "driver1": "Paul Bocuse",
+    "series": "Toyota GR Cup",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "73",
+    "teamName": "Precision Racing LA",
+    "driver1": "Aidan Yoder",
+    "series": "Toyota GR Cup",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "76",
+    "teamName": "BSI Racing",
+    "driver1": "Steven Clemons",
+    "series": "Toyota GR Cup",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "88",
+    "teamName": "VGRT",
+    "driver1": "Ruben Iglesias Jr.",
+    "series": "Toyota GR Cup",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "98",
+    "teamName": "VGRT",
+    "driver1": "Canaan O'Connell",
+    "series": "Toyota GR Cup",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "99",
+    "teamName": "Copeland Motorsports",
+    "driver1": "Drake Kemper",
+    "series": "Toyota GR Cup",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "70",
+    "teamName": "Nitro Motorsports",
+    "driver1": "Toni Breidinger",
+    "series": "Toyota GR Cup",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "8",
+    "teamName": "Smooge Racing",
+    "driver1": "Isabella Robusto",
+    "series": "Toyota GR Cup",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "09",
+    "teamName": "Precision Racing LA",
+    "driver1": "Cat Lauren",
+    "series": "Toyota GR Cup",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "86",
+    "teamName": "Eagles Canyon Racing",
+    "driver1": "Andrew Gilleland",
+    "series": "Toyota GR Cup",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "68",
+    "teamName": "Smooge Racing",
+    "driver1": "Mia Lovell",
+    "series": "Toyota GR Cup",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  }
+]
