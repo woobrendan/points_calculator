@@ -1,0 +1,784 @@
+[
+  {
+    "number": "04",
+    "teamName": "CrowdStrike by Riley",
+    "driver1": "George Kurtz",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "08",
+    "teamName": "DXDT Racing",
+    "driver1": "Scott Smithson",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "9",
+    "teamName": "TR3 Racing",
+    "driver1": "Ziad Ghandour",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "011",
+    "teamName": "Lone Star Racing",
+    "driver1": "Marc Austin",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "27",
+    "teamName": "CRP Racing",
+    "driver1": "Jason Daskalos",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "32",
+    "teamName": "GMG Racing",
+    "driver1": "Kyle Washington",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "41",
+    "teamName": "CRP Racing",
+    "driver1": "Todd Treffert",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "043",
+    "teamName": "OnlyFans Racing w/ P1 Groupe by MRS",
+    "driver1": "Alex Vogel",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "70",
+    "teamName": "MISHUMOTORS",
+    "driver1": "Mirco Schultis",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "91",
+    "teamName": "DXDT Racing",
+    "driver1": "Jeff Burton",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "120",
+    "teamName": "Wright Motorsports",
+    "driver1": "Adam Adelson",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "427",
+    "teamName": "RealTime Racing",
+    "driver1": "Anthony Bartone",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "5",
+    "teamName": "Blackdog Speed Shop",
+    "driver1": "Tony Gaples",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "253",
+    "teamName": "AutoTechnic Racing",
+    "driver1": "Rob Walker",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "21",
+    "teamName": "Carrus Callas Race Team",
+    "driver1": "Nick Shanny",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "25",
+    "teamName": "Heart of Racing Team",
+    "driver1": "Gray Newell",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "50",
+    "teamName": "Chouest Povoledo Racing",
+    "driver1": "Ross Chouest",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "69",
+    "teamName": "Archangel Motorsports",
+    "driver1": "Todd Coleman",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "045",
+    "teamName": "Archangel Motorsports",
+    "driver1": "Scott Blind",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "000",
+    "teamName": "GMG Racing",
+    "driver1": "Todd Parriott",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "77",
+    "teamName": "TR3 Racing",
+    "driver1": "Paul Kiebler",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "099",
+    "teamName": "Rotek Racing",
+    "driver1": "Robb Holland",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "098",
+    "teamName": "Rotek Racing",
+    "driver1": "Chris Alliegro",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "101",
+    "teamName": "TKO Motorsports",
+    "driver1": "Memo Gidley",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "102",
+    "teamName": "TKO Motorsports",
+    "driver1": "David Traitel",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "460",
+    "teamName": "Flying Lizard Motorsports",
+    "driver1": "Andy Wilzoch",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "8",
+    "teamName": "Flying Lizard Motorsports",
+    "driver1": "Elias Sabo",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "2",
+    "teamName": "Flying Lizard Motorsports",
+    "driver1": "Jason Bell",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "11",
+    "teamName": "Flying Lizard Motorsports",
+    "driver1": "Slade Stewart",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "428",
+    "teamName": "van der Steur Racing",
+    "driver1": "Brady Behrman",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "009",
+    "teamName": "TRG - The Racers Group",
+    "driver1": "Tim Savage",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "91",
+    "teamName": "DXDT Racing",
+    "driver1": "Jeff Burton",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "460",
+    "teamName": "Flying Lizard Motorsports",
+    "driver1": "Andy Wilzoch",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "70",
+    "teamName": "MISHUMOTORS",
+    "driver1": "Mirco Schultis",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "3",
+    "teamName": "SKI Autosports",
+    "driver1": "Johnny O'Connell",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "3",
+    "teamName": "SKI Autosports",
+    "driver1": "Johnny O'Connell",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "99",
+    "teamName": "Extreme Velocity Motorsports",
+    "driver1": "Matt Joffe",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "14",
+    "teamName": "GMG Racing",
+    "driver1": "James Sofronas",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "14",
+    "teamName": "GMG Racing",
+    "driver1": "James Sofronas",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "11",
+    "teamName": "Fast Track Racing",
+    "driver1": "John Roberts",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "71",
+    "teamName": "GMG Racing",
+    "driver1": "Jay Logan",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "096",
+    "teamName": "Turner Motorsports",
+    "driver1": "Vincent Barletta",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "58",
+    "teamName": "GMG Racing",
+    "driver1": "CJ Moses",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "7",
+    "teamName": "Flatrock Motorsports",
+    "driver1": "Rusty Bittle",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "66",
+    "teamName": "CDR Valkyrie",
+    "driver1": "Amir Haleem",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  },
+  {
+    "number": "86",
+    "teamName": "CDR Valkyrie",
+    "driver1": "Brian Lock",
+    "series": "GT America",
+    "events": {
+      "St Petersburg": false,
+      "Sonoma": false,
+      "NOLA": false,
+      "COTA": false,
+      "VIR": false,
+      "Nashville": false,
+      "RoadAm": false,
+      "Sebring": false,
+      "Indy": false
+    }
+  }
+]
