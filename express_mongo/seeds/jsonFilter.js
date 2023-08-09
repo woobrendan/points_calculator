@@ -34,7 +34,7 @@ fs.readFile("entries23.json", "utf-8", (err, data) => {
         const filtered = jsonData.filter((obj) => obj.series === series);
 
         const mappedEntries = filtered.map((entry) => {
-            const { number, team, series, driver1, driver2, classificaiton } =
+            const { number, team, series, driver1, driver2, classification } =
                 entry;
 
             return {
@@ -42,7 +42,7 @@ fs.readFile("entries23.json", "utf-8", (err, data) => {
                 teamName: team,
                 driver1: driver1.name,
                 ...(driver2 ? { driver2: driver2.name } : {}),
-                classificaiton,
+                classification,
                 series,
                 events,
             };
