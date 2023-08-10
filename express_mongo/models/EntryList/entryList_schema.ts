@@ -7,7 +7,7 @@ const entryListSchema: Schema = new Schema({
     name: { type: String },
     entries: [
         {
-            number: Number,
+            number: String,
             teamName: String,
             driver1: String,
             driver2: String,
