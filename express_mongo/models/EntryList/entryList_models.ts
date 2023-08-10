@@ -1,12 +1,4 @@
-// export interface Events {
-//     [key: string]: SeriesList;
-// }
-
-export interface SeriesList {
-    [key: string]: Series;
-}
-
-export interface Series {
+export interface SeriesEntries {
     name: string;
     entries: Entry[];
 }
