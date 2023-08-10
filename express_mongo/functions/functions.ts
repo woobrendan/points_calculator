@@ -58,20 +58,20 @@ const filterSeriesByPoints = (data: Series[], pointsType: string) => {
 };
 
 const getPointsKeys = (pointsType: string, series: string): string[] => {
-    const keys = ['name']
+    const keys = ["name"];
 
-    if (pointsType === 'teamPoints') {
-        keys.push(pointsType)
+    if (pointsType === "teamPoints") {
+        keys.push(pointsType);
     }
-    
-    if (pointsType === 'manuf') {
+
+    if (pointsType === "manuf") {
         const gt3Gt4 = series === gtwca || series === pgt4a ? true : false;
 
-        gt3Gt4 ? keys.push('manufPointsList') : keys.push('manufPoints')
+        gt3Gt4 ? keys.push("manufPointsList") : keys.push("manufPoints");
     }
 
-    return keys
-}
+    return keys;
+};
 
 const gtwca = "GT World Challenge America";
 const pgt4a = "Pirelli GT4 America";
