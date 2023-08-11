@@ -4,3 +4,8 @@ interface DriverPoints {
     name: string;
     points: PointsInterface;
 }
+
+export interface SeriesDrivers {
+    name: string;
+    drivers: DriverPoints[];
+}
