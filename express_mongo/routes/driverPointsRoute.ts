@@ -5,7 +5,7 @@ const router = express.Router();
 
 //  /api/drivers/
 
-router.get("/", controller.getAlldrivers);
+router.get("/", controller.getAllDrivers);
 router.get("/:series", controller.driversBySeries);
 
 export = router;
