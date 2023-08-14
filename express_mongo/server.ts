@@ -7,6 +7,7 @@ import seriesRoute from "./routes/seriesRoutes";
 import teamPointsRoute from "./routes/teamPointsRoutes";
 import resultsRoute from "./routes/resultsRoutes";
 import manufPointsRoute from "./routes/manufPtsRoutes";
+import driverPointsRoute from "./routes/driverPointsRoute";
 
 const morgan = require("morgan");
 const router = express();
@@ -63,6 +64,7 @@ const startServer = () => {
     //** API Routes */
     router.use("/api/series", seriesRoute);
     router.use("/api/manufPoints", manufPointsRoute);
+    router.use("/api/drivers/", driverPointsRoute);
 
     //** Error handling */
     router.use((req, res, next) => {
