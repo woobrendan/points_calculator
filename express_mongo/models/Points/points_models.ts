@@ -65,3 +65,15 @@ export interface ReqPoints {
 export interface ReqPointsArr {
     [key: string]: ReqPoints[];
 }
+
+//** Interfaces for Driver Points */
+
+interface DriverPoints {
+    name: string;
+    points: PointsInterface;
+}
+
+export interface SeriesDrivers {
+    name: string;
+    drivers: DriverPoints[];
+}
