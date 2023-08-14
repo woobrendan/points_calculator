@@ -1,8 +1,7 @@
 import { NextFunction, Request, Response } from "express";
 import mongoose from "mongoose";
 import SeriesPoints from "../models/Points/seriesPoints_schema";
-import { getSeriesName } from "../functions/functions";
-import { filterSeriesByPoints } from "../functions/functions";
+import { getSeriesName, filterSeriesByPoints } from "../functions/functions";
 
 const getAll = async (req: Request, res: Response) => {
     try {
