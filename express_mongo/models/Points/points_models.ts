@@ -47,6 +47,7 @@ export interface Series {
     teamPoints: ITeamPoints;
     manufPoints: IManufPoints;
     manufPointsList: ManufacturerPoints[];
+    driversPoints: SeriesDrivers[];
 }
 
 //** Interfaces for points coming from front end */
