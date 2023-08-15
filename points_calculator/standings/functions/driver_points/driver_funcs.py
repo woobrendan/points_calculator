@@ -5,12 +5,14 @@ def sortDriverPoints(driversArr):
     classDrivers = {}
 
     for driver in driversArr:
-        classification = driver['classification']
+        name, classification, points = driver['name'], driver['classification'], driver['points']
+
+        driver_obj = Driver_Points_Entry(name, classification, points)
 
         if classDrivers[classification]:
-            classDrivers[classification].append(driver)
+            classDrivers[classification].append(driver_obj)
         else:
-            classDrivers[classification] = [driver]
+            classDrivers[classification] = [driver_obj]
 
     return classDrivers
 
