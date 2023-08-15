@@ -36,6 +36,7 @@ const seriesPointsSchema: Schema = new Schema({
     driversPoints: [
         {
             name: { type: String },
+            classification: { type: String },
             points: {
                 R1: { type: Schema.Types.Mixed },
                 R2: { type: Schema.Types.Mixed },
