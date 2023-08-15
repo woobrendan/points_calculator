@@ -4,11 +4,11 @@ from . import helpers
 
 
 def fetch_drivers(series):
-    url = f'http://localhost:2020/entries/{series}'
+    url = f'http://localhost:2020/api/drivers/{series}'
     response = requests.get(url)
 
     if response.status_code == 201:
-        data = response.json()['entry']
+        data = response.json()['seriesDrivers']
 
         entries_by_class = helpers.classEntries(data)
 
