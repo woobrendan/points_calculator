@@ -14,6 +14,10 @@ def sortDriverPoints(driversArr):
         else:
             classDrivers[classification] = [driver_obj]
 
+    for class_list in classDrivers.values():
+        if class_list:
+            class_list.sort(key=lambda x: x.total_points, reverse=True)
+
     return classDrivers
 
 
