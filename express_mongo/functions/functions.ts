@@ -60,7 +60,7 @@ const filterSeriesByPoints = (data: Series[], pointsType: string) => {
 const getPointsKeys = (pointsType: string, series: string): string[] => {
     const keys = ["name"];
 
-    if (pointsType === "teamPoints") {
+    if (pointsType !== "manuf") {
         keys.push(pointsType);
     }
 
