@@ -1,12 +1,23 @@
 import { NextFunction, Request, Response } from "express";
 import mongoose from "mongoose";
 import SeriesPoints from "../models/Points/seriesPoints_schema";
-import { getSeriesName } from "../functions/functions";
+import { getSeriesName, filterSeriesByPoints } from "../functions/functions";
 
 const getAllDrivers = async (req: Request, res: Response) => {
-    return SeriesPoints.find()
-        .then((drivers) => res.status(201).json({ drivers }))
-        .catch((error) => res.status(500).json({ error }));
+   try {
+        const data  = await SeriesPoints.find()
+
+        if (data) {
+            const filtered = filterSeriesByPoints(data, "driverPoints")
+
+            return res.status(201).json({ seriesData: filtered });
+        } else {
+            return res.status(400).json({ message: "Series Not Found" });
+        }
+   } catch (error) {
+        console.log("Error fetching driver points")
+        res.status(500).json({ error });
+   }
 };
 
 const driversBySeries = async (req: Request, res: Response) => {
