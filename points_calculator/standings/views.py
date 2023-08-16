@@ -6,29 +6,10 @@ import requests
 from .functions.helpers import getRounds, handle_rounds
 from .functions.csv_converter import csv_to_clean_keys
 from .functions.team_points.team_points import team_results_byClass
-from .functions.driver_points.fetch_drivers_points import fetch_drivers
 from .functions.team_points.fetch_team_standing import fetch_team_standings
 from .functions.manuf.manuf_points import manuf_results_byClass, manuf_results_list
 from .functions.manuf.fetch_manuf_points import fetch_manuf_standings
-from .functions.series_buttons import get_series_buttons
-
-
-def drivers_standing(request, series):
-    drivers = fetch_drivers(series)
-
-    buttons = get_series_buttons('drivers', series)
-
-    # if the value is a tuple, means fetch failed, and we have status code and none value
-    if isinstance(drivers, tuple):
-        status_code, _ = drivers
-        error_message = f"Failed to fetch data. Status code: { status_code }"
-        return jsonify({"error": error_message}), status_code
-
-    else:
-        return render(request, 'standing/drivers_standing.html', {
-            'drivers': drivers,
-            'buttons': buttons
-        })
+from ..Utility.series_buttons import get_series_buttons
 
 
 def team_standing(request, series):
