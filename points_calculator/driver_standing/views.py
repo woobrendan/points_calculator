@@ -1,7 +1,7 @@
 from django.shortcuts import render
 from flask import jsonify
 from .functions.fetch_drivers_points import fetch_drivers
-from ..Utility.series_buttons import get_series_buttons
+from Utility.series_buttons import get_series_buttons
 
 
 def drivers_standing(request, series):
