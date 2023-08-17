@@ -42,7 +42,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'core',
     'entries',
-    'standings'
+    'standings',
+    'driver_standing'
 ]
 
 MIDDLEWARE = [
