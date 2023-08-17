@@ -5,5 +5,5 @@ from . import views
 app_name = 'drivers'
 
 urlpatterns = [
-    path('drivers/<str:series>/', views.drivers_standing, name="drivers")
+    path('<str:series>/', views.drivers_standing, name="standing")
 ]
