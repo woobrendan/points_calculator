@@ -1,5 +1,5 @@
 import requests
-from .driver_funcs import sortDriverPoints
+from ..functions.driver_funcs import sortDriverPoints
 
 
 def fetch_drivers(series):
@@ -15,3 +15,6 @@ def fetch_drivers(series):
 
     else:
         return (response.status_code, None)
+
+
+print('drivers', fetch_drivers('gtwca'))

@@ -1,4 +1,4 @@
-from ...Utility.points import Points
+from Utility.points import Points
 
 
 def sortDriverPoints(driversArr):
