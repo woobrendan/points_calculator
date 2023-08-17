@@ -1,4 +1,4 @@
-from . import points
+from ...Utility import points
 
 
 class Team_Manuf_Entry:

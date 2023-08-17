@@ -1,5 +1,5 @@
 from ..helpers import sort_by_val
-from ..points import update_points
+from ....Utility.points import update_points
 from ..team_manuf_entry import Team_Manuf_Entry
 
 

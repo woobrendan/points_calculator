@@ -1,5 +1,5 @@
 from .. import helpers
-from ..points import update_points
+from ....Utility.points import update_points
 
 
 def removeDuplicateTeams(arr):
