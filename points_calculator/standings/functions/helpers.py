@@ -36,27 +36,6 @@ def getSeriesName(str):
     if str == "tgr":
         return "Toyota GR Cup"
 
-# Loops through entry values removes key for rounds 14 to 18 depending on series
-
-
-def handle_rounds(series, class_entries):
-    if series != 'gta':
-        for _, lists in class_entries.items():
-            keys_to_remove = ['R14', 'R15', 'R16', 'R17', 'R18']
-
-            # TC America & GT4 America have 14 rounds
-            if series == 'tca' or series == 'pgt4a':
-                del keys_to_remove[0]
-
-            # List of TeamEntry
-            for team in lists:
-                points = team.points
-                for key in keys_to_remove:
-                    if key in points.__dict__:
-                        delattr(points, key)
-
-    return class_entries
-
 
 def sort_by_val(entry, sort_by):
     key = entry[sort_by]
