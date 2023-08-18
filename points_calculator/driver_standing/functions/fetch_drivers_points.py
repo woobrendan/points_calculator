@@ -15,6 +15,3 @@ def fetch_drivers(series):
 
     else:
         return (response.status_code, None)
-
-
-print('drivers', fetch_drivers('gtwca'))
