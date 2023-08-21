@@ -4,15 +4,16 @@ from Utility.points import Points
 def sortDriverPoints(driversArr):
     classDrivers = {}
 
-    for driver in driversArr:
-        name, classification, points = driver['name'], driver['classification'], driver['points']
+    for classification, driver_list in driversArr.items():
+        classDrivers[classification] = []
 
-        driver_obj = Driver_Points_Entry(name, classification, points)
+        if driver_list:
+            for driver in driversArr:
+                name, classification, points = driver['name'], driver['classification'], driver['points']
 
-        if classDrivers[classification]:
-            classDrivers[classification].append(driver_obj)
-        else:
-            classDrivers[classification] = [driver_obj]
+                driver_obj = Driver_Points_Entry(name, classification, points)
+
+                classDrivers[classification].append(driver_obj)
 
     for class_list in classDrivers.values():
         if class_list:
