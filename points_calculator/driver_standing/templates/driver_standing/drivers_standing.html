@@ -1,4 +1,5 @@
 {% extends 'core/base.html' %}
+{% load custom_filters %} 
 
 {% block title %}Drivers Standing{% endblock %}
 
@@ -8,7 +9,7 @@
     <div class="inline-flex rounded-md w-full gap-3 center mb-6" role="group">
         {% for series, style in buttons.items %}
             <button type="button" class="{{ style.button }}">
-                <a href="{% url 'standing:drivers' series %}" class="{{ style.anchor }}">{{ series|upper }}</a>
+                <a href="{% url 'drivers:standing' series %}" class="{{ style.anchor }}">{{ series|upper }}</a>
             </button>
         {% endfor %}
     </div>
@@ -42,7 +43,9 @@
                        
                     </tr>
                     {% endfor %}
-                </tbody>
+                </tbody> 
+                
             </table>
         </div>
+    {% endfor %}
 {% endblock %}
