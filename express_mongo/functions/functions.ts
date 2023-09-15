@@ -1,13 +1,15 @@
 import { PointsInterface, Series } from "../models/Points/points_models";
 
 const getSeriesName = (val: string): string => {
-    if (val === "gtwca") return "GT World Challenge America";
-    if (val === "pgt4a") return "Pirelli GT4 America";
-    if (val === "gta") return "GT America";
-    if (val === "tca") return "TC America";
-    if (val === "tgr") return "Toyota GR Cup";
+    const series: { [key: string]: string } = {
+        gtwca: "GT World Challenge America",
+        pgt4a: "Pirelli GT4 America",
+        gta: "GT America",
+        tca: "TC America",
+        tgr: "Toyota GR Cup",
+    };
 
-    return "";
+    return series[val];
 };
 
 const setNewPoints = (round: string, points: number) => {
