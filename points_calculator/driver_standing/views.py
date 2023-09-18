@@ -1,12 +1,13 @@
 from django.shortcuts import render
 from flask import jsonify
-from .functions.fetch_drivers_points import fetch_drivers
+from .functions.driver_funcs import fetch_drivers
 from Utility.series_buttons import get_series_buttons
 from Utility.helpers import getRounds
 
 
 def drivers_standing(request, series):
-    # drivers = fetch_drivers(series)
+    # Use different function as this gets entries, not driver points
+    drivers = fetch_drivers(series)
 
     buttons = get_series_buttons('drivers', series)
     round_list = getRounds(series)
