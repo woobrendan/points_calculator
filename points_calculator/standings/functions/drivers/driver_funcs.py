@@ -58,6 +58,7 @@ class Driver_Points_Entry:
                 setattr(self.points, round_num, '')
 
 
+# Take in results arr from CSV, and loop through entries from backend, add driver keys and values to result
 def handle_drivers(result_arr, series):
     drivers = fetch_drivers(series)
 
@@ -88,3 +89,45 @@ def fetch_driver_points(series):
 
     else:
         return (response.status_code, None)
+
+
+def getEventNameByNum(round_num, series):
+    gtam_events = {
+        "1": "St.Petersburg",
+        "2": "St.Petersburg",
+        "3": "Sonoma",
+        "4": "Sonoma",
+        "5": "NOLA",
+        "6": "NOLA",
+        "7": "COTA",
+        "8": "COTA",
+        "9": "VIR",
+        "10": "VIR",
+        "11": "Nashville",
+        "12": "Nashville",
+        "13": "RoadAm",
+        "14": "RoadAm",
+        "15": "Sebring",
+        "16": "Sebring",
+        "17": "Indy",
+        "18": "Indy",
+    }
+
+    sro_events = {
+        "1": "Sonoma",
+        "2": "Sonoma",
+        "3": "NOLA",
+        "4": "NOLA",
+        "5": "COTA",
+        "6": "COTA",
+        "7": "VIR",
+        "8": "VIR",
+        "9": "RoadAm",
+        "10": "RoadAm",
+        "11": "Sebring",
+        "12": "Sebring",
+        "13": "Indy",
+        "14": "Indy",
+    }
+
+    return gtam_events[round_num] if series == 'gtam' else sro_events[round_num]
