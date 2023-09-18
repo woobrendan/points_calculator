@@ -10,6 +10,7 @@ from .functions.manuf.manuf_points import manuf_results_byClass, manuf_results_l
 from .functions.manuf.fetch_manuf_points import fetch_manuf_standings
 from Utility.series_buttons import get_series_buttons
 from Utility.helpers import getRounds, handle_rounds
+from .functions.drivers.driver_funcs import handle_drivers
 
 
 def team_standing(request, series):
@@ -60,10 +61,14 @@ def new_result(request):
         result_num = request.POST.get('result_num', '')
         result_csv = request.FILES['result_csv']
 
-        # Take in CSV file and convert to list of dict
+        # Take in CSV file and return array of objects as rows
+        # {'Pos': '1', 'PIC': '1', '#': '93', 'Class': 'Pro', 'Points': '25', 'Team': 'Racers Edge Motorsports', 'Vehicle': 'Acura NSX GT3 EVO22', 'Series': 'gtwca', 'Manufacturer': 'Acura'}
         result_arr = csv_to_clean_keys(result_csv)
 
         series = result_arr[0]['Series']
+
+        # For now return array of results with drivers added
+        driver_result = handle_drivers(result_arr, series)
 
         # sort by class, remove dupes, apply points for highest finishing car per team
         team_results = team_results_byClass(result_arr)
