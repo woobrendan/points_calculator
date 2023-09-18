@@ -43,54 +43,6 @@ def sortDriverPoints(driversArr):
     return classDrivers
 
 
-class Driver_Points_Entry:
-    def __init__(self, name: str, classification: str, points_dict: dict):
-        self.name = name
-        self.classification = classification
-        self.points = Points(points_dict)
-        self.total_points = sum(
-            value or 0 for value in self.points.__dict__.values())
-
-        for round_num in self.points.__dict__:
-            if getattr(self.points, round_num) == 0:
-                setattr(self.points, round_num, 0)
-            elif getattr(self.points, round_num) is None:
-                setattr(self.points, round_num, '')
-
-
-# Take in results arr from CSV, and loop through entries from backend, add driver keys and values to result
-def handle_drivers(result_arr, series):
-    drivers = fetch_drivers(series)
-
-    for result in result_arr:
-        for entry in drivers:
-            # Add provision to check if events[eventName] is true
-            if result["Class"] == entry["classification"] and entry["number"] == result["#"]:
-                result["driver1"] = entry["driver1"]
-
-                if series == 'gtwca' or series == 'pgt4a':
-                    result["driver2"] = entry["driver2"]
-
-    return result_arr
-
-
-def fetch_driver_points(series):
-    url = f'http://localhost:2020/api/drivers/{series}'
-    response = requests.get(url)
-
-    if response.status_code == 200:
-
-        # returns dict of keys with array vals
-        data = response.json()['seriesDrivers']
-
-        entries_by_class = sortDriverPoints(data)
-
-        return entries_by_class
-
-    else:
-        return (response.status_code, None)
-
-
 def getEventNameByNum(round_num, series):
     gtam_events = {
         "1": "St.Petersburg",
@@ -131,3 +83,61 @@ def getEventNameByNum(round_num, series):
     }
 
     return gtam_events[round_num] if series == 'gtam' else sro_events[round_num]
+
+
+class Driver_Points_Entry:
+    def __init__(self, name: str, classification: str, points_dict: dict):
+        self.name = name
+        self.classification = classification
+        self.points = Points(points_dict)
+        self.total_points = sum(
+            value or 0 for value in self.points.__dict__.values())
+
+        for round_num in self.points.__dict__:
+            if getattr(self.points, round_num) == 0:
+                setattr(self.points, round_num, 0)
+            elif getattr(self.points, round_num) is None:
+                setattr(self.points, round_num, '')
+
+
+# Take in results arr from CSV, and loop through entries from backend, add driver keys and values to result
+def handle_drivers(result_arr, series, round_num):
+    drivers = fetch_drivers(series)
+    event = getEventNameByNum(round_num, series)
+
+    # Filter out entries that arent racing this event, or if a driver pairing has changed at future events. use the dict as reference
+    driver_info = {}
+    for entry in drivers:
+        if entry["events"][event]:
+            key = (entry["classification"], entry["number"])
+            driver_info[key] = {
+                "driver1": entry["driver1"],
+                "driver2": entry["driver2"] if series in ('gtwca', 'pgt4a') else None
+            }
+
+    # for result in result_arr:
+    #     for entry in filtered_drivers:
+    #         if result["Class"] == entry["classification"] and entry["number"] == result["#"]:
+    #             result["driver1"] = entry["driver1"]
+
+    #             if series == 'gtwca' or series == 'pgt4a':
+    #                 result["driver2"] = entry["driver2"]
+
+    return result_arr
+
+
+def fetch_driver_points(series):
+    url = f'http://localhost:2020/api/drivers/{series}'
+    response = requests.get(url)
+
+    if response.status_code == 200:
+
+        # returns dict of keys with array vals
+        data = response.json()['seriesDrivers']
+
+        entries_by_class = sortDriverPoints(data)
+
+        return entries_by_class
+
+    else:
+        return (response.status_code, None)
