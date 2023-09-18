@@ -8,20 +8,23 @@
     </div>
 
     <div class="mt-6 px-6 py-12 bg-gray-100 rounded-xl">
-        <ul class="space-y-2">
-            <li class="{{ styling }}">
-                New Result
-            </li>
+        <ul class="space-y-2 flex flex-col">
+
+            <a href="{% url 'standing:new' %}">
+                <li class="{{ styling }}"> New Result </li>
+            </a>
             
-            <li class="{{ styling }}">
-                <a href="{% url 'drivers:standing' 'gtwca' %}"> Drivers Standings </a>
-            </li>
-            <li class="{{ styling }}">
-                <a href="{% url 'standing:manufacturer' 'gtwca' %}"> Manufacturer Standings </a>
-            </li>
-            <li class="{{ styling }}">
-                <a href="{% url 'standing:team' 'gtwca' %}"> Team Standings </a>
-            </li>
+            <a href="{% url 'drivers:standing' 'gtwca' %}">
+                <li class="{{ styling }}"> Drivers Standings </li>
+            </a>
+        
+            <a href="{% url 'standing:manufacturer' 'gtwca' %}">
+                <li class="{{ styling }}"> Manufacturer Standings </li>
+            </a>
+        
+            <a href="{% url 'standing:team' 'gtwca' %}">
+                <li class="{{ styling }}"> Team Standings </li>
+            </a>
            
         </ul>
     </div>
