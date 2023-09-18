@@ -106,6 +106,8 @@ def handle_drivers(result_arr, series, round_num):
     event = getEventNameByNum(round_num, series)
 
     # Filter out entries that arent racing this event, or if a driver pairing has changed at future events. use the dict as reference
+    # key = ("Pro", "21")
+    # value = {"driver1": "Manny Franco", "driver2": "Alessandro Balzan"}
     driver_info = {}
     for entry in drivers:
         if entry["events"][event]:
@@ -115,13 +117,12 @@ def handle_drivers(result_arr, series, round_num):
                 "driver2": entry["driver2"] if series in ('gtwca', 'pgt4a') else None
             }
 
-    # for result in result_arr:
-    #     for entry in filtered_drivers:
-    #         if result["Class"] == entry["classification"] and entry["number"] == result["#"]:
-    #             result["driver1"] = entry["driver1"]
-
-    #             if series == 'gtwca' or series == 'pgt4a':
-    #                 result["driver2"] = entry["driver2"]
+    for result in result_arr:
+        key = (result["Class"], result["#"])
+        if key in driver_info:
+            result["driver1"] = driver_info[key]["driver1"]
+            result["driver2"] = driver_info[key]["driver2"] if series in (
+                'gtwca', 'pgt4a') else None
 
     return result_arr
 
