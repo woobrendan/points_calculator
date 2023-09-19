@@ -1,5 +1,6 @@
 from Utility.points import Points
 import requests
+import copy
 # from .fetch_drivers_points import fetch_drivers
 
 # # Fetch drivers for entries NOT for driver points
@@ -111,14 +112,14 @@ def handle_drivers(result_arr, series, round_num):
     driver_info = {}
     for entry in drivers:
         if entry["events"][event]:
-            key = (entry["classification"], entry["number"])
+            key = (entry["classification"], entry["number"], entry["teamName"])
             driver_info[key] = {
                 "driver1": entry["driver1"],
                 "driver2": entry["driver2"] if series in ('gtwca', 'pgt4a') else None
             }
 
     for result in result_arr:
-        key = (result["Class"], result["#"])
+        key = (result["Class"], result["#"], result["Team"])
         if key in driver_info:
             result["driver1"] = driver_info[key]["driver1"]
             result["driver2"] = driver_info[key]["driver2"] if series in (
@@ -142,3 +143,26 @@ def fetch_driver_points(series):
 
     else:
         return (response.status_code, None)
+
+
+# format driver points to send to backend
+def driver_results_byClass(results_arr, series):
+    result_dict = {}
+
+    for entry in results_arr:
+        classification = entry["Class"]
+
+        if classification in result_dict:
+            result_dict[classification].append(entry)
+        else:
+            entry2 = copy.copy(entry)
+
+            entry["driver"] = entry.pop("driver1")
+
+            if series in ('gtwca', 'pgt4a'):
+                del entry["driver2"]
+
+                entry2["driver"] = entry2.pop("driver2")
+                del entry2["driver1"]
+
+            result_dict[classification] = [entry, entry2]
