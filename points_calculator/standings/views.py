@@ -10,7 +10,7 @@ from .functions.manuf.manuf_points import manuf_results_byClass, manuf_results_l
 from .functions.manuf.fetch_manuf_points import fetch_manuf_standings
 from Utility.series_buttons import get_series_buttons
 from Utility.helpers import getRounds, handle_rounds
-from .functions.drivers.driver_funcs import handle_drivers
+from .functions.drivers.driver_funcs import driver_results_byClass, handle_drivers
 
 
 def team_standing(request, series):
@@ -67,19 +67,21 @@ def new_result(request):
 
         series = result_arr[0]['Series']
 
-        # For now return array of results with drivers added
-        driver_result = handle_drivers(result_arr, series)
+        # Returns results from CSV rows with drivers added and split if duo
+        drivers = handle_drivers(result_arr, series, result_num)
 
         # sort by class, remove dupes, apply points for highest finishing car per team
         team_results = team_results_byClass(result_arr)
         manuf_results = manuf_results_list(
             result_arr) if series == 'gtwca' or series == 'pgt4a' else manuf_results_byClass(result_arr)
+        driver_results = driver_results_byClass(drivers, series)
 
         r_num = f"R{result_num}"
         data = {
             "manufResults": manuf_results,
             "teamResults": team_results,
-            "roundNum": r_num
+            "roundNum": r_num,
+            "driverResults": driver_results
         }
 
         url = f'http://localhost:2020/result/{series}'
