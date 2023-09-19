@@ -1,10 +1,17 @@
-import { ReqPointsArr } from "../models/Points/points_models";
+import { ReqPointsArr, SeriesDrivers } from "../models/Points/points_models";
 import SeriesPoints from "../models/Points/seriesPoints_schema";
 
 const handleDriverPoints = async (
     driverObj: ReqPointsArr,
-    seriesName: string,
+    backendDrivPoints: SeriesDrivers,
     round: string,
 ) => {
-    const series = await SeriesPoints.findOne({ name: seriesName });
+    for (const classification in driverObj) {
+        const dbArr = backendDrivPoints[classification];
+        const reqArr = driverObj[classification];
+
+        for (const newResult of reqArr) {
+            const { Points, driver } = newResult;
+        }
+    }
 };
