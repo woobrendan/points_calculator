@@ -179,3 +179,9 @@ def driver_results_byClass(results_arr, series):
                 result_dict[classification].append(ent)
         else:
             result_dict[classification] = entries
+
+    for class_list in result_dict.values():
+        class_list = sorted(
+            class_list, key=lambda entry: helpers.sort_by_val(entry, 'Points'))
+
+    return result_dict
