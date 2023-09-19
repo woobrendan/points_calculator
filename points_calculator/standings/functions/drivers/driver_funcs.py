@@ -1,6 +1,7 @@
 from Utility.points import Points
 import requests
 import copy
+from .. import helpers
 # from .fetch_drivers_points import fetch_drivers
 
 # # Fetch drivers for entries NOT for driver points
@@ -145,24 +146,36 @@ def fetch_driver_points(series):
         return (response.status_code, None)
 
 
+# take in a result object with dynamic amount of driverX. return copies of the same result with different driver names
+def copyDriverDict(entry, series):
+    entries = []
+    entry2 = copy.copy(entry)
+
+    entry["driver"] = entry.pop("driver1")
+
+    if series in ('gtwca', 'pgt4a'):
+        del entry["driver2"]
+
+        entry2["driver"] = entry2.pop("driver2")
+        del entry2["driver1"]
+
+        entries.append(entry2)
+
+    entries.append(entry)
+
+    return entries
+
+
 # format driver points to send to backend
 def driver_results_byClass(results_arr, series):
     result_dict = {}
 
     for entry in results_arr:
         classification = entry["Class"]
+        entries = copyDriverDict(entry, series)
 
         if classification in result_dict:
-            result_dict[classification].append(entry)
+            for ent in entries:
+                result_dict[classification].append(ent)
         else:
-            entry2 = copy.copy(entry)
-
-            entry["driver"] = entry.pop("driver1")
-
-            if series in ('gtwca', 'pgt4a'):
-                del entry["driver2"]
-
-                entry2["driver"] = entry2.pop("driver2")
-                del entry2["driver1"]
-
-            result_dict[classification] = [entry, entry2]
+            result_dict[classification] = entries
