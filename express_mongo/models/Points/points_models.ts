@@ -76,6 +76,5 @@ interface DriverPoints {
 }
 
 export interface SeriesDrivers {
-    name: string;
-    drivers: DriverPoints[];
+    [key: string]: DriverPoints[];
 }
