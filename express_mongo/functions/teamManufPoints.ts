@@ -2,11 +2,13 @@ import { ReqPointsArr } from "../models/Points/points_models";
 import SeriesPoints from "../models/Points/seriesPoints_schema";
 import { updateTeamPointsObj } from "./teamPointsHelper";
 import { handleManufPoints } from "./manufPtsHelper";
+import handleDriverPoints from "./driverPoints";
 
 //** Handles Team and Manufacturer Points. Can only handle Manuf Points IF series is not GTWCA or GT4A */
 const teamManufPoints = async (
     manufPointsObj: ReqPointsArr,
     teamPointsObj: ReqPointsArr,
+    driverPointsObj: ReqPointsArr,
     seriesName: string,
     round: string,
 ): Promise<boolean> => {
@@ -14,7 +16,13 @@ const teamManufPoints = async (
         const series = await SeriesPoints.findOne({ name: seriesName });
 
         if (series) {
-            const { teamPoints, manufPoints } = series;
+            const { teamPoints, manufPoints, driversPoints } = series;
+
+            const driverObj = handleDriverPoints(
+                driverPointsObj,
+                driversPoints,
+                round,
+            );
 
             const manufObj = handleManufPoints(
                 manufPointsObj,
@@ -30,6 +38,7 @@ const teamManufPoints = async (
 
             series.teamPoints = newTeamObj;
             series.manufPoints = manufObj;
+            series.driversPoints = driverObj;
 
             await series.save();
         }
