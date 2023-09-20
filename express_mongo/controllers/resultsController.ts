@@ -6,7 +6,7 @@ import teamManufPoints from "../functions/teamManufPoints";
 const handleTeamManufPoints = async (req: Request, res: Response) => {
     const series = req.params.series;
     const seriesName = getSeriesName(series);
-    const { manufResults, teamResults, roundNum } = req.body;
+    const { manufResults, teamResults, driverResults, roundNum } = req.body;
 
     try {
         let manuf = false;
@@ -14,6 +14,7 @@ const handleTeamManufPoints = async (req: Request, res: Response) => {
             manuf = await handleGT3GT4ManufPts(
                 manufResults,
                 teamResults,
+                driverResults,
                 roundNum,
                 seriesName,
             );
@@ -21,6 +22,7 @@ const handleTeamManufPoints = async (req: Request, res: Response) => {
             manuf = await teamManufPoints(
                 manufResults,
                 teamResults,
+                driverResults,
                 seriesName,
                 roundNum,
             );
