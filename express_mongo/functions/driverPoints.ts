@@ -6,11 +6,11 @@ import {
 // import SeriesPoints from "../models/Points/seriesPoints_schema";
 import { setNewPoints } from "./functions";
 
-const handleDriverPoints = async (
+const handleDriverPoints = (
     driverObj: ReqPointsArr,
     backendDrivPoints: SeriesDrivers,
     round: string,
-) => {
+): SeriesDrivers => {
     for (const classification in driverObj) {
         const dbArr = backendDrivPoints[classification];
         const reqArr = driverObj[classification];
@@ -40,3 +40,5 @@ const handleDriverPoints = async (
     }
     return backendDrivPoints;
 };
+
+export default handleDriverPoints;
