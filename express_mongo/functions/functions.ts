@@ -13,7 +13,6 @@ const getSeriesName = (val: string): string => {
 };
 
 const setNewPoints = (round: string, points: number) => {
-    const roundStr = `R${round}`;
     const pts: PointsInterface = {
         R1: null,
         R2: null,
@@ -35,7 +34,7 @@ const setNewPoints = (round: string, points: number) => {
         R18: null,
     };
 
-    pts[roundStr] = points;
+    pts[round] = points;
 
     return pts;
 };
