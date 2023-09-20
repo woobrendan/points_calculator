@@ -242,8 +242,8 @@
       "VIR": true,
       "Nashville": false,
       "RoadAm": true,
-      "Sebring": false,
-      "Indy": false
+      "Sebring": true,
+      "Indy": true
     }
   },
   {
@@ -257,10 +257,10 @@
       "St Petersburg": false,
       "Sonoma": true,
       "NOLA": true,
-      "COTA": false,
-      "VIR": true,
+      "COTA": true,
+      "VIR": false,
       "Nashville": false,
-      "RoadAm": true,
+      "RoadAm": false,
       "Sebring": false,
       "Indy": false
     }
