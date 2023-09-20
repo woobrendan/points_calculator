@@ -69,7 +69,7 @@ export interface ReqPointsArr {
 
 //** Interfaces for Driver Points */
 
-interface DriverPoints {
+export interface DriverPoints {
     name: string;
     classification: string;
     points: PointsInterface;
