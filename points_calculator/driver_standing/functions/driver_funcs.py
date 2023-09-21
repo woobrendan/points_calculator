@@ -1,5 +1,4 @@
 from Utility.points import Points
-# from .fetch_drivers_points import fetch_drivers
 import requests
 
 
@@ -10,7 +9,7 @@ def sortDriverPoints(driversArr):
         classDrivers[classification] = []
 
         if driver_list:
-            for driver in driversArr:
+            for driver in driver_list:
                 name, classification, points = driver['name'], driver['classification'], driver['points']
 
                 driver_obj = Driver_Points_Entry(name, classification, points)
