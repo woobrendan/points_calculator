@@ -149,6 +149,7 @@ def fetch_driver_points(series):
 # take in a result object with dynamic amount of driverX. return copies of the same result with different driver names
 def copyDriverDict(entry, series):
     entries = []
+    entry["Points"] = int(entry["Points"])
     entry2 = copy.copy(entry)
 
     entry["driver"] = entry.pop("driver1")
