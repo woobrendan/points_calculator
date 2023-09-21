@@ -87,6 +87,7 @@ const handleGT3GT4ManufPts = async (
             series.driversPoints = driverObj;
 
             series.markModified("teamPoints");
+            series.markModified("driversPoints");
 
             await series.save();
 
