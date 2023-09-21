@@ -40,6 +40,9 @@ const teamManufPoints = async (
             series.manufPoints = manufObj;
             series.driversPoints = driverObj;
 
+            series.markModified("teamPoints");
+            series.markModified("driversPoints");
+
             await series.save();
         }
         return true;
