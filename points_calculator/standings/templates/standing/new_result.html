@@ -27,18 +27,20 @@
             </div> {% endcomment %}
 
             <div class="relative flex justify-center items-center gap-5 pt-20">
-                <button class="relative flex justify-center items-center bg-white border focus:outline-none shadow text-gray-600 rounded foxus:ring ring-gray-200">
+                <button class="relative flex justify-center items-center bg-white border focus:outline-none shadow text-gray-600 rounded foxus:ring ring-gray-200 group">
                     <p class="px-4">Series</p>
                     <span class="border-l p-2 hover:bg-gray-100">
                         <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-arrow-down" viewBox="0 0 16 16"> <path fill-rule="evenodd" d="M8 1a.5.5 0 0 1 .5.5v11.793l3.146-3.147a.5.5 0 0 1 .708.708l-4 4a.5.5 0 0 1-.708 0l-4-4a.5.5 0 0 1 .708-.708L7.5 13.293V1.5A.5.5 0 0 1 8 1z"/></svg>
                     </span>
-                    <div class="absolute hidden top-full min-w-full w-max bg-white shadow-md mt-1 rounded">
+                    <div class="absolute hidden group-focus:block top-full min-w-full w-max bg-white shadow-md mt-1 rounded">
+                        <ul class="text-left border rounded">
+                            <li class="px-4 py-2 text-gray-800 hover:bg-red-500 hover:text-white border-b">GT World Challenge</li>
+                            <li class="px-4 py-2 text-gray-800 hover:bg-red-500 hover:text-white border-b">Pirelli GT4 America</li>
+                            <li class="px-4 py-2 text-gray-800 hover:bg-red-500 hover:text-white border-b">GT America</li>
+                            <li class="px-4 py-2 text-gray-800 hover:bg-red-500 hover:text-white">TC America</li>
+                        </ul>
 
                     </div>
-                    <p class="block px-4 py-2 text-gray-800 hover:bg-red-500 hover:text-white">GT World Challenge</p>
-                    <p class="block px-4 py-2 text-gray-800 hover:bg-red-500 hover:text-white">Pirelli GT4 America</p>
-                    <p class="block px-4 py-2 text-gray-800 hover:bg-red-500 hover:text-white">GT America</p>
-                    <p class="block px-4 py-2 text-gray-800 hover:bg-red-500 hover:text-white">TC America</p>
                 </button>
             </div>
 
