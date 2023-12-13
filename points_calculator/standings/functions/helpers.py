@@ -44,3 +44,29 @@ def sort_by_val(entry, sort_by):
         key = 100
 
     return int(key)
+
+# From new result take in series and passed value of what round and event
+# Cota Race 1, GTWCA
+
+
+def getRoundNumber(series):
+    rounds = {
+        "1": "St.Petersburg",
+        "2": "St.Petersburg",
+        "3": "Sonoma",
+        "4": "Sonoma",
+        "5": "NOLA",
+        "6": "NOLA",
+        "7": "COTA",
+        "8": "COTA",
+        "9": "VIR",
+        "10": "VIR",
+        "11": "Nashville",
+        "12": "Nashville",
+        "13": "RoadAm",
+        "14": "RoadAm",
+        "15": "Sebring",
+        "16": "Sebring",
+        "17": "Indy",
+        "18": "Indy",
+    }
